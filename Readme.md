@@ -12,8 +12,8 @@ your five cents on the topics we address or tip us in directions we didn't cover
 
 ---
 
-[Home](wiki)  
-[Best practices](wiki/Best Practices/Best Practices)  
-[Guidelines](wiki/Guidelines/Guidelines)  
-[HowTo](wiki/HowTo/HowTo)  
-[Tips'n'Tricks](wiki/Tips'n'Tricks/Tips'n'Tricks)  
+[Home](../../wiki)  
+[Best practices](../../wiki/Best Practices/Best Practices)  
+[Guidelines](../../wiki/Guidelines/Guidelines)  
+[HowTo](../../wiki/HowTo/HowTo)  
+[Tips'n'Tricks](../../wiki/Tips'n'Tricks/Tips'n'Tricks)  
