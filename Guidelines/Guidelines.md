@@ -15,9 +15,9 @@ Certainly, if we are wrong, it would be wise to give everybody (including us!) t
 
 ---
 
-[Docker-Compose](./Docker-Compose)  
-[Docker-Container](./Docker-Container)  
-[Docker-Host](./Docker-Host)  
-[Ground-Rules](./Ground-Rules)  
-[Security](./Security)  
+[Docker-Compose](./Docker-Compose.md)  
+[Docker-Container](./Docker-Container.md)  
+[Docker-Host](./Docker-Host.md)  
+[Ground-Rules](./Ground-Rules.md)  
+[Security](./Security.md)  
 
