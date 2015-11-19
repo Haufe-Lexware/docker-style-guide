@@ -1,5 +1,3 @@
-[TOC]
-
 # Docker Container
 
 ## Don't force your Tool/Stack on others
