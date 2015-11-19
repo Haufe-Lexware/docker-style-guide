@@ -5,8 +5,6 @@ Here you find ideas and strategies for common tasks that make your "daily docker
 
 ---
 
-[How to write your own Dockerfile](How to write your own Dockerfile)  
-[Lessons-Learned](Lessons-Learned)  
-[Puppet, Ansible, etc. vs. Dockerfile](Puppet, Ansible, etc. vs. Dockerfile)  
-
-[Best Practices](./Best Practices.md)  
+[How to write your own Dockerfile](How to write your own Dockerfile.md)  
+[Lessons-Learned](Lessons-Learned.md)  
+[Puppet, Ansible, etc. vs. Dockerfile](Puppet, Ansible, etc. vs. Dockerfile.d)  
