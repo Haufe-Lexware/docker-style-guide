@@ -8,6 +8,6 @@ weak joke about having no light inside a container ...).
 
 ---
 
-[Building TINY Go-Images](Building TINY Go-Images)  
-[Snippets](Snippets)  
+[Building TINY Go-Images](Building TINY Go-Images.md)  
+[Snippets](Snippets.md)  
 
