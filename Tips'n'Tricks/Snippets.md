@@ -9,5 +9,3 @@ Note: The command has to be executed inside the directory that contains the Dock
 
 ---
 
-[Tips'n'Tricks](Tips'n'Tricks)  
-[Docker Docs - Home](../wiki/Home)  

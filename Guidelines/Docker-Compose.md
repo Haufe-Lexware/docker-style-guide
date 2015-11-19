@@ -14,7 +14,4 @@ Environment settings like username, api-id, ... MUST NOT be stored as part of th
 One convenient feature of docker-compose is the `env-file:`- statement that includes a simple key/value 
 file that can be persisted separatly. See [env-file online documentation](https://docs.docker.com/compose/yml/#env-file)
 
---
-
-[Guidelines](Guidelines)  
-[Docker Docs - Home](../wiki/Home)  
+---

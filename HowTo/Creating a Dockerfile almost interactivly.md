@@ -59,5 +59,3 @@ root@67269163407c:/#
 
 ---
 
-[HowTo](HowTo)  
-[Docker Docs - Home](../wiki/Home)  

@@ -69,5 +69,3 @@ Because there WILL be some problems with certificates and such, sometimes (for a
 
 ---
 
-[Best Practices](Best Practices)  
-[Docker Docs - Home](../wiki/Home)  

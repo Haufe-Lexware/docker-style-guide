@@ -21,5 +21,3 @@ Certainly, if we are wrong, it would be wise to give everybody (including us!) t
 [Ground-Rules](Ground-Rules)  
 [Security](Security)  
 
-[Guidelines](Guidelines)  
-[Docker Docs - Home](../wiki/Home)  

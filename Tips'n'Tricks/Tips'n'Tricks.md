@@ -11,5 +11,3 @@ weak joke about having no light inside a container ...).
 [Building TINY Go-Images](Building TINY Go-Images)  
 [Snippets](Snippets)  
 
-[Tips'n'Tricks](Tips'n'Tricks)  
-[Docker Docs - Home](../wiki/Home)  

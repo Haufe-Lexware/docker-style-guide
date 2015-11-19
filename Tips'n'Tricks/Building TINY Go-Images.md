@@ -8,5 +8,3 @@ You have to follow some rules (see webpage) but it's worth the effort.
 
 ---
 
-[Tips'n'Tricks](Tips'n'Tricks)  
-[Docker Docs - Home](../wiki/Home)  

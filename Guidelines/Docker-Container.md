@@ -73,5 +73,3 @@ How to isolate container for specific customers (e.g. one dockerhost per VM/PM)
 
 ---
 
-[Guidelines](Guidelines)  
-[Docker Docs - Home](./../Home)  

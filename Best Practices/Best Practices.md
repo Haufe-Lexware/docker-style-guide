@@ -10,4 +10,3 @@ Here you find ideas and strategies for common tasks that make your "daily docker
 [Puppet, Ansible, etc. vs. Dockerfile](Puppet, Ansible, etc. vs. Dockerfile)  
 
 [Best Practices](Best Practices)  
-[Docker Docs - Home](../wiki/Home)  

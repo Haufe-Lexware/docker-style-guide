@@ -45,5 +45,3 @@ in "interactive mode" and paste the certs content to the commandline
 
 ---
 
-[HowTo](HowTo)  
-[Docker Docs - Home](../wiki/Home)  

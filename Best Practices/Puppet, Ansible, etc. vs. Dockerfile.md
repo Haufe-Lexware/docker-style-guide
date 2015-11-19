@@ -22,6 +22,3 @@ Dockerfiles are a description of ONE specific config. There's no need for the Do
 All the configuration and automation tools play a huge role in automating the docker build and deplyoment processes, even for ramping up the docker services themselves. For the Dockerfiles, I'd go for "pure" OS-specifc commands, like apt-get, yum, etc.
 
 ---
-
-[Best Practices](Best Practices)  
-[Docker Docs - Home](../wiki/Home)  

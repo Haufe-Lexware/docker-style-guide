@@ -28,5 +28,3 @@ reviewed, verified, autobuilt and -tested and finally deployed into the designat
 
 ---
 
-[Guidelines](Guidelines)  
-[Docker Docs - Home](../wiki/Home)  

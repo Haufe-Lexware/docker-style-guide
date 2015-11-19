@@ -32,5 +32,3 @@ Put package commands like yum update, apt-get update etc. BEFORE commands like A
 
 ---
 
-[Best Practices](Best Practices)  
-[Docker Docs - Home](../wiki/Home)  

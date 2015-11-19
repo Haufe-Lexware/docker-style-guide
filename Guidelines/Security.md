@@ -91,5 +91,3 @@ And you are going to build YOUR software on top of that? And present/offer that 
 
 ---
 
-[Guidelines](Guidelines)  
-[Docker Docs - Home](../wiki/Home)  

@@ -21,5 +21,3 @@ It is NOT YET DECIDED, if and how those docker-hosts will be patched/upgraded.
 
 ---
 
-[Guidelines](Guidelines)  
-[Docker Docs - Home](../wiki/Home)  
