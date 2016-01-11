@@ -8,7 +8,7 @@ __Docker is a fast paced - and new - technology, so Docker itself and theses gui
 Like it's said in other places: We love feedback – you give us
 your five cents on the topics we address or tip us in directions we didn't cover.
 
-The [Guidelines](./Guidelines/Guidelines) are the most important part!
+The [Guidelines](./Guidelines/README) are the most important part!
 
 :bulb: Please contribute!
 
