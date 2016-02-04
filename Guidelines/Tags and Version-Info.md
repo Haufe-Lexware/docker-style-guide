@@ -20,7 +20,7 @@ myregistry/myuser/myservice:1.0.1-nginx
   
 1. container:latest - the most recent STABLE version (not necessarily the latest being build).  
   Meaning: The version everybody should use becasue he/she doesn't know any better.  
-  Example: php or php:latest
+    Example: php or php:latest
   
 2. container:major - this is for a specific version/featureset.  
   Meaning: For testing of forward- or backward compatibility  
@@ -41,6 +41,6 @@ X.b. container:major-info
 X.b. container:major.minor-info  
 X.d. container:major.minor.build-info  
   Meaning: Most likely, there are "base" containers, that can be use in conjunction with other parts, but provide the same base service.  
-  Example php:5.6.17-cli (is IDENTICAL to php:5.6.17 and so the default)  
+  Example: php:5.6.17-cli (is IDENTICAL to php:5.6.17 and so the default)  
   Example: php:5.6.17-apache is an php container installation that provides the apache webserver WITH php  
   Example: php:5.6.17-fpm is an php container that can be used with nginx (FPM=FastCGI Process Manager)
