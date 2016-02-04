@@ -15,8 +15,7 @@ myregistry/myuser/myservice:1.0.1-nginx
 
 ## Here is some help for what image names and versions should contain:
 
-0. Image names should not contain version info "in themselves". 
-  
+0. Image names should not contain version info "in themselves".  
   Example: There is no mysql4:1.0 or ubuntu14:0.4 but only mysql:4.x.x and ubuntu:14.0.4
   
 1. container:latest - the most recent STABLE version (not necessarily the latest being build).
