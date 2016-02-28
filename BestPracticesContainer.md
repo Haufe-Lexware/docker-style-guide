@@ -4,9 +4,9 @@
 
 The creation and the usage of Data only containers can be found in the paragraph [Creating and mounting a data volume container](https://docs.docker.com/engine/userguide/containers/dockervolumes/).
 
-Basically, a Data only container is a container with an immediatly exiting command or entrypoint. It provides directories or files) for modification to other containers.
+Basically, a Data only container is a container with an immediatly exiting command or entrypoint. It provides one or more `VOLUME`s (aka directories or files) for modification to other containers.
 
-A `**MAY** be defined in the Docker Image,
+A `VOLUME` **MAY** be defined in the Docker Image,
 
 	$ cat Dockerfile
 	FROM ...
