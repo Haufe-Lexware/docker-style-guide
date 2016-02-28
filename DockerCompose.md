@@ -45,7 +45,7 @@ Similar to the [NO secrets in Dockerfile](Dockerfile.md#no-secrets-in-dockerfile
 	    - "MYSQL_USER=saml"
 	    - "MYSQL_PASSWORD=saml"
 
-The first improvement would be to use a file that is stored outside the **Dockerfile's** or **Docker Compose's** definition repository.
+The first improvement would be to use a file that is stored outside the **Dockerfile's** or **Docker Compose's** definition repository and only being retrieve or created at deployment time.
 
 	$ cat docker-compose.yml
 	  mysql:
