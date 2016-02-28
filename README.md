@@ -22,7 +22,7 @@ The [Official Docker Documentation](https://docs.docker.com/) gives a good overv
 
 ## The Guidelines
 
-This set of documents called the "Haufe DOCKER Guidelines" represent **mandantory requirements**, recommended best practices and informational resources for using ** Docker ** in **official (public or internal) Haufe products, services or solutions**.
+This set of documents called the "Haufe DOCKER Guidelines" represent **mandantory requirements**, recommended best practices and informational resources for using **Docker** in **official (public or internal) Haufe products, services or solutions**.
 
 ### When to use the guidelines?
 
