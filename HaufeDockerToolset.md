@@ -8,5 +8,4 @@ The somewhat reduced "official" toolset consists of
 
   * [Docker Engine](DockerEngine.md)
   * [Docker Compose](DockerCompose.md)
-  * [Docker Machine](DockerMachine.md)
-  * [Docker Swarm (Docker Machine)](DockerMachine.md)
+  * [Docker Machine (Docker Swarm)](DockerMachine.md)
