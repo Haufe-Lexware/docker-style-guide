@@ -6,7 +6,7 @@ According to the [**Docker Machine** overwiew](https://docs.docker.com/machine/o
 * Provision and manage multiple remote Docker hosts
 * Provision Swarm clusters
 
-One of the most interesting features for "quick, but secure" Docker Hosts is the ease of getting [Encrypted Connections between **Docker Engines**](work/DockerEngine.md#enforce-encrypted-ssl-connections-to-the-docker-daemon-api) right.
+One of the most interesting features for "quick, but secure" Docker Hosts is the ease of getting [Encrypted Connections between **Docker Engines**](DockerEngine.md#enforce-encrypted-ssl-connections-to-the-docker-daemon-api) right.
 
 ## Beware of Driver restrictions
 
