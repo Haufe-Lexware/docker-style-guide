@@ -22,11 +22,12 @@ or with docker-compose
 	data:
 		image: ubuntu: 14.04.1
 		command: /bin/true
-		volume:
+		volumes:
+		- "/data"
 
 ## Log Forwarding
 
-In [Dockerfile](Dockerfile.md), it is being said to [Write Log/Error to Stdout/Stderr](Dockerfile.md#Write Log/Error to Stdout/Stderr).
+In [Dockerfile](Dockerfile.md), it is being said to [Write Log/Error to Stdout/Stderr](Dockerfile.md#write-logerror-to-stdoutstderr).
 
 Log information ends up in a JSON formatted log file (two for each **Docker Container**). Until recently, you would have to take care of forwarding the logs completely by yourself. One (still) acceptable solution was to use a container with a log monitoring/forwarding application inside, for example [fluentd](http://www.fluentd.org/).
 Since Docker 1.9, you can use [Log Drivers](https://docs.docker.com/engine/admin/logging/overview/) to skip the step of writing the JSON logs, reading/parsing them and forward the content.
