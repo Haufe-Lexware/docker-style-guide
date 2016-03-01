@@ -20,7 +20,7 @@ To prevent Crash Reporting from happening, you ...
 
 > Leaving the file empty is fine -- Docker Machine just checks for its presence.
 
-See the reasons behind that in their documentation at [Crash Reporting](https://docs.docker.com/machine/concepts/#crash-reporting)
+For more information see the documentation at [Crash Reporting](https://docs.docker.com/machine/concepts/#crash-reporting)
 
 ## Beware of Driver restrictions
 

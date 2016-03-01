@@ -12,7 +12,7 @@ You **MUST** use one of the following Linux Distributions:
 
 ## Patch management
 
-A Docker Host is basically a Linux server an **MUST follow all operation and security guidelines that are already established at Haufe.**
+A Docker Host is basically a Linux server an **MUST follow all operation and security **Style Guide** that are already established at Haufe.**
 
 > A Docker Host might be treated as an "immutable" host and after the initial provisioning process, NO further modifications are allowed. 
 > 

@@ -4,7 +4,7 @@ The [documentation](https://docs.docker.com/compose/overview/) says, that
 
 > Compose is a tool for defining and running multi-container Docker applications.
 
-Because you can do a lot more that that, the guidelines restrict some usages.
+Because you can do a lot more that that, the **Style Guide** restrict some usages.
 
 ## Use docker-compose for orchestration only
 You **MUST NOT** use **Docker Compose** for building **Docker Images**, but only for defining runtime environments.

@@ -46,7 +46,7 @@ you would still adhere to the recommendation, but violate it's intention.
 It is easy and convenient to download (pull) and use prebuild
 images from or other public registries.
 
-Because there is still the risk of poorly created or abandonded images, for non-experimental deployments, you **MUST** only use ** official** Docker Images from the **Docker Hub** at [https://hub.docker.com/](https://hub.docker.com/) or from Haufe's own registry [https://registry.haufe.io/](https://registry.haufe.io).
+Because there is still the risk of poorly created or abandonded images, for non-experimental deployments, you **MUST** only use ** official**Docker Images from the **Docker Hub** at [https://hub.docker.com/](https://hub.docker.com/) or from Haufe's own registry [https://registry.haufe.io/](https://registry.haufe.io).
 
 > For the Haufe registry, you will only see some "nginx welcome page" at the moment, because it's behind a reverse proxy based on ... nginx ;-).
 

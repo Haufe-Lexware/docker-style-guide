@@ -9,13 +9,13 @@ The Docker Engine is used in one or two roles on each [Docker Host](DockerHost.m
 
 ## General Installation
 
-There are three quick start guides for installing the ** Docker Engine** on a "local" machine to be found at Docker's website:
+There are three quick start guides for installing the **Docker Engine** on a "local" machine to be found at Docker's website:
 
 - [Get Started with Docker Engine for Linux](https://docs.docker.com/linux/)
 - [Get Started with Docker for Windows](https://docs.docker.com/windows/)
 - [Get Started with Docker for Mac OS X](https://docs.docker.com/mac/)
 
-For non-experimental installations You **MUST** use a [Docker Host](DockerHost.md) as described in the [Haufe Docker Guidelines](DockerHost.md).
+For non-experimental installations You **MUST** use a [Docker Host](DockerHost.md) as described in the [**Haufe Docker Style Guide**](DockerHost.md).
 
 > Setups with "all you need" for Mac or Windows developers can be found on the [Docker Toolbox](https://www.docker.com/products/docker-toolbox) page. 
 
