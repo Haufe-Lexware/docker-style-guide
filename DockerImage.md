@@ -46,4 +46,3 @@ X.d. container:major.minor.build-info
   Example: php:5.6.17-cli (is IDENTICAL to php:5.6.17 and so the default)  
   Example: php:5.6.17-apache is an php container installation that provides the apache webserver WITH php  
   Example: php:5.6.17-fpm is an php container that can be used with nginx (FPM=FastCGI Process Manager)
-

@@ -31,9 +31,10 @@ In [Dockerfile](Dockerfile.md), it is being said to [Write Log/Error to Stdout/S
 
 Log information ends up in a JSON formatted log file (two for each **Docker Container**). Until recently, you would have to take care of forwarding the logs completely by yourself. One (still) acceptable solution was to use a container with a log monitoring/forwarding application inside, for example [fluentd](http://www.fluentd.org/).
 Since Docker 1.9, you can use [Log Drivers](https://docs.docker.com/engine/admin/logging/overview/) to skip the step of writing the JSON logs, reading/parsing them and forward the content.
-If you use the [Fluentd](https://docs.docker.com/engine/admin/logging/fluentd/) approach, you have still the need for a **Fluentd Container** taht acts as an encrypting proxy. Out of security reasons, you are not allowed to send UNENCRYPTED log data (with possibly sensible content) to a log receiver on a different host.
-
-TSC: use secure_forward
+But, if you use the [Fluentd](https://docs.docker.com/engine/admin/logging/fluentd/) approach,
+you have still the need for a **Fluentd Container** taht acts as an encrypting proxy.
+Out of security reasons, you are not allowed to send UNENCRYPTED log data (with possibly sensible content) to a log receiver on a different host.
+You MUST use the [Secure Forward plugin](http://docs.fluentd.org/articles/out_secure_forward) to have a TLS enabled connection.
 
 ## Container - "readiness"
 
@@ -45,3 +46,17 @@ A Docker container should be ready to start "at an instant", with only "paramete
 Expect the **Docker Container** instance to be destroyed and restarted as/in a NEW instance at ANY time.
 
 As a consequence, it's best to make your services stateless
+
+## Create small images because of deployment/image transfer
+
+There is some race to create the smallest Docker Images possible,
+but it is important to remember, that only the **Docker Image** hogs the space
+on your harddisk and not the **Docker Container**.
+The containers will only occupy the differences to the image.
+
+## Using identical (base) images for service and data only container
+
+This is not about size, but about using the IDENTICAL UID/GID in
+two containers without special preparation. If you are going to "mount" a directory from a
+different container by using `VOLUME`'s, you should really think about using (at least) the identical images for service
+and data container to prevent mismatching UID/GID between the two.
