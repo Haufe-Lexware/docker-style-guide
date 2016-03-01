@@ -8,6 +8,20 @@ According to the [**Docker Machine** overwiew](https://docs.docker.com/machine/o
 
 One of the most interesting features for "quick, but secure" Docker Hosts is the ease of getting [Encrypted Connections between **Docker Engines**](DockerEngine.md#enforce-encrypted-ssl-connections-to-the-docker-daemon-api) right.
 
+## Disable Crash-Reporting on Production systems
+
+You **MUST NOT** automatically/uncontrolled send chunks of information about the system, inner workings,  configurations or running programs to any external party (even if it is to "Docker Inc." or one of its services).
+
+To prevent Crash Reporting from happening, you ...
+
+> [...] can create a no-error-report file in your $HOME/.docker/machine directory, and Docker Machine will disable this behavior. e.g.:
+
+>		$ mkdir -p ~/.docker/machine && touch ~/.docker/machine/no-error-report
+
+> Leaving the file empty is fine -- Docker Machine just checks for its presence.
+
+See the reasons behind that in their documentation at [Crash Reporting](https://docs.docker.com/machine/concepts/#crash-reporting)
+
 ## Beware of Driver restrictions
 
 While Docker Machine is one of the most convenient methods to create new Docker Hosts in the Cloud, it fails in some areas.

@@ -33,6 +33,8 @@ Log information ends up in a JSON formatted log file (two for each **Docker Cont
 Since Docker 1.9, you can use [Log Drivers](https://docs.docker.com/engine/admin/logging/overview/) to skip the step of writing the JSON logs, reading/parsing them and forward the content.
 If you use the [Fluentd](https://docs.docker.com/engine/admin/logging/fluentd/) approach, you have still the need for a **Fluentd Container** taht acts as an encrypting proxy. Out of security reasons, you are not allowed to send UNENCRYPTED log data (with possibly sensible content) to a log receiver on a different host.
 
+TSC: use secure_forward
+
 ## Container - "readiness"
 
 A container is an entity that can be used "out of the box". You wouldn't expect additional "preparation" steps or long-lasting "warm-up" phases.

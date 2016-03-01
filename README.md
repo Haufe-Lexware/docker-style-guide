@@ -1,7 +1,7 @@
 # Haufe DOCKER guidelines
 
-![Haufe](https://www.haufe.de/statics/1.00.00.0230/images/logo-haufede.png) 
-![Docker](https://www.docker.com/sites/all/themes/docker/assets/images/logo.png)
+![Haufe](images/logo-haufede.png) 
+![Docker](images/docker-logo.png)
 
 ## Introduction
 
