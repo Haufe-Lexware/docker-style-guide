@@ -148,12 +148,10 @@ This is OK:
     # creates one layer and preserves the (already set) execution flag
     ADD entrypoint.sh /
 
-## Use Entrypoint rather than CMD
-Using CMD makes it very easy to start the container using a different command. It is easy to override.
+## Entrypoint vs CMD
+You **SHOULD** use Entrypoint to specify the default executable that will be called when a container is started and the default arguments that you want to be easily overridable should be provided via CMD.
 
-When you want to ensure that your container will be running as you expect and that overriding that behavior would only be done by someone knowing exactly what they are doing, then use Entrypoint.
-
-The 2 scenarios with more in depth explanations can be found [here](https://www.ctl.io/developers/blog/post/dockerfile-entrypoint-vs-cmd/)
+More in depth explanations can be found [here](https://www.ctl.io/developers/blog/post/dockerfile-entrypoint-vs-cmd/)
 
 ##Use Exec form rather than Shell
 
