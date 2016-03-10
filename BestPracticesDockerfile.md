@@ -147,3 +147,14 @@ This is OK:
     FROM ubuntu
     # creates one layer and preserves the (already set) execution flag
     ADD entrypoint.sh /
+
+## Entrypoint vs CMD
+You **SHOULD** use Entrypoint to specify the default executable that will be called when a container is started and the default arguments that you want to be easily overridable should be provided via CMD.
+
+More in depth explanations can be found [here](https://www.ctl.io/developers/blog/post/dockerfile-entrypoint-vs-cmd/)
+
+##Use Exec form rather than Shell
+
+You can write Entrypoint and CMD statements in either Shell form or Exec form. But the shell form will actually trigger a call to `/bin/sh -c` with the command and parameters you specified. 
+
+The effect of this is that when you use `docker stop` or `docker kill` that POSIX signal will only be sent to the container process running as PID 1, and if that process is /bin/sh rather than the underlying process you started and /bin/sh doesn't forward signals to any child processes you won't be able to [gracefully stop the process](https://www.ctl.io/developers/blog/post/gracefully-stopping-docker-containers/).
