@@ -1,5 +1,11 @@
 # Best practices - Dockerfile
 
+## One Dockerfile Per Source Repository
+
+While it is tempting to put any Dockerfile of a project in a single repository to build all **Docker images** at once, you **SHOULD** keep each Dockerfile (and its resources) separate.
+For autobuilds (gocd, jenkins, ...), it is **essential** to monitor changes of a repository for **one** Dockerimage and start builds with clearly defined dependencies.
+
+
 ## Start "interactive"
 
 You can just write your Dockerfile...
