@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Docker-style-guide by Haufe-Lexware</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Docker-style-guide</h1>
+      <h2 class="project-tagline">The &quot;Haufe Docker Style Guide&quot; represent mandantory requirements, recommended best practices and informational resources for using Docker in official (public or internal) Haufe products, services or solutions.</h2>
+      <a href="https://github.com/Haufe-Lexware/docker-style-guide" class="btn">View on GitHub</a>
+      <a href="https://github.com/Haufe-Lexware/docker-style-guide/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/Haufe-Lexware/docker-style-guide/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="haufe-docker-style-guide" class="anchor" href="#haufe-docker-style-guide" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Haufe Docker Style Guide</strong>
+</h1>
+
+<h2>
+<a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Introduction</h2>
+
+<p>Docker is a technology, that provides:</p>
+
+<ul>
+<li>unique way to include a softwarepackage and all its dependencies into one single package: <strong>Docker Images</strong>
+</li>
+<li>a lightweight solution for process-isolation in contrast to the heavier Virtual-Machine approach: <strong>Docker Containers</strong>
+</li>
+<li>a runtime to decouple the Linux installation inside and outside of a Docker Container (with the exception of the kernel being shared): <strong>Docker Engine</strong>
+</li>
+<li>a solution to combine, configure and control multiple containers, networks and hosts: <strong>Docker Compose</strong>
+</li>
+<li>a tool to prepare and manage single or clustered systems running the Docker Engine: <strong>Docker Machine</strong>
+</li>
+<li>an almost explosively growing system of tools and pre-packaged appplications ... by Docker Inc., other Companies and "The Community": Rancher, Consul, Panamax, ...</li>
+</ul>
+
+<p>The overall architecture is explained in the original Docker documentation in <a href="https://docs.docker.com/engine/understanding-docker/">Understand the architecture</a></p>
+
+<p>You find a slightly outdated, but quite good Docker overview at Peter Rossbachs <a href="https://github.com/rossbachp/docker-basics/blob/master/slides.md">Docker Basics</a></p>
+
+<p>The <a href="https://docs.docker.com/">Official Docker Documentation</a> gives a good overview about the main component and its accompanying tools on the <a href="https://docs.docker.com/engine/userguide/intro/">Introduction to Engine user guide</a></p>
+
+<h2>
+<a id="the-style-guide" class="anchor" href="#the-style-guide" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The style guide</h2>
+
+<p>This set of documents called the "<strong>Haufe Docker Style Guide</strong>" represent <strong>mandantory requirements</strong>, recommended best practices and informational resources for using <strong>Docker</strong> in <strong>official (public or internal) Haufe products, services or solutions</strong>.</p>
+
+<h3>
+<a id="when-to-use-the-style-guide" class="anchor" href="#when-to-use-the-style-guide" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>When to use the style guide?</h3>
+
+<p>The "<strong>Haufe Docker Style Guide</strong>" <strong>MUST</strong> be used when you <strong>create</strong>, <strong>modifiy</strong> or <strong>extend</strong> Docker based solutions.</p>
+
+<p><strong>Existing</strong> Docker installations and/or components <strong>might</strong> have to adapt out of specific security or business reasons.</p>
+
+<h3>
+<a id="who-has-to-use-the-style-guide" class="anchor" href="#who-has-to-use-the-style-guide" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Who has to use the style guide?</h3>
+
+<p>It is the responsibility of Developers, Release Engineers AND Runtime Operators to apply the style guide to a specific project!</p>
+
+<blockquote>
+<p>Please follow the style guide, but don't follow blindly!
+  You can break the rules with justification.</p>
+</blockquote>
+
+<h3>
+<a id="how-to-ask-for-changes-to-the-style-guide" class="anchor" href="#how-to-ask-for-changes-to-the-style-guide" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to ask for changes to the style guide?</h3>
+
+<p>This and related documents are "work in progress". We’d love your feedback – whether you agree, disagree, or have some additional practices and tips to add.</p>
+
+<blockquote>
+<p>We encourage you to improve the style guide with modifications and extensions.
+  Inform the CTO Office (mailto:<a href="mailto:_CTOLeads@haufe-lexware.com">_CTOLeads@haufe-lexware.com</a>) in this cases.</p>
+
+<p>Please contribute!</p>
+</blockquote>
+
+<h2>
+<a id="style-guide" class="anchor" href="#style-guide" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Style Guide</strong>
+</h2>
+
+<ul>
+<li><a href="HaufeDockerToolset.md">Haufe's Docker Toolset</a></li>
+<li><a href="DockerHost.md">Docker Host</a></li>
+<li><a href="DockerMachine.md">Docker Machine</a></li>
+<li><a href="DockerEngine.md">Docker Engine</a></li>
+<li>
+<a href="Dockerfile.md">Dockerfile</a>
+
+<ul>
+<li><a href="BestPracticesDockerfile.md">Best Practices</a></li>
+</ul>
+</li>
+<li><a href="DockerImage.md">Docker Image</a></li>
+<li>
+<a href="DockerContainer.md">Docker Container</a>
+
+<ul>
+<li><a href="BestPracticesContainer.md">Best Practices</a></li>
+</ul>
+</li>
+<li>
+<a href="DockerCompose.md">Docker Compose</a>
+
+<ul>
+<li><a href="BestPracticesCompose.md">Best Practices</a></li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="to-be-done-" class="anchor" href="#to-be-done-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>To be done ...</h2>
+
+<ul>
+<li><a href=".md">Network, Service Discovery etc.</a></li>
+<li><a href=".md">Monitoring</a></li>
+<li><a href=".md">Microservices</a></li>
+<li><a href=".md">"Dockerizing" existing solutions</a></li>
+</ul>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/Haufe-Lexware/docker-style-guide">Docker-style-guide</a> is maintained by <a href="https://github.com/Haufe-Lexware">Haufe-Lexware</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
