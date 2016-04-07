@@ -46,6 +46,7 @@ This and related documents are "work in progress". We’d love your feedback –
 
 ## **Style Guide**
 - [Haufe's Docker Toolset](HaufeDockerToolset.md)
+- [DRAFT - Docker In Production @Haufe](DRAFT-HaufeDockerInProduction.md)
 - [Docker Host](DockerHost.md)
 - [Docker Machine](DockerMachine.md)
 - [Docker Engine](DockerEngine.md)
