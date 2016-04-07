@@ -1,8 +1,8 @@
-![](/home/thomassc/Projects/docker-style-guide/images/draft.png)
+![](images/draft.png)
 
 # Docker in production
 
-![](/home/thomassc/Projects/docker-style-guide/images/docker-logo.png)
+![](images/docker-logo.png)
 
 The decision to use Docker containers **internally** for products or services can be made by the product/service teams themselves.
 
