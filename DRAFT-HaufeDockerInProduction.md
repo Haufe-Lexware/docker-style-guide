@@ -12,9 +12,9 @@ If Docker becomes an integral part of a **publicly available** system or service
 
 A Docker Host is a **physical or virtual machine** with an operating system and a running docker-engine. 
 
-The service(s)/application(s) inside the container **MUST** consider http://group/websites/ia/DokumenteOeffentlich/Secure%20Development%20Rules.pdf
+The service(s)/application(s) inside the container **MUST** consider [Secure Development Rules](http://group/websites/ia/DokumenteOeffentlich/Secure%20Development%20Rules.pdf)
 
-The **Dockerhost** as an IT-System **MUST** follow http://group/websites/ia/DokumenteOeffentlich/Haufe%20-%2010%20Rules%20for%20Secure%20Server%20Operations%20V1.0.pdf
+The **Dockerhost** as an IT-System **MUST** follow [Haufe - 10 Rules for Secure Server Operations V1.0](http://group/websites/ia/DokumenteOeffentlich/Haufe%20-%2010%20Rules%20for%20Secure%20Server%20Operations%20V1.0.pdf)
 
 If your **Docker Image/Container** is based on some OS-Distribution (Debian/Centos,Windows,etc.), you **SHOULD** treat it like an IT-system, too.  
 
