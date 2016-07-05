@@ -1,6 +1,6 @@
 # Docker Host
 
-A Docker Host is a physical or virtual machine with a Linux Operation System and (at least) the [Docker Engine](DockerEngine.md) first. The Docker Engine takes care of everything around building Docker Images or running Docker Cntainers and connects Docker clients to Docker servers.
+A Docker Host is a physical or virtual machine with a Linux Operation System and (at least) the [Docker Engine](DockerEngine.md) first. The Docker Engine takes care of everything around building Docker Images or running Docker Containers and connects Docker clients to Docker servers.
 
 ## Operating system of the HOST
 
