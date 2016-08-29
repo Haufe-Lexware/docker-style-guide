@@ -186,6 +186,12 @@ Such messages **SHOULD** be machine readable (e.g. json formatted) to avoid exte
 Of course, the application **MAY** uses other (additional) means of log
 forwarding but is immediatly on its own for maintenance, configuration etc.
 
+## Use Exec form rather than Shell
+
+You **MUST** write [CMD](https://docs.docker.com/engine/reference/builder/#cmd) and [ENTRYPOINT](https://docs.docker.com/engine/reference/builder/#entrypoint) statements using the Exec-form.
+Using the shell form would effectively trigger a call to `/bin/sh -c` with the command and parameters you specified. 
+
+As a result, when you use `docker stop` or `docker kill` the POSIX signal will only be sent to the container process running as PID 1, and if that process is /bin/sh rather than the underlying process you started and /bin/sh doesn't forward signals to any child processes you won't be able to [gracefully stop the process](https://www.ctl.io/developers/blog/post/gracefully-stopping-docker-containers/).
 
 ## One Process/Service per Container
 
