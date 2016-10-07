@@ -6,4 +6,5 @@
 * How do I configure a Docker image protoype
 * How do i persist this Docker image
 * How do I build and deploy this image
+* Docker command reference
 
