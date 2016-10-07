@@ -1,6 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [When do we want to use docker at Haufe](first-question.md)
+* [When does using Docker make sense](first-question.md)
 * [How can I do X?](second-question.md)
 
