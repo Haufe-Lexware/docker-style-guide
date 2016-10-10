@@ -6,6 +6,12 @@ Docker Images are the result of using `docker build` with a [Dockerfile](Dockerf
 
 ![Docker Engine Commands](https://raw.githubusercontent.com/rossbachp/docker-basics/master/images/docker-command-flow.png)
 
+## Getting (pulling) acceptable/reliable DockerImages
+
+To cut a long story short: We trust "Docker" and "ourselves". As a consequence, you can pull images from hub.docker.com, docker.io or registry.haufe.io.
+
+A (tiny bit) more elaborate explanation can be found at https://github.com/Haufe-Lexware/docker-style-guide/blob/master/Dockerfile.md#use-only-well-maintained-images-from-a-trusted-registry
+
 ## Names and TAGs
 
 Without preparations, a Docker Image has only a quite long HASH identifier. To make the (human) handling with a Docker Image easier, it **MUST** have at least a name and a `TAG`.
