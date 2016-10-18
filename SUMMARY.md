@@ -3,7 +3,6 @@
 * [Why docker?](README.md)
    * How docker works
    * The suggested docker Haufe Workflow
-* [When does using Docker make sense](first-question.md)
 * [What do I need to know to start](second-question.md)
 * [How do I configure a Docker image protoype](how_do_i_configure_a_docker_image_protoype.md)
 * [How do i persist this Docker image](how_do_i_persist_this_docker_image.md)
