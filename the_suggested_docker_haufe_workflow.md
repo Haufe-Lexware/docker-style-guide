@@ -1,4 +1,4 @@
-# The suggested docker Haufe Workflow
+# The Haufe Docker Workflow
 
 Haufe-Lexware recommends learning Docker by beginning to create images via a Dockerfile. We said that the basic workflow both for learning docker and for implementing docker is:
 * Dockerfile
