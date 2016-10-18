@@ -9,7 +9,7 @@ You can run Docker on all major operating systems. Again the official Docker doc
 * [Docker for Linux](https://docs.docker.com/engine/installation/linux/)
 
 
-## The Haufe Firewall
+## Using Docker inside the Haufe Network
 
 If you plan to use docker from the Offices in Freiburg, You have to ensure that the Haufe Proxy and the Haufe Firewall do not block your Docker from communication with the internet. There are a couple of workarounds here. 
 
