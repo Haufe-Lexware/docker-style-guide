@@ -12,13 +12,13 @@ If you plan to use docker from the Offices in Freiburg, You have to ensure that 
 
 1. Go to the [Getting Started - Docker for Windows](https://docs.docker.com/docker-for-windows/) or [Getting Started - Docker for Mac](https://docs.docker.com/docker-for-mac/) and read up on how to access the settings
 2. Navigate down to the "Proxies" Section - on mac this is the "Advanced" section.
-3. Once you have read the documentation follow the steps on your own machine, Proxy Server URL is: http://10.12.1.236:8083/
+3. Once you have read the documentation follow the steps on your own machine, Proxy Server URL for both http and https is: http://10.12.1.236:8083/
 
 The Proxy server settings should propagate down to all Docker layers. If there are domains that your wish to exclude from using the proxy settings like your home network, add the IP address into the exclude section of the software to configure the "no_proxy" setting.
 
 ### Develop Remotely
 
-If you are developing remotely, perhaps the easiest way to get around the proxy is to set up a virtual machine on an external service like Azure and depending on the OS, to use an RDP client or SSH client to tunnel in to remote virtual machine. Here again you have to know how to get outside of the Haufe proxy server and firewall. Once you are on your remote machine, you can install docker and create docker solutions without the normal networking constraints.
+If you are developing remotely, perhaps the easiest way to get around the proxy is to set up a virtual machine on an external service like Azure and depending on the OS, to use an RDP client or your favorite SSH client to tunnel in to remote virtual machine. Here again you have to know how to get outside of the Haufe proxy server and firewall. Once you are on your remote machine, you can install docker and create docker solutions without the normal networking constraints. 
 
 
 
