@@ -1,7 +1,7 @@
 # Summary
 
 * [Why a Haufe Docker Book](README.md)
-   * Why Docker
+   * [Why Docker](why_docker.md)
    * [Why Docker at Haufe](why_docker_at_haufe.md)
    * [How docker works](how_docker_works.md)
 * [Installing Docker](installing_docker.md)
