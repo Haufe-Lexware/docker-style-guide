@@ -5,8 +5,8 @@
    * [How docker works](how_docker_works.md)
 * [Installing Docker](installing_docker.md)
 * [The Docker Workflow](the_suggested_docker_haufe_workflow.md)
-* What is this Docker book
 * [My First Dockerfile](docker_command_reference.md)
    * Create a Dockerfile
    * Finding a base Image for your app
+* What is this Docker book
 
