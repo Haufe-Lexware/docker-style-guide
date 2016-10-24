@@ -8,7 +8,6 @@
 * [Docker Basics](docker_basics.md)
 * [The Docker Workflow](the_suggested_docker_haufe_workflow.md)
 * [My First Dockerfile](docker_command_reference.md)
-   * [What's so great about the docker file](whats_so_great_about_the_docker_file.md)
    * [Create a Dockerfile](create_a_dockerfile.md)
    * [Finding a base Image for your app](finding_a_base_image_for_your_app.md)
    * [Docker file structure](docker_file_structure.md)
