@@ -9,4 +9,5 @@
 * [My First Dockerfile](docker_command_reference.md)
    * Create a Dockerfile
    * Finding a base Image for your app
+   * What's so great about the docker file
 
