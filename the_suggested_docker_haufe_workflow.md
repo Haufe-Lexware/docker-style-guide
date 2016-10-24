@@ -7,7 +7,7 @@ Haufe-Lexware recommends learning Docker by beginning to create images via a Doc
 * Docker Compose
 * Docker Swarm 
 
-For learning purposes it makes sense to start with the Dockerfile. Once you start putting docke images into the development and production pipelines, you almost will always use Dockerfiles in your build to deploy your application environment using docker. 
+For learning purposes it makes sense to start with the Dockerfile. Once you start putting Docker images into the development and production pipelines, you almost will always use Dockerfiles in your build to deploy your application environment using docker. 
 
 
 
