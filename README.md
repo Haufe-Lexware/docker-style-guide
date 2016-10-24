@@ -1,7 +1,7 @@
 
 # Why does Haufe need it's own docker book
 
-I don't really know if it's fair to call this a book. I think it's probably better to call it a frame or  something similar. Fact is, there is a lot of Docker documentation out on the net and also some official Haufe documentation - like our Docker Style Guide. So, the purpose of this "Docker frame" is to frame useful content for Haufe developers, like you, who are going to have use docker on a regular basis into a relevant context. 
+I don't really know if it's fair to call this a book. I think it's probably better to call it a frame or  something similar. Fact is, there is a lot of Docker documentation out on the net and also some official Haufe documentation - like our Docker Style Guide. So, the purpose of this "Docker frame" is to frame useful content for Haufe developers, release engineers and runtime operators, like you, who are going to use docker on a regular basis into a relevant context. 
 
 This context should provide you with things like: 
 * A human-readable organization, so you can find docker knowledge that you must have fast(er)
