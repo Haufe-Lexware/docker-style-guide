@@ -1,8 +1,24 @@
 # Docker file structure
-There are generally three sections and 
+There are generally the following sections: 
+* Image configuration 
+* Container entrypoint
+* Container bash
 
 
-## Build your image
+
+## Image configuration
+
+
+## Container entrypoint
+
+
+
+## Conainer bash
+
+
+
+
+
 
 
 
