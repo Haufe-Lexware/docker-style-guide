@@ -5,7 +5,7 @@
    * [Why Docker at Haufe](why_docker_at_haufe.md)
    * [How docker works](how_docker_works.md)
 * [Installing Docker](installing_docker.md)
-* Docker Basics
+* [Docker Basics](docker_basics.md)
 * [The Docker Workflow](the_suggested_docker_haufe_workflow.md)
 * [My First Dockerfile](docker_command_reference.md)
    * [What's so great about the docker file](whats_so_great_about_the_docker_file.md)
