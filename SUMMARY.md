@@ -10,5 +10,5 @@
    * What's so great about the docker file
    * Create a Dockerfile
    * Finding a base Image for your app
-   * Docker file structure
+   * [Docker file structure](docker_file_structure.md)
 
