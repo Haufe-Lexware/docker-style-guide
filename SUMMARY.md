@@ -11,4 +11,5 @@
    * [Create a Dockerfile](create_a_dockerfile.md)
    * [Finding a base Image for your app](finding_a_base_image_for_your_app.md)
    * [Docker file structure](docker_file_structure.md)
+   * Build your docker image
 
