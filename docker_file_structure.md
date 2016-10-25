@@ -11,14 +11,19 @@ With this part you configure your image. The parts of  your Docker image that yo
 * FROM - your base image that you found in the last section
 * 
 
-
+Here Link to style guide
 ## Container entry-point
 
 In this section, you may configure a shell script that runs at Linux boot. This section is good for setting environment variables and other pre-processing steps that must happen before issuing commands over the bash prompt.
 
+Here Examples
+
 ## Container bash
 
-In this section, you may configure commands to run from the bash prompt. So if you have created a Docker image that uses several applications to 
+In this section, you may configure commands to run from the bash prompt. If you have created a Docker image that uses several applications to create a "Docker Process", you must start them up in this section of the file.
+
+Here Examples
+
 
 
 
