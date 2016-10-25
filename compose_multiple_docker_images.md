@@ -1,2 +1,4 @@
-# Compose multiple Docker images
+# Getting Docker processes to work together with Docker Compose
+
+
 
