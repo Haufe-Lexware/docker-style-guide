@@ -14,5 +14,5 @@
    * Build your image
    * Run your container
    * [Create a multi-process environment with Docker Compose](compose_multiple_docker_images.md)
-   * Scale composed environments with Docker Swarm
+   * [Scale composed environments with Docker Swarm](scale_composed_environments_with_docker_swarm.md)
 
