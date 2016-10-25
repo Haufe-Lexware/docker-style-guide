@@ -14,4 +14,5 @@
    * Build your image
    * Run your container
    * [Create a multi-process environment with Docker Compose](compose_multiple_docker_images.md)
+   * Scale composed environments with Docker Swarm
 
