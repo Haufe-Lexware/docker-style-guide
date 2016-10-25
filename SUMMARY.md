@@ -13,5 +13,5 @@
        * [Docker file structure](docker_file_structure.md)
    * Build your image
    * Run your container
-   * Compose multiple Docker images
+   * [Compose multiple Docker images](compose_multiple_docker_images.md)
 
