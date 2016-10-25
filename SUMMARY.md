@@ -5,6 +5,7 @@
    * [Why Docker at Haufe](why_docker_at_haufe.md)
    * [How docker works](how_docker_works.md)
 * [Installing Docker](installing_docker.md)
+* [Docker and the Haufe Firewall, Proxy Server et al.](docker_and_the_haufe_firewall,_proxy_server_et_al.md)
 * [Docker Basics](docker_basics.md)
 * [The Docker Workflow](the_suggested_docker_haufe_workflow.md)
    * [My First Dockerfile](docker_command_reference.md)
@@ -15,5 +16,4 @@
    * [Run your container](run_your_container.md)
    * [Create a multi-process environment with Docker Compose](compose_multiple_docker_images.md)
    * [Scale composed environments with Docker Swarm](scale_composed_environments_with_docker_swarm.md)
-* [Docker and the Haufe Firewall, Proxy Server et al.](docker_and_the_haufe_firewall,_proxy_server_et_al.md)
 
