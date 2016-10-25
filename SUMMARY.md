@@ -15,5 +15,5 @@
    * [Run your container](run_your_container.md)
    * [Create a multi-process environment with Docker Compose](compose_multiple_docker_images.md)
    * [Scale composed environments with Docker Swarm](scale_composed_environments_with_docker_swarm.md)
-* Docker and the Haufe Firewall, Proxy Server et al.
+* [Docker and the Haufe Firewall, Proxy Server et al.](docker_and_the_haufe_firewall,_proxy_server_et_al.md)
 
