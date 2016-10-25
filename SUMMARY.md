@@ -12,7 +12,7 @@
        * [Finding a base Image for your app](finding_a_base_image_for_your_app.md)
        * [Docker file structure](docker_file_structure.md)
    * Build your image
-   * Run your container
+   * [Run your container](run_your_container.md)
    * [Create a multi-process environment with Docker Compose](compose_multiple_docker_images.md)
    * [Scale composed environments with Docker Swarm](scale_composed_environments_with_docker_swarm.md)
 
