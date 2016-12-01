@@ -4,11 +4,13 @@ Docker has a growing tool set that you will need to learn how to use. Some of th
 While there are many docker tools out there now, the official Haufe toolset is:
 * [Docker Engine](https://docs.docker.com/engine/understanding-docker#what-is-docker-engine)
 * [Docker Compose](https://docs.docker.com/compose/overview/)
-* [Docker Machine](https://docs.docker.com/machine/overview/){:target="_blank"}
+* [Docker Machine](https://docs.docker.com/machine/overview/)
+
+You can find many of the best descriptions for how docker works on the Docker Docs website. There are also many good tutorials and definitions on the web. For example, the first tutorial I did was [this one](https://rominirani.com/docker-tutorial-series-a7e6ff90a023#.7rvua5z1m).  This tutorial is a little bit old but it's good for learning the CLI. 
 
 
 
-And that you take some time to understand the basics technical concepts for the Docker tooling found in the  Haufe Docker Style Guide
+
 
 
 
