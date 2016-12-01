@@ -33,11 +33,13 @@ If you plan to use docker from the Offices in Freiburg, You have to ensure that 
 
 ### Documentation for Windows and Mac machines TBD
 
-1. Go to the [Getting Started - Docker for Windows](https://docs.docker.com/docker-for-windows/) or [Getting Started - Docker for Mac](https://docs.docker.com/docker-for-mac/) and read up on how to access the settings
-2. Navigate down to the "Proxies" Section - on mac this is the "Advanced" section.
-3. Navigate to Shared Drives. Share the drives that you need to mount or copy to docker containers
+Go to the [Getting Started - Docker for Windows](https://docs.docker.com/docker-for-windows/) or [Getting Started - Docker for Mac](https://docs.docker.com/docker-for-mac/) and read up on how to access the settings.
+Navigate to Shared Drives. Share the drives that you need to mount or copy to docker containers. 
+Navigate to prox
 
-Once you have read the documentation follow the steps on your own machine, Proxy Server URL for both http and https is: http://10.12.1.236:8083/
+
+
+
 
 The Proxy server settings should propagate down to the Host/Daemon Docker layer. If there are domains that you wish to exclude from using the proxy settings like your home network, add the IP address into the exclude section of the software to configure the "no_proxy" setting.
 
@@ -45,7 +47,7 @@ The Proxy server settings should propagate down to the Host/Daemon Docker layer.
 ### Haufe's potent proxy and fabulous firewall
 If you want to develop in-house, you will need to make sure that the Docker is aware aware of the Haufe proxy server. 
 
-For the Docker for Windows or IOS, one nice setting is that you can configure the firewall to propagate down to the Docker Host level. You can also set “no_proxy” exceptions from within the Docker Application. For Linux you can set the environment variables – HTTP_PROXY, HTTPS_PROXY and NO_PROXY for the domains where you intend to work with Docker. 
+For the Docker for Windows or IOS, one nice setting is that you can configure the firewall to propagate down to the Docker Host level. You can also set “no_proxy” exceptions from within the Docker Application. For Linux you can set the environment variables – HTTP_PROXY, HTTPS_PROXY and NO_PROXY for the domains where you intend to work with Docker. Documentation is here
 
 On Windows, I have encountered some problems though at create image time when extending base image by using package managers like “apt” on Linux from a Dockerfile. The workaround for this was to add build arguments that set the proxy server. In Docker you can do this two ways
 •	Use the –build-arg option with the “docker build” command
