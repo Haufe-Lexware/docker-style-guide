@@ -1,8 +1,8 @@
 # Summary
 
 * [Why a Haufe Docker Book](README.md)
-   * [How docker works](how_docker_works.md)
    * [Why Docker](why_docker.md)
+   * [How docker works](how_docker_works.md)
 * [Installing Docker](installing_docker.md)
 * [Docker and the Haufe Firewall, Proxy Server et al.](docker_and_the_haufe_firewall,_proxy_server_et_al.md)
 * [Docker Basics](docker_basics.md)
