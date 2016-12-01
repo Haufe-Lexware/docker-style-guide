@@ -10,8 +10,12 @@ There are a lot of enterprise software packages out there to do get this kind of
 Marketing still wanted to get this data, and so, instead of buying an enterprise software that has high costs and an uncertain value proposition, they decided to try to build an application that would cost little and that adds value as it grows. Enter Docker. Haufe Group doesn't need docker to create a prototype application, but by using Docker, you can do the following:
 * Locate, compose and run single applications
 * Compose and run multiple applications to work together as services
-* Persist and reuse these composed applications and services and reuse them in other environments
+* Persist, transport and reuse these composed applications and services for different purposes
 * Automate integration and deployment of applications and services as immutable applications
+
+And, of course, using Docker makes it easier to scale out instances of successful applications out at a much lower cost then bare metal-based or hypervisor-virtualization-based infrastructure. 
+
+So the reason why Haufe Group is interested in Docker technology is that when it is unclear if we should "build or buy" or if "buy" is too expensive, it allows us to develop, test and deploy prototypes,  reach decisions, and go on fast, to develop business value. If the prototype must go to production, Docker helps us to develop, test, build, and deploy production applications over a continuous delivery pipeline and to scale these applications in the prdouction environment.
 
 
 
