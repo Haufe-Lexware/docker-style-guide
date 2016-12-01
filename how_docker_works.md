@@ -4,7 +4,7 @@ Docker has a growing tool set that you will need to learn how to use. Some of th
 While there are many docker tools out there now, the official Haufe toolset is:
 * [Docker Engine](https://docs.docker.com/engine/understanding-docker#what-is-docker-engine)
 * [Docker Compose](https://docs.docker.com/compose/overview/)
-* [Docker Machine](https://docs.docker.com/machine/overview/){:target=blank}
+* [Docker Machine](https://docs.docker.com/machine/overview/){:target="_blank"}
 
 
 
