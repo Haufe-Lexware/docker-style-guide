@@ -14,6 +14,5 @@
    * [Run your container](run_your_container.md)
    * [Create a multi-process environment with Docker Compose](compose_multiple_docker_images.md)
    * [Scale composed environments with Docker Swarm](scale_composed_environments_with_docker_swarm.md)
-* [Docker the Haufe Way](docker_the_haufe_way.md)
 * Docker in production at Haufe
 
