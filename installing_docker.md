@@ -17,7 +17,7 @@ Once you get docker installed, you are going to start working with:
 
 Later you will be working with docker environments and docker services
 
-If you are running on Windows, it helps to download a git client and then to install so you can run linux commands in Powershell or Command Console.
+If you are running on Windows, it helps to download a git client and then to install so you can run linux commands in Powershell or DOS prompt.
 
 ## Documentation for Windows and Mac machines TBD
 
@@ -33,9 +33,6 @@ Shareing drives is imThe Proxy server settings should propagate down to the Host
 ## Using Docker inside the Haufe Network
 
 If you plan to use docker from the offices in Freiburg, You have to ensure that the Haufe Proxy and the Haufe Firewall do not block your Docker from communication with the internet. You are going to go out and get images from Docker Hub and other repositories. There are a couple of workarounds here. Here How to get around working inside the Firewall/Proxy Server environment in an easy way. 
-
-
-
 
 ### Haufe's potent proxy and fabulous firewall
 If you want to develop in-house, you will need to make sure that the Docker is aware aware of the Haufe proxy server. 
