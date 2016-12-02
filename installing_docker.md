@@ -19,21 +19,22 @@ Later you will be working with docker environments and docker services
 
 If you are running on Windows, it helps to download a git client and then to install so you can run linux commands in Powershell or Command Console.
 
+## Documentation for Windows and Mac machines TBD
+
+Go to the [Getting Started - Docker for Windows](https://docs.docker.com/docker-for-windows/) or [Getting Started - Docker for Mac](https://docs.docker.com/docker-for-mac/) and read up on how to access the settings. For the "Dockers For" tools you will at least have to:
+* Share drives
+* Set proxies
+
+And you may have to:
+* Change network settings
+
+Shareing drives is imThe Proxy server settings should propagate down to the Host/Daemon Docker layer. If there are domains that you wish to exclude from using the proxy settings like your home network, add the IP address into the exclude section of the software to configure the "no_proxy" setting.
+
 ## Using Docker inside the Haufe Network
 
-If you plan to use docker from the Offices in Freiburg, You have to ensure that the Haufe Proxy and the Haufe Firewall do not block your Docker from communication with the internet. You are going to go out and get images from Docker Hub and other repositories. There are a couple of workarounds here. Here How to get around working inside the Firewall/Proxy Server environment in an easy way. 
-
-### Documentation for Windows and Mac machines TBD
-
-Go to the [Getting Started - Docker for Windows](https://docs.docker.com/docker-for-windows/) or [Getting Started - Docker for Mac](https://docs.docker.com/docker-for-mac/) and read up on how to access the settings.
-Navigate to Shared Drives. Share the drives that you need to mount or copy to docker containers. 
-Navigate to prox
+If you plan to use docker from the offices in Freiburg, You have to ensure that the Haufe Proxy and the Haufe Firewall do not block your Docker from communication with the internet. You are going to go out and get images from Docker Hub and other repositories. There are a couple of workarounds here. Here How to get around working inside the Firewall/Proxy Server environment in an easy way. 
 
 
-
-
-
-The Proxy server settings should propagate down to the Host/Daemon Docker layer. If there are domains that you wish to exclude from using the proxy settings like your home network, add the IP address into the exclude section of the software to configure the "no_proxy" setting.
 
 
 ### Haufe's potent proxy and fabulous firewall
