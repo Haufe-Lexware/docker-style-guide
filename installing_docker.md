@@ -8,15 +8,7 @@ Official Docker documentation has an excellent and comprehensive tutorial on how
 
 You can reach installation instructions for other Linux distributions from [https://docs.docker.com/ and by looking under “Docker Engine” > “Install” > “Linux Distributions” on the left hand menu](https://docs.docker.com/).
 
-While you can run Docker on just about any kind of OS, Docker hosts and containers are always Linux-based, a
-
----
-
-nd so it's important to get familiar with basic Linux commands and Linux utility commands - for example h
-
----
-
-ow to use "apt" for retrieving and updating new packages on Ubuntu Linux and basics like "chown", "chmod".
+While you can run Docker on just about any kind of OS, Docker hosts and containers are always Linux-based, and so, it's important to get familiar with basic Linux commands and Linux utility commands - for example how to use "apt" for retrieving and updating new packages on Ubuntu Linux and basics like "chown", "chmod".
 
 Once you get docker installed, you are going to start working with: 
 * [Registries](https://docs.docker.com/docker-hub/)
