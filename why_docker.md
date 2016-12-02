@@ -15,7 +15,7 @@ Marketing still wanted to get this data, and so, instead of buying an enterprise
 * Persist, transport and reuse these composed applications and services for different purposes
 * Automate integration and deployment of applications and services as immutable applications
 
-And, of course, using Docker makes it easier to scale out instances of successful applications at a much lower cost then bare metal-based or hypervisor-virtualization-based infrastructure. 
+And, of course, using Docker makes it easier to scale out instances of successful applications at a much lower cost then bare-metal-based or hypervisor-based infrastructure. 
 
 So the reason why Haufe Group is interested in Docker technology is that when it is unclear if we should "build or buy" or if "buy" is too expensive, it allows us to develop, test and deploy prototypes,  reach decisions, and go on fast, to develop business value. If the prototype must go to production, Docker helps us to develop, test, build, and deploy production applications over a continuous delivery pipeline and to scale these applications in the prdouction environment.
 
