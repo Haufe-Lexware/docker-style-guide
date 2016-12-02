@@ -6,7 +6,7 @@ While there are many docker tools out there now, the official Haufe toolset is:
 * [Docker Compose](https://docs.docker.com/compose/overview/)
 * [Docker Machine](https://docs.docker.com/machine/overview/)
 
-You can find many of the best descriptions for how docker works on the Docker Docs website. There are also many good tutorials and definitions on the web. For example, the first tutorial I did was [this one](https://rominirani.com/docker-tutorial-series-a7e6ff90a023#.7rvua5z1m).  This tutorial is a little bit old but it's good for learning the docker functionality via the docker command line tool.
+You can find many of the best descriptions for how docker works on the Docker Docs website. There are also many good tutorials and definitions on the web. For example, the first tutorial I did was [this one](https://rominirani.com/docker-tutorial-series-a7e6ff90a023#.7rvua5z1m).  This tutorial is a little bit old but it's especially good for learning the docker functionality via the docker command line tool as well as some other basics.
 
 
 
