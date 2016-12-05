@@ -64,10 +64,10 @@ Important to know about Dockerfiles is that you can not only build an image in a
 
 **ENTRYPOINT** shall be used to start any executables within a container. For example, if your container uses MongoDB as a database, you must start the MongoDB with ENTRYPOINT in your dockerfile: otherwise MongoDB will not be available.
 
-**CMD**shall be used to run commands within the container that are likely to change 
+**CMD** shall be used to run commands within the container that are likely to change.
 
 ### Whalesay tutorial
-The [Docker Whalesay tutorial](https://docs.docker.com/engine/getstarted/step_three/) is a good basic tutorial to understand how to build images with both the CLI and [to build an image using Dockerfile](https://docs.docker.com/engine/getstarted/step_four/). Go ahead and do this tutorial. While you are doing also note that at this stage you will always need to run an image to create a Docker container that actually does something.
+The [Docker Whalesay tutorial](https://docs.docker.com/engine/getstarted/step_three/) is a good basic tutorial to understand how to build images with both the CLI and [to build an image using Dockerfile](https://docs.docker.com/engine/getstarted/step_four/). Go ahead and do this tutorial. While you are doing this one, also note that at this stage you will always need to run an image to create a Docker container that actually does something.
 
 ### More Tutorials
 
