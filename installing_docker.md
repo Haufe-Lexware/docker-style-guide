@@ -36,11 +36,11 @@ The Proxy server settings should propagate down to the Host/Daemon Docker layer.
 If you plan to use docker from the offices in Freiburg, You have to ensure that the Haufe Proxy and the Haufe Firewall do not block your Docker from communication with the internet. You are going to go out and get images from Docker Hub and other repositories. There are a couple of workarounds here. Here How to get around working inside the Firewall/Proxy Server environment in an easy way. 
 
 ### Haufe's potent proxy and fabulous firewall
-If you want to develop in-house, you will need to make sure that the Docker is aware aware of the Haufe proxy server. 
+If you want to develop in-house, you will need to make sure that the Docker is aware aware of the Haufe proxy server. Even if you have already done this in the Docker for Windows / Mac settings. You may still have some problems building images. 
 
 For the Docker for Windows or IOS, one nice setting is that you can configure the firewall to propagate down to the Docker Host level. You can also set “no_proxy” exceptions from within the Docker Application. For Linux you can set the environment variables – HTTP_PROXY, HTTPS_PROXY and NO_PROXY for the domains where you intend to work with Docker. Documentation is here
 
-On Windows, I have encountered some problems though at create image time when extending base image by using package managers like “apt” on Linux from a Dockerfile. The workaround for this was to add build arguments that set the proxy server. In Docker you can do this two ways
+On Windows, I have also encountered some problems at create image time when extending base image by using package managers like “apt” on Linux from a Dockerfile. The workaround for this was to add build arguments that set the proxy server. In Docker you can do this two ways
 •	Use the –build-arg option with the “docker build” command
 •	Use the ARG instruction in a Dockerfile
 These arguments are only passed to the builder and do not persist in the container
@@ -49,6 +49,8 @@ These arguments are only passed to the builder and do not persist in the contain
 ### Develop Remotely
 
 If you are developing remotely, perhaps the easiest way to get around the proxy is to set up a virtual machine on an external service like Azure and depending on the OS, to use an RDP client or your favorite SSH client to tunnel in to remote virtual machine. Here again you have to know how to get outside of the Haufe proxy server and firewall. Once you are on your remote machine, you can install docker and create docker solutions without the normal networking constraints. 
+
+This can be a workaround to the firewall but can only be a permanent solution if it is comfortable, secure and performant enough. 
 
 
 
