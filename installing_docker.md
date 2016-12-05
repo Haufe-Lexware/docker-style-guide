@@ -36,7 +36,7 @@ The Proxy server settings should propagate down to the Host/Daemon Docker layer.
 If you plan to use docker from the offices in Freiburg, You have to ensure that the Haufe Proxy and the Haufe Firewall do not block your Docker from communication with the internet. You are going to go out and get images from Docker Hub and other repositories. There are a couple of workarounds here. Here How to get around working inside the Firewall/Proxy Server environment in an easy way. 
 
 ### Haufe's potent proxy and fabulous firewall
-If you want to develop in-house, you will need to make sure that the Docker is aware aware of the Haufe proxy server. Even if you have already done this in the Docker for Windows / Mac settings. You may still have some problems building images. 
+Even if you have already done this in the Docker for Windows / Mac settings. You may still have some problems building images. 
 
 For the Docker for Windows or IOS, one nice setting is that you can configure the firewall to propagate down to the Docker Host level. You can also set “no_proxy” exceptions from within the Docker Application. For Linux you can set the environment variables – HTTP_PROXY, HTTPS_PROXY and NO_PROXY for the domains where you intend to work with Docker. Documentation is here
 
