@@ -17,7 +17,7 @@ Once you get docker installed, you are going to start working with:
 
 Later you will be working with docker environments and docker services
 
-If you are running on Windows, it helps to download a git client and then to install so you can run Linux commands in Powershell or DOS prompt.
+**Achtung:** If you are running on Windows, it helps to download a git client and then to install so you can run Linux commands in Powershell or DOS prompt.
 
 ## Using Docker inside the Haufe Network
 If you plan to use docker from the offices in Freiburg, You have to ensure that the Haufe Proxy and the Haufe Firewall do not block your Docker from communication with the internet. You are going to go out and get images from Docker Hub and other repositories. There are a couple of workarounds here. 
@@ -30,11 +30,11 @@ Go to the [Getting Started - Docker for Windows](https://docs.docker.com/docker-
 And you may have to:
 * Change network settings
 
+For the Docker for Windows or IOS, one nice setting is that you can configure the firewall to propagate down to the Docker Host level. You can also set “no_proxy” exceptions from within the Docker Application. For Linux you can set the environment variables – HTTP_PROXY, HTTPS_PROXY and NO_PROXY for the domains where you intend to work with Docker. Documentation is here
+
 The Proxy server settings should propagate down to the Host/Daemon Docker layer. If there are domains that you wish to exclude from using the proxy settings like your home network, add the IP address into the exclude section of the software to configure the "no_proxy" setting.
 
 Even if you have already done this in the Docker for Windows / Mac settings. You may still have some problems building images. 
-
-For the Docker for Windows or IOS, one nice setting is that you can configure the firewall to propagate down to the Docker Host level. You can also set “no_proxy” exceptions from within the Docker Application. For Linux you can set the environment variables – HTTP_PROXY, HTTPS_PROXY and NO_PROXY for the domains where you intend to work with Docker. Documentation is here
 
 For Linux you will have to set these proxy settings as environment variables and in the docker.io file, restarting the docker service. 
 
