@@ -34,6 +34,10 @@ By seeing what's already on docker hub, you can get a feeling for how wide-sprea
 
 **Achtung** There is a new docker registry call the [Docker Store](https://store.docker.com/), which looks like it is slowly replacing the Docker Hub. 
 
+Once you are done exploring what's there, you want to create your own docker hub account this is your docker sandbox for customized images. Once you have configured your image locally, you can push it up to Docker hub to make it publicly available. 
+
+In addition to docker hub, Docker enables you to push images to the Haufe registry and even create your own private registry. 
+
 ## Creating a base image
 
 The way docker works is that you create images and you create running instances of these images by running them or by building them: running instances are containers. In general, there are two ways to create images. 
@@ -42,7 +46,8 @@ The way docker works is that you create images and you create running instances 
 
 Both ways are important because you must understand the CLI commands and because you must to use the Dockerfile to persist your image and automate building it later. 
 
-If you have docker installed, you can create a base image by opening a command prompt and typing in: 
+If you have docker installed, you can create a base image by opening a console and typing in:
+```docker pull ubuntu``` t
 
 ### CLI Commands
 You should get to know the following commands. The best documentation is the [Docker Command Line Reference](https://docs.docker.com/engine/reference/commandline/) and the [Docker Run Reference](https://docs.docker.com/engine/reference/run/), so this is just a list of some of the commands. 
