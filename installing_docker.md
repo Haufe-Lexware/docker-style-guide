@@ -4,7 +4,7 @@ The Docker installation that you use locally is completely up to you. Docker com
 Official Docker documentation has an excellent and comprehensive tutorial on how to install docker [at this location](https://docs.docker.com/engine/getstarted/step_one/) . Here the Docker Docs step you through doing a basic install of docker for your flavor of operating system and how to test docker by running the "hello world" Docker image. Specific links are:
 * [Install Docker for Windows](https://docs.docker.com/engine/installation/windows/)
 * [Install Docker for Mac](https://docs.docker.com/engine/installation/mac/)
-* [Install Docker for Ubuntu](https://docs.docker.com/engine/installation/linux/ubuntulinux/)
+* [Install Docker for Linux](https://docs.docker.com/engine/installation/)
 
 You can reach installation instructions for other Linux distributions from [https://docs.docker.com/ and by looking under “Docker Engine” > “Install” > “Linux Distributions” on the left hand menu](https://docs.docker.com/).
 
