@@ -79,5 +79,4 @@ The [Docker Whalesay tutorial](https://docs.docker.com/engine/getstarted/step_th
 ### More Tutorials
 There are also many more tutorials that show you how to dockerize 
 
-
 To get up to speed go ahead work through the Docker documentation, starting with the [Docker docs welcome page](Docker docs welcome page).
