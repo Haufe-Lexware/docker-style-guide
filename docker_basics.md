@@ -44,6 +44,9 @@ The way docker works is that you create images and you create running instances 
 
 Both ways are important because you must understand the CLI commands and because you must to use the Dockerfile to persist your image and automate building it later. 
 
+If you have docker installed, you can create a base image by opening a command prompt and typing in: 
+
+
 ### CLI Commands
 You should get to know the following commands. The best documentation is the [Docker Command Line Reference](https://docs.docker.com/engine/reference/commandline/) and the [Docker Run Reference](https://docs.docker.com/engine/reference/run/), so this is just a list of some of the commands. 
 
