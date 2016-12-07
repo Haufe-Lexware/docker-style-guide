@@ -32,9 +32,9 @@ For the Docker for Windows or IOS, one nice setting is that you can configure th
 
 The Haufe proxy for both http and https is: http://10.12.1.236:8083/
 
-Even if you have already done this in the Docker for Windows / Mac settings. You may still have some problems building images. 
-
 For Linux you will have to set these proxy settings as environment variables and in the docker.io file, restarting the docker service. 
+
+Even if you have already done this in the Docker for Windows / Mac settings. You may still have some problems building images. 
 
 **Achtung:** On Windows, I have also encountered some problems at create image time when extending base image by using package managers like “apt” on Linux from a Dockerfile. The workaround for this was to add build arguments that set the proxy server. In Docker you can do this two ways
 •	Use the -–build-arg option with the “docker build” command
