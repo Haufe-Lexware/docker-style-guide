@@ -17,7 +17,7 @@ In this section you are going to create a base image, use Dockerfile to create i
 Never forget: You can always learn more more. But to get started, it's probably best to review [how docker images and containers work](https://docs.docker.com/engine/getstarted/step_two/). Also before your get started, pls read: 
 * [Haufe Docker Style Guide - Docker Images](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/DockerImage.md)
 * [Haufe Docker Style Guide - Docker Containers](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/DockerContainer.md)
-* 
+
 
 
 ## Searching Registries
