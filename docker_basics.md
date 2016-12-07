@@ -19,8 +19,6 @@ Never forget: You can always learn more more. But to get started, it's probably 
 * [Haufe Docker Style Guide - Docker Containers](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/DockerContainer.md)
 * [Haufe Docker Style Guide - Container Best Practices](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/BestPracticesContainer.md)
 
-
-
 ## Searching Registries
 When you begin with docker you should have a good idea what you want to do. This is where Docker's composability can help, and chances are, that there is already an image at the Docker Hub or in the Haufe Docker Hub, that already meets your needs. So let’s say you want to create a Web application. Then you probably need some kind of Web Server. 
 
@@ -45,7 +43,6 @@ The way docker works is that you create images and you create running instances 
 Both ways are important because you must understand the CLI commands and because you must to use the Dockerfile to persist your image and automate building it later. 
 
 If you have docker installed, you can create a base image by opening a command prompt and typing in: 
-
 
 ### CLI Commands
 You should get to know the following commands. The best documentation is the [Docker Command Line Reference](https://docs.docker.com/engine/reference/commandline/) and the [Docker Run Reference](https://docs.docker.com/engine/reference/run/), so this is just a list of some of the commands. 
