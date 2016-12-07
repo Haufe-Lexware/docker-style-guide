@@ -14,8 +14,6 @@ There are lots of ways to learn Docker but one way of doing it is to follow thes
 
 In this section you are going to create a base image, use Dockerfile to create images, and learn how to create new hosts and manage these hosts. 
 
-
-
 Never forget: There is always more. But to get started it's probably best to understand at least [how docker images and containers work](https://docs.docker.com/engine/getstarted/step_two/). 
 
 ## Searching Registries
