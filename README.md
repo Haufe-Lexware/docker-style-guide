@@ -11,6 +11,8 @@ This context should provide you with things like:
 
 Hopefully, the Haufe Docker book can provide you with a good frame of reference to get started with docker and help you progress up to automatically employing composed, scalable, dockerized application environments over continuous delivery pipelines. It will take a while to put all of the information into this frame, and we, the folks who collaborate on this project, welcome your feedback over all channels, so we can make the information here better over time. 
 
+## Here need to make a note about how to use this book
+
 
 
 
