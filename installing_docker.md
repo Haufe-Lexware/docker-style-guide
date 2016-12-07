@@ -30,6 +30,8 @@ And you may have to:
 
 For the Docker for Windows or IOS, one nice setting is that you can configure the firewall to propagate down to the Docker Host level. You can also set “no_proxy” exceptions from within the Docker Application. For Linux you can set the environment variables – HTTP_PROXY, HTTPS_PROXY and NO_PROXY for the domains where you intend to work with Docker. 
 
+The Haufe proxy for both http and https is: http://10.12.1.236:8083/
+
 Even if you have already done this in the Docker for Windows / Mac settings. You may still have some problems building images. 
 
 For Linux you will have to set these proxy settings as environment variables and in the docker.io file, restarting the docker service. 
