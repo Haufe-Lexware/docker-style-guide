@@ -14,7 +14,11 @@ There are lots of ways to learn Docker but one way of doing it is to follow thes
 
 In this section you are going to create a base image, use Dockerfile to create images, and learn how to create new hosts and manage these hosts. 
 
-Never forget: You can always learn more more. But to get started, it's probably best to review [how docker images and containers work](https://docs.docker.com/engine/getstarted/step_two/). 
+Never forget: You can always learn more more. But to get started, it's probably best to review [how docker images and containers work](https://docs.docker.com/engine/getstarted/step_two/). Also before your get started, pls read: 
+* [Haufe Docker Style Guide - Docker Images](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/DockerImage.md)
+* [Haufe Docker Style Guide - Docker Containers](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/DockerContainer.md)
+* 
+
 
 ## Searching Registries
 When you begin with docker you should have a good idea what you want to do. This is where Docker's composability can help, and chances are, that there is already an image at the Docker Hub or in the Haufe Docker Hub, that already meets your needs. So let’s say you want to create a Web application. Then you probably need some kind of Web Server. 
@@ -55,8 +59,8 @@ You should get to know the following commands. The best documentation is the [Do
 
 There are many more commands - like "Network" - that may be useful to you as you develop with docker. 
 
-### Building your own image with Dockerfile
-Once you get used to the CLI you should also get know the Dockerfile. One Dockerfile defines one Docker image that will be loaded into your container at run or build time. Don't forget, in the Docker style guide there are [some Dockerfile practices](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/BestPracticesDockerfile.md) that you must follow - you might as well do it from the beginning. 
+### Dockerfile
+Once you get used to the CLI you should also get know the Dockerfile. One Dockerfile defines one Docker image that will be loaded into your container at run or build time. Don't forget, in the Docker style guide there are both [Dockerfile requirements](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/Dockerfile.md) and [some Dockerfile practices](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/BestPracticesDockerfile.md) that you must follow - you might as well do it from the beginning. 
 
 Docker Docs also has a [Dockerfile Reference](https://docs.docker.com/engine/reference/builder/) that contains all of the information about Dockerfiles
 
@@ -72,8 +76,7 @@ Important to know about Dockerfiles is that you can not only build an image in a
 The [Docker Whalesay tutorial](https://docs.docker.com/engine/getstarted/step_three/) is a good basic tutorial to understand how to build images with both the CLI and [to build an image using Dockerfile](https://docs.docker.com/engine/getstarted/step_four/). Go ahead and do this tutorial. While you are doing this one, also note that at this stage you will always need to run an image to create a Docker container that actually does something.
 
 ### More Tutorials
-
-
+There are also many more tutorials that show you how to dockerize 
 
 
 To get up to speed go ahead work through the Docker documentation, starting with the [Docker docs welcome page](Docker docs welcome page).
