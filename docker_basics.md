@@ -61,7 +61,7 @@ You should get to know the following commands. The best documentation is the [Do
 There are many more commands - like "Network" - that may be useful to you as you develop with docker. 
 
 ### Dockerfile
-Once you get used to the CLI you should also get know the Dockerfile. One Dockerfile defines one Docker image that will be loaded into your container at run or build time. Don't forget, in the Docker style guide there are both [Dockerfile requirements](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/Dockerfile.md) and [some Dockerfile practices](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/BestPracticesDockerfile.md) that you must follow - you might as well do it from the beginning. 
+Once you get used to the CLI you should also get know the Dockerfile. One Dockerfile defines one Docker image that will be loaded into your container at run or build time. Don't forget, in the Docker style guide there are both [Dockerfile requirements](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/Dockerfile.md) and [some Dockerfile practices](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/BestPracticesDockerfile.md) that you must follow - you might as well do it from the beginning.
 
 Docker Docs also has a [Dockerfile Reference](https://docs.docker.com/engine/reference/builder/) that contains all of the information about Dockerfiles
 
@@ -74,9 +74,10 @@ Important to know about Dockerfiles is that you can not only build an image in a
 **CMD** shall be used to run commands within the container that are likely to change.
 
 ### Whalesay tutorial
-The [Docker Whalesay tutorial](https://docs.docker.com/engine/getstarted/step_three/) is a good basic tutorial to understand how to build images with both the CLI and [to build an image using Dockerfile](https://docs.docker.com/engine/getstarted/step_four/). Go ahead and do this tutorial. While you are doing this one, also note that at this stage you will always need to run an image to create a Docker container that actually does something.
+The [Docker Whalesay tutorial](https://docs.docker.com/engine/getstarted/step_three/) is a good basic tutorial to understand how to build images with both the CLI and [to build your own image using Dockerfile](https://docs.docker.com/engine/getstarted/step_four/). Go ahead and do this tutorial. While you are doing this one, also note that at this stage you will always need to run an image to create a Docker container that actually does something.
 
 ### More Tutorials
-There are also many more tutorials that show you how to dockerize 
+There are also many more tutorials that show you how to dockerize.
 
-To get up to speed go ahead work through the Docker documentation, starting with the [Docker docs welcome page](Docker docs welcome page).
+
+
