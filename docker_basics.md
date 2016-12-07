@@ -14,10 +14,10 @@ There are lots of ways to learn Docker but one way of doing it is to follow thes
 
 In this section you are going to create a base image, use Dockerfile to create images, and learn how to create new hosts and manage these hosts. 
 
-Never forget: There is always more. But to get started it's probably best to understand at least [how docker images and containers work](https://docs.docker.com/engine/getstarted/step_two/). 
+Never forget: You can always learn more more. But to get started, it's probably best to review [how docker images and containers work](https://docs.docker.com/engine/getstarted/step_two/). 
 
 ## Searching Registries
-When you begin with docker you should have a good idea what you want to do. This is where Docker composability can help, and chances are, that there is already an image at the Docker Hub or in the Haufe Docker Hub, that already meets your needs. So let’s say you want to create a Web Application. Then you probably need some kind of Web Server. 
+When you begin with docker you should have a good idea what you want to do. This is where Docker's composability can help, and chances are, that there is already an image at the Docker Hub or in the Haufe Docker Hub, that already meets your needs. So let’s say you want to create a Web application. Then you probably need some kind of Web Server. 
 
 There are several ways to look for images but the best way to find what’s out there is to go to [https://hub.docker.com/](https://hub.docker.com/) and search for what you need to build your application. You will also want to create a docker hub account – here you can store your personal images. Try this: 
 
