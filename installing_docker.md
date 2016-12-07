@@ -6,9 +6,7 @@ Official Docker documentation has an excellent and comprehensive tutorial on how
 * [Install Docker for Mac](https://docs.docker.com/engine/installation/mac/)
 * [Install Docker for Linux](https://docs.docker.com/engine/installation/)
 
-You can reach installation instructions for other Linux distributions from [https://docs.docker.com/ and by looking under “Docker Engine” > “Install” > “Linux Distributions” on the left hand menu](https://docs.docker.com/).
-
-While you can run Docker on just about any kind of OS, Docker hosts and containers are always Linux-based, and so, it's important to get familiar with basic Linux commands and Linux utility commands - for example how to use "apt" for retrieving and updating new packages on Ubuntu Linux and basics like "chown", "chmod".
+While you can run Docker on just about any kind of OS, Docker hosts and containers are always Linux-based. This may change, but it's still important to get familiar with basic Linux commands and Linux utility commands - for example how to use "apt" for retrieving and updating new packages on Ubuntu Linux and basics like "chown", "chmod".
 
 Once you get docker installed, you are going to start working with: 
 * [Registries](https://docs.docker.com/docker-hub/)
@@ -17,7 +15,7 @@ Once you get docker installed, you are going to start working with:
 
 Later you will be working with docker environments and docker services
 
-**Achtung:** If you are running on Windows, it helps to download a git client and then to install so you can run Linux commands in Powershell or DOS prompt.
+**Achtung:** If you are running on Windows, it helps to download a git client and then to install so you can run Linux commands in Powershell or DOS prompt. If your CI-pipline includes Git this makes sense anyway.
 
 ## Using Docker inside the Haufe Network
 If you plan to use docker from the offices in Freiburg, You have to ensure that the Haufe Proxy and the Haufe Firewall do not block your Docker from communication with the internet. You are going to go out and get images from Docker Hub and other repositories. There are a couple of workarounds here. 
