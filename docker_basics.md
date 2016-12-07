@@ -38,16 +38,22 @@ Once you are done exploring what's there, you want to create your own docker hub
 
 In addition to docker hub, Docker enables you to push images to the Haufe registry and even create your own private registry. 
 
+Now that you are done with section you should be able to - 
+* Search the Docker Hub for interesting images
+* Have your own Docker Hub account
+
 ## Creating a base image
 
 The way docker works is that you create images and you create running instances of these images by running them or by building them: running instances are containers. In general, there are two ways to create images. 
 * Use the command line interface
 * Use a Dockerfile
 
-Both ways are important because you must understand the CLI commands and because you must to use the Dockerfile to persist your image and automate building it later. 
+Both ways are important. You must understand the CLI commands - these will later be automated by the build agent - and because you must to use the Dockerfile to persist your image and automate building it later. 
 
 If you have docker installed, you can create a base image by opening a console and typing in:
-```docker pull ubuntu``` t
+```docker pull ubuntu``` if you don't have an ubuntu image on your Docker automatically searches the the Docker Hub for the latest available image. Since we are just getting started this is ok. If you are working on a project where the application is only supported by ubuntu version 14.o4 then you would pull that ubuntu image by specifying the either the version or the release name in the tag - ```docker pull ubuntu:trusty```
+
+The tag contains the information about 
 
 ### CLI Commands
 You should get to know the following commands. The best documentation is the [Docker Command Line Reference](https://docs.docker.com/engine/reference/commandline/) and the [Docker Run Reference](https://docs.docker.com/engine/reference/run/), so this is just a list of some of the commands. 
@@ -65,7 +71,10 @@ You should get to know the following commands. The best documentation is the [Do
 
 There are many more commands - like "Network" - that may be useful to you as you develop with docker. 
 
+
 ### Dockerfile
+
+
 Once you get used to the CLI you should also get know the Dockerfile. One Dockerfile defines one Docker image that will be loaded into your container at run or build time. Don't forget, in the Docker style guide there are both [Dockerfile requirements](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/Dockerfile.md) and [some Dockerfile practices](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/BestPracticesDockerfile.md) that you must follow - you might as well do it from the beginning.
 
 Docker Docs also has a [Dockerfile Reference](https://docs.docker.com/engine/reference/builder/) that contains all of the information about Dockerfiles
@@ -82,7 +91,9 @@ Important to know about Dockerfiles is that you can not only build an image in a
 The [Docker Whalesay tutorial](https://docs.docker.com/engine/getstarted/step_three/) is a good basic tutorial to understand how to build images with both the CLI and [to build your own image using Dockerfile](https://docs.docker.com/engine/getstarted/step_four/). Go ahead and do this tutorial. While you are doing this one, also note that at this stage you will always need to run an image to create a Docker container that actually does something.
 
 ### More Tutorials
-There are also many more tutorials that show you how to dockerize.
+There are also many more tutorials that show you how to dockerize applications but also how to do more stuff with docker. Here is a list:
+
+
 
 
 
