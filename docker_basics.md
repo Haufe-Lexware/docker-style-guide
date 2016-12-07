@@ -23,9 +23,13 @@ There are several ways to look for images but the best way to find what’s out 
 
 Go to Docker Hub and type in "httpd" in the search field. You should get a very long SERP of dockerized Apache Web Server images. If search for other well known applications and frameworks like node JS, MongoDB, FluentD, Ubuntu, and many others - you will find that all of this software has been dockerized into docker images and that, just like the software, these docker images are open source. 
 
-You can also search for images from the command line by using the “[docker search](https://docs.docker.com/engine/reference/commandline/search/)” command. But, the documentation at docker hub is in my opinion, more human-readable: i.e. if you don’t know exactly what you want, you’ll be able to figure out if you need it or not faster on Docker hub. 
+You can also search for images from the command line by using the “[docker search](https://docs.docker.com/engine/reference/commandline/search/)” command. But, the documentation at docker hub is in my opinion, more human-readable: i.e. if you don’t know exactly what you want, you’ll be able to research better and figure out if you need it or not on Docker hub. 
 
-By seeing what's already on docker hub, you can begin to get a feeling for how wide-spread docker has become and how much easier it is with docker to compose portable applications that take up very few resources, by using docker. 
+Browse for software that interests you.
+
+By seeing what's already on docker hub, you can get a feeling for how wide-spread docker has become and how much easier it is with docker to compose portable applications that take up very few resources. 
+
+**Achtung** There is a new docker registry call the [Docker Store](https://store.docker.com/), which looks like it is slowly replacing the Docker Hub. 
 
 ## Creating a base image
 
@@ -51,7 +55,7 @@ You should get to know the following commands. The best documentation is the [Do
 
 There are many more commands - like "Network" - that may be useful to you as you develop with docker. 
 
-### Dockerfile
+### Building your own image with Dockerfile
 Once you get used to the CLI you should also get know the Dockerfile. One Dockerfile defines one Docker image that will be loaded into your container at run or build time. Don't forget, in the Docker style guide there are [some Dockerfile practices](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/BestPracticesDockerfile.md) that you must follow - you might as well do it from the beginning. 
 
 Docker Docs also has a [Dockerfile Reference](https://docs.docker.com/engine/reference/builder/) that contains all of the information about Dockerfiles
