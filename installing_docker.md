@@ -30,15 +30,13 @@ Go to the [Getting Started - Docker for Windows](https://docs.docker.com/docker-
 And you may have to:
 * Change network settings
 
-For the Docker for Windows or IOS, one nice setting is that you can configure the firewall to propagate down to the Docker Host level. You can also set “no_proxy” exceptions from within the Docker Application. For Linux you can set the environment variables – HTTP_PROXY, HTTPS_PROXY and NO_PROXY for the domains where you intend to work with Docker. Documentation is here
-
-The Proxy server settings should propagate down to the Host/Daemon Docker layer. If there are domains that you wish to exclude from using the proxy settings like your home network, add the IP address into the exclude section of the software to configure the "no_proxy" setting.
+For the Docker for Windows or IOS, one nice setting is that you can configure the firewall to propagate down to the Docker Host level. You can also set “no_proxy” exceptions from within the Docker Application. For Linux you can set the environment variables – HTTP_PROXY, HTTPS_PROXY and NO_PROXY for the domains where you intend to work with Docker. 
 
 Even if you have already done this in the Docker for Windows / Mac settings. You may still have some problems building images. 
 
 For Linux you will have to set these proxy settings as environment variables and in the docker.io file, restarting the docker service. 
 
-On Windows, I have also encountered some problems at create image time when extending base image by using package managers like “apt” on Linux from a Dockerfile. The workaround for this was to add build arguments that set the proxy server. In Docker you can do this two ways
+**Achtung:** On Windows, I have also encountered some problems at create image time when extending base image by using package managers like “apt” on Linux from a Dockerfile. The workaround for this was to add build arguments that set the proxy server. In Docker you can do this two ways
 •	Use the -–build-arg option with the “docker build” command
 •	Use the ARG instruction in a Dockerfile
 These arguments are only passed to the builder and do not persist in the container
