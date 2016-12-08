@@ -69,7 +69,7 @@ You should get to know the following commands. The best documentation is the [Do
 * **Run** 
 * Search
 
-There are many more commands - like "Network" - that may be useful to you as you develop with docker. 
+There are many more commands - like "[docker network](https://docs.docker.com/engine/userguide/networking/)" - that may be useful to you as you develop with docker. 
 
 
 ### Dockerfile
@@ -79,13 +79,17 @@ Once you get used to the CLI you should also get know the Dockerfile. One Docker
 
 Docker Docs also has a [Dockerfile Reference](https://docs.docker.com/engine/reference/builder/) that contains all of the information about Dockerfiles
 
-Important to know about Dockerfiles is that you can not only build an image in a Dockerfile you can also do things like set environment variables and specify commands to run from the the bash console of the containers of this image. There are two types of command directives in a Dockerfile:
+Important to know about Dockerfiles is that you can not only build an image in a Dockerfile you can also do things like set environment variables and specify commands to run from the the bash console of the containers of this image. 
+
+**Achtung:** There are two types of command directives in a Dockerfile and in the Haufe docker landscape it is important for you to understand hwo to use them. They are:
 * Entrypoint
 * CMD
 
-**ENTRYPOINT** shall be used to start any executables within a container. For example, if your container uses MongoDB as a database, you must start the MongoDB with ENTRYPOINT in your dockerfile: otherwise MongoDB will not be available.
+**ENTRYPOINT** 
+Shall be used to start any executables within a container. For example, if your container uses MongoDB as a database, you must start the MongoDB with ENTRYPOINT in your dockerfile: otherwise MongoDB will not be available.
 
-**CMD** shall be used to run commands within the container that are likely to change.
+**CMD** 
+Shall be used to run commands within the container that are likely to change.
 
 ### Whalesay tutorial
 The [Docker Whalesay tutorial](https://docs.docker.com/engine/getstarted/step_three/) is a good basic tutorial to understand how to build images with both the CLI and [to build your own image using Dockerfile](https://docs.docker.com/engine/getstarted/step_four/). Go ahead and do this tutorial. While you are doing this one, also note that at this stage you will always need to run an image to create a Docker container that actually does something.
