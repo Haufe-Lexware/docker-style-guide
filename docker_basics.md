@@ -58,31 +58,18 @@ The tag contains the information about
 ### CLI Commands
 You should get to know the following commands. The best documentation is the [Docker Command Line Reference](https://docs.docker.com/engine/reference/commandline/) and the [Docker Run Reference](https://docs.docker.com/engine/reference/run/), so this is just a list of some of the commands. 
 
-| 0:0 | 1:0 |
+| Command | Function |
 | -- | -- |
 | Build  | build an image from Dockerfile |
-| Images | View images |
-| Inspect | 1:4 |
-| 0:5 | 1:5 |
-| 0:6 | 1:6 |
-| 0:7 | 1:7 |
-| 0:8 | 1:8 |
-| 0:9 | 1:9 |
-| 0:10 | 1:10 |
-| 0:11 | 1:11 |
-| 0:12 | 1:12 |
-
-
-* 
-* 
-* 
-* Logs
-* Pull
-* PS
-* Rmi
-* Rm
-* **Run** 
-* Search
+| Images | View images and high-level information |
+| Inspect | Return low-level image or container information  |
+| Logs | View container logs in stdout |
+| Pull | Pull an image from Docker Hub or another registry |
+|  ps | View containers and high-level information |
+| Rm | Remove containers |
+| Rmi | Remove images |
+| **Run**  | Run a container from image |
+| Search | Search a registry for a particular image |
 
 There are many more commands - like "[docker network](https://docs.docker.com/engine/userguide/networking/)" - that may be useful to you as you develop with docker. 
 
