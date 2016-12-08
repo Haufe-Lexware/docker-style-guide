@@ -15,7 +15,7 @@ Hopefully, the Haufe Docker book can provide you with a good frame of reference 
 ## Organization: Frame of reference
 This book is designed to help Haufe Group employees get started using docker. The organization is taken from the "Next Best Action" project, where non-engineer employees were asked to create a small application in Docker. 
 
-In the first part of the book, the organization is designed, for employees, who have no experience with Docker and, who may not work regularly at developing software. The Second part of the book, let's say from Docker Compose on-wards, gets into concepts that need to be supported by software developers. Keeping that in mind, and the fact that this book is really a framework
+In the first part of the book, the organization is designed, for employees, who have no experience with Docker and, who may not work regularly at developing software. The second part of the book, let's say from Docker Compose on-wards, gets into concepts that need to be supported by software developers. Keeping that in mind, and the fact that this book is really a framework, here is how you should use this book to learn Docker.
 
 
 ## How to use the Docker book
