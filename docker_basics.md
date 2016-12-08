@@ -1,5 +1,5 @@
 # Docker Basics
-Learning the docker basics means getting up to speed on the Haufe Group docker tooling and the accepted docker repositories. More advanced stuff - like composing multiple docker processes into coordinated services or building docker processes and services as part of CI/CD comes later. 
+Learning the docker basics means getting up to speed on the Haufe Group Docker tooling and the accepted docker repositories. More advanced stuff - like composing multiple docker processes into coordinated services or building docker processes and services as part of CI/CD comes later. 
 
 The Haufe Group Docker Style Guide has an section on which [Docker tools are accepted](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/HaufeDockerToolset.md). And, There is also a style guide section for [accepted Docker repositories]( https://github.com/Haufe-Lexware/docker-style-guide/blob/master/Dockerfile.md#use-only-well-maintained-images-from-a-trusted-registry) - where predefined images can be searched, stored and reused.
 
@@ -36,11 +36,15 @@ By seeing what's already on docker hub, you can get a feeling for how wide-sprea
 
 Once you are done exploring what's there, you want to create your own docker hub account this is your docker sandbox for customized images. Once you have configured your image locally, you can push it up to Docker hub to make it publicly available. 
 
+### Haufe Group Docker registry
+her 
+
 In addition to docker hub, Docker enables you to push images to the Haufe registry and even create your own private registry. 
 
 Now that you are done with section you should be able to - 
 * Search the Docker Hub for interesting images
 * Have your own Docker Hub account
+* Search through the Haufe Group Docker registry
 
 ## Creating a base image
 
