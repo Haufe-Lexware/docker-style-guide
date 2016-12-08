@@ -9,7 +9,7 @@ This context should provide you with things like:
 * Cool links to Docker documentation that fits to what you are doing with Docker
 * Some Haufe-unique tips on how to do stuff like get around our fantastic firewall and proxy server
 
-Hopefully, the Haufe Docker book can provide you with a good frame of reference to get started with docker and help you progress up to automatically deploying composed, scalable, dockerized application environments over continuous delivery pipelines for development purposes here at Haufe Group. It will take a while to put all of the information into this frame, and we, the folks who collaborate on this project, welcome your feedback over all channels, so we can make the information here better over time. 
+Hopefully, the Haufe Docker book can provide you with a good frame of reference to get started with docker and help you progress up to automatically building and deploying composed, scalable, dockerized applications over continuous delivery pipelines for development purposes here at Haufe Group. It will take a while to put all of the information into this frame, and we, the folks who collaborate on this project, welcome your feedback over all channels, so we can make the information here better over time. 
 
 
 ## Organization: Frame of reference
