@@ -103,7 +103,25 @@ There are also many more tutorials that show you how to dockerize applications b
 | -- | -- |
 | [MongoDB](https://docs.docker.com/engine/examples/mongodb/) | Learn how to dockerize MongoDB, push your image to your DockerHub account and share |
 | [PostgreSQL](https://docs.docker.com/engine/examples/postgresql_service/) | Learn hwo dockerize PostgreSQL, learn how to use container volumes |
-|[SSH service](https://docs.docker.com/engine/examples/running_ssh_service/) | 1:4 |
+| [SSH service](https://docs.docker.com/engine/examples/running_ssh_service/) | Learn how to set environment variables in Dockerfile (and propagate further), learn how to remove containers and images |
+
+
+## Docker Machine
+
+The final piece of tooling in the basices section is the Docker Machine. According to Docker, Docker Machine used to perform the following tasks. 
+
+> * Install and run Docker on Mac or Windows
+> * Provision and manage multiple remote Docker hosts
+> * Provision Swarm clusters
+
+We will mostly take a look at creating and managing hosts in this section. Remember a Docker Host is a Linus virtual machine that contains a Docker Daemon. In production, it is important to be able to create and manage hosts for many reasons. One of the reasons is data security. For example, the Haufe Docker Guide states that
+
+
+> For each customer that uses a dockerized application, you must create a separate host machine. 
+
+With docker machine, you can create as many hosts as you like. You manage hosts with the Docker-Machine CLI. Also, up to now you should have been able to do all of the docker exercises, because docker installs a "default" host machine at installation. This is great for testing dockerized applications, but for development, you will create many Docker Hosts - both for different customers and for different applications. And so, it's going to be important to know what's on all of these hosts so you can be sure that your working on the right VM!
+
+One of the nice things about 
 
 
 
