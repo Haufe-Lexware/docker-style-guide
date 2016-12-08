@@ -5,6 +5,5 @@
 * [How docker works](how_docker_works.md)
 * [Installing Docker](installing_docker.md)
 * [Docker Basics](docker_basics.md)
-* [Docker Machine](docker_machine.md)
 * Docker Compose
 
