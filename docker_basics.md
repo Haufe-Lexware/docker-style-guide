@@ -63,7 +63,7 @@ The tag, what comes after the ":", contains the metainformation about the image.
 
 Now, type in ```docker images```
 
-You should see the 
+You should get a table of images. One of the columns in the table is "tag"
 
 ### CLI Commands
 You should get to know the following commands. The best documentation is the [Docker Command Line Reference](https://docs.docker.com/engine/reference/commandline/) and the [Docker Run Reference](https://docs.docker.com/engine/reference/run/), so this is just a list of some of the commands. 
@@ -89,7 +89,7 @@ There are many more commands - like "[docker network](https://docs.docker.com/en
 
 Once you get used to the CLI you should also get know the Dockerfile. One Dockerfile defines one Docker image that will be loaded into your container at run or build time. Don't forget, in the Docker style guide there are both [Dockerfile requirements](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/Dockerfile.md) and [some Dockerfile practices](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/BestPracticesDockerfile.md) that you must follow - you might as well do it from the beginning.
 
-Docker Docs also has a [Dockerfile Reference](https://docs.docker.com/engine/reference/builder/) that contains all of the information about Dockerfiles
+Docker Docs also has a [Dockerfile Reference](https://docs.docker.com/engine/reference/builder/) that contains all of the Dockerfile instructions.
 
 Important to know about Dockerfiles is that you can not only build an image in a Dockerfile you can also do things like set environment variables and specify commands to run from the the bash console of the containers of this image. 
 
