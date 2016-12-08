@@ -23,7 +23,7 @@ Our CTO asked me to create a rolling narrative for this book, meaning, that the 
 
 To put it in plain English, the proposed way to use this book is to read the book, follow the links, learn the concept or do the tutorial (you can of course keep going), but then come back to the book to move on to the next step. The book links not only official Docker docs but also other documentation and Haufe Docker documentation that contains requirements for using Docker in production at Haufe Group. You will want to bookmark these links so you can access them when working on tutorials and, later, developing your Dockerized apps.
 
-But, you also need to read the content of the book too. This Docker book contains previously undocumented information like how to work from behind of the Haufe Group proxy server or to understand why we want to use docker at Haufe Group. Maybe not so much information as in an O'Reilly media book, but still important if you want to use Docker at Haufe
+But, you also need to read the content of the book too. This Docker book contains previously undocumented information like how to work from behind of the Haufe Group proxy server or to understand why we want to use docker at Haufe Group. Maybe not so much information as in an O'Reilly media book, but still important if you want to use Docker locally on your dev machine.
 
 
 
