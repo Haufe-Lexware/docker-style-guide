@@ -6,4 +6,5 @@
 * [Installing Docker](installing_docker.md)
 * [Docker Basics](docker_basics.md)
 * Docker Compose
+* Docker Machine
 
