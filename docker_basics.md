@@ -97,12 +97,13 @@ Shall be used to run commands within the container that are likely to change.
 The [Docker Whalesay tutorial](https://docs.docker.com/engine/getstarted/step_three/) is a good basic tutorial to understand how to build images with both the CLI and [to build your own image using Dockerfile](https://docs.docker.com/engine/getstarted/step_four/). Go ahead and do this tutorial. While you are doing this one, also note that at this stage you will always need to run an image to create a Docker container that actually does something.
 
 ### More Tutorials
-There are also many more tutorials that show you how to dockerize applications but also how to do more stuff with docker. Here is a list:
+There are also many more tutorials that show you how to dockerize applications but also how to do more stuff with docker. These tuts are basically to develop your docker skills, but with a little work you may be able to reuse the these images for your own purposes. Here is a list:
 
 | Tut | Docker Skill |
 | -- | -- |
 | [MongoDB](https://docs.docker.com/engine/examples/mongodb/) | Learn how to dockerize MongoDB, push your image to your DockerHub account and share |
-| 0:3 | 1:3 |
+| [PostgreSQL](https://docs.docker.com/engine/examples/postgresql_service/) | Learn hwo dockerize PostgreSQL, learn how to use container volumes |
+|[SSH service](https://docs.docker.com/engine/examples/running_ssh_service/) | 1:4 |
 | 0:4 | 1:4 |
 
 
