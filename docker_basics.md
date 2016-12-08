@@ -86,9 +86,11 @@ Important to know about Dockerfiles is that you can not only build an image in a
 * CMD
 
 **ENTRYPOINT** 
+
 Shall be used to start any executables within a container. For example, if your container uses MongoDB as a database, you must start the MongoDB with ENTRYPOINT in your dockerfile: otherwise MongoDB will not be available.
 
 **CMD** 
+
 Shall be used to run commands within the container that are likely to change.
 
 ### Whalesay tutorial
