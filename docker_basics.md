@@ -121,7 +121,13 @@ We will mostly take a look at creating and managing hosts in this section. Remem
 
 With docker machine, you can create as many hosts as you like. You manage hosts with the Docker-Machine CLI. Also, up to now you should have been able to do all of the docker exercises, because docker installs a "default" host machine at installation. This is great for testing dockerized applications, but for development, you will create many Docker Hosts - both for different customers and for different applications. And so, it's going to be important to know what's on all of these hosts so you can be sure that your working on the right VM!
 
-One of the nice things about 
+One of the nice things about working with Docker for Windows / Mac is that Docker Machine is installed along with the other tools by the installer. If you have Linux you must [install Docker Machine separately](https://docs.docker.com/machine/install-machine/). 
+
+The Haufe Style Guide has a Docker-Machine entry, but you don't have to worry about this right now.
+
+Again, Docker has fantastic documentation on all of it's tooling and the [Docker-Machine documentation](https://docs.docker.com/machine/get-started/), is no exception: So it's a good idea to work through this getting started tutorial.
+
+**Achtung:** Be sure to name your Docker Host Machines extremely well: While there is no official naming convention a transparent naming system with <Application>, <Customer> and other relevant information is important so you know what's running on your host machines.
 
 
 
