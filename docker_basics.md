@@ -58,9 +58,24 @@ The tag contains the information about
 ### CLI Commands
 You should get to know the following commands. The best documentation is the [Docker Command Line Reference](https://docs.docker.com/engine/reference/commandline/) and the [Docker Run Reference](https://docs.docker.com/engine/reference/run/), so this is just a list of some of the commands. 
 
-* Build 
-* Images
-* Inspect
+| 0:0 | 1:0 |
+| -- | -- |
+| Build  | build an image from Dockerfile |
+| Images | View images |
+| Inspect | 1:4 |
+| 0:5 | 1:5 |
+| 0:6 | 1:6 |
+| 0:7 | 1:7 |
+| 0:8 | 1:8 |
+| 0:9 | 1:9 |
+| 0:10 | 1:10 |
+| 0:11 | 1:11 |
+| 0:12 | 1:12 |
+
+
+* 
+* 
+* 
 * Logs
 * Pull
 * PS
@@ -125,9 +140,19 @@ One of the nice things about working with Docker for Windows / Mac is that Docke
 
 The Haufe Style Guide has a Docker-Machine entry, but you don't have to worry about this right now.
 
-Again, Docker has fantastic documentation on all of it's tooling and the [Docker-Machine documentation](https://docs.docker.com/machine/get-started/), is no exception: So it's a good idea to work through this getting started tutorial.
+Again, Docker has fantastic documentation on all of it's tooling and the [Docker-Machine documentation](https://docs.docker.com/machine/get-started/), is no exception: So it's a good idea to work through this getting started tutorial. Since you are just getting started, you can stay local and skip the "provisioning a host" in the cloud part. 
 
 **Achtung:** Be sure to name your Docker Host Machines extremely well: While there is no official naming convention a transparent naming system with <Application>, <Customer> and other relevant information is important so you know what's running on your host machines.
+
+### Section targets
+
+When you are done with this section, you should be able to: 
+* Create a new Docker Host 
+* Use many Docker-Machine commands
+* Discover important information about your host (inspect, port, ip)
+* Select and switch hosts that contain different images
+
+
 
 
 
