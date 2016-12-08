@@ -49,15 +49,21 @@ Now that you are done with section you should be able to -
 ## Creating a base image
 
 The way docker works is that you create images and you create running instances of these images by running them or by building them: running instances are containers. In general, there are two ways to create images. 
-* Use the command line interface
-* Use a Dockerfile
+* Use the "run" or "pull" command to create a base image
+* Use a Dockerfile and the "build" command to create your own images
 
 Both ways are important. You must understand the CLI commands - these will later be automated by the build agent - and because you must to use the Dockerfile to persist your image and automate building it later. 
 
 If you have docker installed, you can create a base image by opening a console and typing in:
-```docker pull ubuntu``` if you don't have an ubuntu image on your Docker automatically searches the the Docker Hub for the latest available image. Since we are just getting started this is ok. If you are working on a project where the application is only supported by ubuntu version 14.o4 then you would pull that ubuntu image by specifying the either the version or the release name in the tag - ```docker pull ubuntu:trusty```
+```docker pull ubuntu``` if you don't have an ubuntu image on your Docker automatically searches the the Docker Hub for the latest available image. 
 
-The tag contains the information about 
+Since we are just getting started this is ok. If you are working on a project where the application is only supported by ubuntu version 14.04 then you would pull that ubuntu image by specifying the either the version or the release name in the tag - ```docker pull ubuntu:trusty```
+
+The tag, what comes after the ":", contains the metainformation about the image. If there is no tag, Docker assumes that you want the latest image and pulls this. 
+
+Now, type in ```docker images```
+
+You should see the 
 
 ### CLI Commands
 You should get to know the following commands. The best documentation is the [Docker Command Line Reference](https://docs.docker.com/engine/reference/commandline/) and the [Docker Run Reference](https://docs.docker.com/engine/reference/run/), so this is just a list of some of the commands. 
