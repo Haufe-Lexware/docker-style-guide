@@ -93,7 +93,7 @@ Docker Docs also has a [Dockerfile Reference](https://docs.docker.com/engine/ref
 
 Important to know about Dockerfiles is that you can not only build an image in a Dockerfile you can also do things like set environment variables and specify commands to run from the the bash console of the containers of this image. 
 
-**Achtung:** There are two types of command directives in a Dockerfile and in the Haufe docker landscape it is important for you to understand hwo to use them. They are:
+**Achtung:** There are two types of command directives in a Dockerfile and, in the Haufe docker landscape, it is important for you to understand hwo to use them. They are:
 * ENTRYPOINT
 * CMD
 
