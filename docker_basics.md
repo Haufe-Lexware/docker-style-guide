@@ -100,7 +100,7 @@ The [Docker Whalesay tutorial](https://docs.docker.com/engine/getstarted/step_th
 There are also many more tutorials that show you how to dockerize applications but also how to do more stuff with docker. These tuts are basically to develop your docker skills, but with a little work you may be able to reuse the these images for your own purposes. Here is a list:
 
 | Tut | Docker Skill |
-| --- | -- |
+| -- | -- |
 | [MongoDB](https://docs.docker.com/engine/examples/mongodb/) | Learn how to dockerize MongoDB, push your image to your DockerHub account and share |
 | [PostgreSQL](https://docs.docker.com/engine/examples/postgresql_service/) | Learn hwo dockerize PostgreSQL, learn how to use container volumes |
 | [SSH service](https://docs.docker.com/engine/examples/running_ssh_service/) | Learn how to set environment variables in Dockerfile (and propagate further), learn how to remove containers and images |
