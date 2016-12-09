@@ -26,7 +26,7 @@ And, of course, using Docker makes it easier to scale out instances of successfu
 
 ## If it works, great!
 
-So one reason why Haufe Group is interested in Docker technology is that when it is unclear if we should "build or buy" or if "buy" is too expensive, it allows us to develop, test and deploy prototypes,  reach decisions, and move along fast. This technique helps to develop business value at reasonable cost. If the prototype must go to production, Docker helps us to develop, test, build, and deploy production applications over a continuous delivery pipeline and to scale these applications in the production environment. And, even if it doesn't work out, we haven't expended that much effort
+So one reason why Haufe Group is interested in Docker technology is that when it is unclear if we should "build or buy" or if "buy" is too expensive, it allows us to develop, test and deploy prototypes,  reach decisions, and move along fast. This technique helps to develop business value at reasonable cost. If the prototype must go to production, Docker helps us to develop, test, build, and deploy production applications over a continuous delivery pipeline and to scale these applications in the production environment. And, even if it doesn't work out, it wasn't that much effort.
 
 
 
