@@ -11,3 +11,13 @@ Docker Compose also provides you with an easy way to isolate different applicati
 
 Once you have read through these, get started by going through Docker's [Docker Compose documentation](https://docs.docker.com/compose/overview/)
 
+
+
+
+### Section Targets
+* Understand the concept behind Docker Compose and how it should be used in Haufe Group
+* Create several composed applications by working the docker tutorial
+* Know how to use many DC CLI commmands
+* Compose your own application from docker-compose.yml
+* Know how to make a docker-compose.yml file Haufe Group compliant - example using data containers as volumes, no-secrets, use variable expansion.
+
