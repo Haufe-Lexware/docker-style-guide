@@ -9,5 +9,5 @@ Docker Compose also provides you with an easy way to isolate different applicati
 * [Docker Compose](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/DockerCompose.md)
 * [Docker Compose Best Practices](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/BestPracticesCompose.md)
 
-Get started by going through Docker's [Docker Compose documentation](https://docs.docker.com/compose/overview/)
+Once you have read through these, get started by going through Docker's [Docker Compose documentation](https://docs.docker.com/compose/overview/)
 
