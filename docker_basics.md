@@ -78,7 +78,7 @@ You should get to know the following commands. The best documentation is the [Do
 |  ps | View containers and high-level information |
 | Rm | Remove containers |
 | Rmi | Remove images |
-| **Run**  | Run a container from image |
+| Run  | Run a container from image |
 | Search | Search a registry for a particular image |
 
 There are many more commands - like "[docker network](https://docs.docker.com/engine/userguide/networking/)" - that may be useful to you as you develop with docker. 
