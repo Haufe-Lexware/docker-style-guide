@@ -22,7 +22,7 @@ Marketing still wanted to get this data, and so, instead of buying an enterprise
 * Persist, transport and reuse these composed applications and services for different purposes
 * Automate integration and deployment of applications and services as immutable infrastructure
 
-And, of course, using Docker makes it easier to package and scale out instances of successful applications at a much lower cost then bare-metal-based or hypervisor-based infrastructure. 
+And, of course, using Docker makes it easier to scale out instances of successful applications at a much lower cost then bare-metal-based or hypervisor-based infrastructure. 
 
 ## If it works, great!
 
