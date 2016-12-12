@@ -49,5 +49,5 @@ These arguments are only passed to the builder and do not persist in image or ru
 
 If you are developing remotely, perhaps the easiest way to get around the proxy is to set up a virtual machine on an external service like Azure and depending on the OS, to use an RDP client or your favorite SSH client to tunnel in to remote virtual machine. Here again you have to know how to get outside of the Haufe proxy server and firewall. Once you are on your remote machine, you can install docker and create docker solutions without the normal networking constraints.
 
-This can be a workaround to the firewall but can only be a permanent solution if it is comfortable, secure and performant enough.
+
 
