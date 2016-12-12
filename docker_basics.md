@@ -37,7 +37,7 @@ Browse for software that interests you.
 
 By seeing what's already on docker hub, you can get a feeling for how wide-spread docker has become and how much easier it is with docker to compose portable applications that take up very few resources.
 
-**Achtung** There is a new docker registry call the [Docker Store](https://store.docker.com/), which looks like it is slowly replacing the Docker Hub.
+**Achtung:** There is a new docker registry called the [Docker Store](https://store.docker.com/), which looks like it is slowly replacing the Docker Hub.
 
 Once you are done exploring what's there, you want to create your own docker hub account this is your docker sandbox for customized images. Once you have configured your image locally, you can push it up to Docker hub to make it publicly available.
 
@@ -94,7 +94,7 @@ There are many more commands - like "[docker network](https://docs.docker.com/en
 
 ### Dockerfile
 
-Once you get up to speed with the CLI you should also get know the Dockerfile. One Dockerfile defines one Docker image that will be loaded into your container at run or build time. Don't forget, in the Docker style guide there are both [Dockerfile requirements](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/Dockerfile.md) and [some Dockerfile practices](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/BestPracticesDockerfile.md) that you must follow - you might as well do it from the beginning. Actually there are quite a few published practices for writing Dockerfiles: 
+Once you get up to speed with the CLI you should also get know the Dockerfile. One Dockerfile defines one Docker image that will be loaded into your container at run or build time. Don't forget, in the Docker style guide there are both [Dockerfile requirements](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/Dockerfile.md) and [some Dockerfile practices](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/BestPracticesDockerfile.md) that you must follow - you might as well do it from the beginning. Actually there are quite a few published practices for writing Dockerfiles:
 
 * [Docker's Dockerfile practices](https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/)
 * [Resion.io Dockerfile practices for 2016](https://resin.io/blog/our-dockerfile-tips-tricks/)
