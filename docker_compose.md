@@ -4,7 +4,7 @@ Composing is exactly what you do with Docker compose. While it's possible to cre
 
 > Compose enables you to configure and run multi-container applications.
 
-Like Dockerfile, Docker Compose file serves as configuration and documentation. For Docker Compose though, you are configuring multi-container applications. Unlike images built with Dockerfile, where you build and then run, you can run and manage applications packaged vwith Docker-Compose directly, using the Docker Compose CLI. Once you start using Compose, you can \(mostly\) say bye-bye to the `docker run` command. Maybe the best definition of a Docker Compose file by Docker is:
+Like Dockerfile, Docker Compose file serves as configuration and documentation. With Docker Compose though, you are configuring multi-container applications. Unlike images built with Dockerfile, where you build and then run, you can run and manage applications packaged vwith Docker-Compose directly, using the Docker Compose CLI. Once you start using Compose, you can \(mostly\) say bye-bye to the `docker run` command. Maybe the best definition of a Docker Compose file by Docker is:
 
 > The Compose file is a YAML file defining services, networks and volumes. The default path for a Compose file is ./docker-compose.yml.
 
