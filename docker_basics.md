@@ -25,7 +25,7 @@ Never forget: You can always learn more. But to get started, it's probably best 
 
 ## Searching Registries
 
-When you begin with docker you should have a good idea what you want to do. This is where Docker's composability can help, and chances are, that there is already an image at the Docker Hub or in the Haufe Docker Hub, that already meets your needs. So let’s say you want to create a Web application. Then you probably need some kind of Web Server.
+When you begin with docker you should have a good idea what you want to do. This is where Docker's composability can help, and chances are, that there is already an image at the Docker Hub or in the Haufe Docker Hub, that already meets your needs. So let’s say you want to create a Web application. Then you probably need some kind of Web Server, you can pull down a docker image for apache server, glassfish and just about any other kind of open source web server you can imagine. 
 
 There are several ways to look for images but the best way to find what’s out there is to go to [https://hub.docker.com/](https://hub.docker.com/) and search for what you need to build your application. You will also want to create a docker hub account – here you can store your personal images. Try this:
 
