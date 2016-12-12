@@ -120,7 +120,7 @@ The [Docker Whalesay tutorial](https://docs.docker.com/engine/getstarted/step_th
 
 ### More Tutorials
 
-There are also many more tutorials that show you how to dockerize applications but also how to do more stuff with docker. These tuts are basically to develop your docker skills, but with a little work you may be able to reuse the these images for your own purposes. Here is a list:
+There are also many more tutorials that show you how to dockerize applications and also how to do more stuff with docker. These tuts are basically to develop your docker skills, but with a little work you may be able to reuse the these images for your own purposes. Here is a list:
 
 | Tut | Docker Skill |
 | --- | --- |
@@ -131,7 +131,7 @@ There are also many more tutorials that show you how to dockerize applications b
 ### Section targets
 
 * Know how to find what your are looking for in Docker Regsitries \(Docker Hub and Haufe Group Docker Registry\)
-* Get to know the Docker Engine CLI and how to use CLI commands to search for and pull, tag and push base images 
+* Get to know the Docker Engine CLI and how to use CLI commands to search for, pull, tag and push Docker images 
 * Get to know how to run and manage containers with the docker CLI
 * Understand Dockerfile - Instructions like VOLUME, WORKDIR, ADD, COPY
 * Know Haufe Group Requirements
