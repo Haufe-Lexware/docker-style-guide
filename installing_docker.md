@@ -16,7 +16,7 @@ Once you get docker installed, you are going to start working with:
 * [Images](https://docs.docker.com/engine/understanding-docker#docker-images)
 * [Containers](https://docs.docker.com/engine/understanding-docker#docker-containers)
 
-Later you will be working with docker environments and docker services
+Later you will be working with Docker environments and Docker services
 
 **Achtung:** If you are running on Windows, it helps to download a git client and then to install so you can run Linux commands in Powershell or DOS prompt. If your CI-pipline includes Git this makes sense anyway.
 
