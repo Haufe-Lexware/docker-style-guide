@@ -29,6 +29,10 @@ Once you have read through these, get started by going through Docker's [Docker 
 | [Django](https://docs.docker.com/compose/django/) | Learn set up a Django / Postgre app, learn how to further define services - built, volumes, ports, depends\_on |
 | [Wordpress](https://docs.docker.com/compose/wordpress/) | Learn how to set up a Wordpress service with MySQL and a data volume service, learn how to set environment variables from Compose file, learn the restart command |
 
+To get really good you will want to add these tasks to the tutorials:
+* Extend the configuration of each Compose file with .env and Override files
+* Make each Compose file Haufe Group compliant
+
 ### Section Targets
 
 * Understand the concept behind Docker Compose and how it should be used in Haufe Group
