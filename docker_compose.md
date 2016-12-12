@@ -4,13 +4,14 @@ Composing is exactly what you do with Docker compose. While it's possible to cre
 
 > Compose enables you to configure and run multi-container applications.
 
-Like Dockerfile, Docker Compose file serves as configuration and documentation. With Docker Compose though, you are configuring multi-container applications. Unlike images built with Dockerfile, where you build and then run, you can run and manage applications packaged vwith Docker-Compose directly, using the Docker Compose CLI. Once you start using Compose, you can \(mostly\) say bye-bye to the `docker run` command. Maybe the best definition of a Docker Compose file by Docker is:
+Like Dockerfile, Docker Compose file serves as configuration and documentation. With Docker Compose though, you are configuring multi-container applications. Unlike images built with Dockerfile, where you build and then run, you can run and manage applications packaged with Docker-Compose directly, using the Docker Compose CLI. Once you start using Compose, you can \(mostly\) say bye-bye to the `docker run` command. Maybe the best definition of a Docker Compose file by Docker is:
 
 > The Compose file is a YAML file defining services, networks and volumes. The default path for a Compose file is ./docker-compose.yml.
 
-Docker Compose provides you with an easy way to isolate different application environments from one another. Highly convenient is that you can extend your compose configuration with addtional files to:  
-\_Use variables within your files - .env files  
-\_Create different service configurations e.g CI, Test, Production - .override files
+Docker Compose provides you with an easy way to isolate different application environments from one another. Highly convenient is that you can extend your Compose configuration with additional files to:
+
+* Use variables within your files - .env files
+* Create different service configurations e.g CI, Test, Production - .override files
 
 Haufe Group Docker Style Guide has both requirements and best practices for working with Docker Compose and creating Docker Compose files:
 
