@@ -28,9 +28,9 @@ Once you have read through these, get started by going through Docker's [Docker 
 
 | Tut | Docker Skill |
 | --- | --- |
-| [Getting started](https://docs.docker.com/compose/gettingstarted/) | Learn how to to compse a basic Python app, using two services |
-| [PostgreSQL](https://docs.docker.com/engine/examples/postgresql_service/) | Learn how dockerize PostgreSQL, learn how to use container volumes |
-| [SSH service](https://docs.docker.com/engine/examples/running_ssh_service/) | Learn how to set environment variables in Dockerfile \(and propagate further\), review removing containers and images |
+| [Getting started](https://docs.docker.com/compose/gettingstarted/) | Learn how to to compse a basic Python app, using two services, learn compose file instructions |
+| [Django](https://docs.docker.com/compose/django/) | Learn set up a Django / Postgre app, learn how to further define services - built, volumes, ports, depends_on |
+| [Wordpress](https://docs.docker.com/compose/wordpress/) | Learn how to set up a Wordpress service with MySQL and a data volume service, learn how to set environment variables from Compose file, learn the restart command |
 
 
 
