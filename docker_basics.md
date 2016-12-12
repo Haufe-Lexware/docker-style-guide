@@ -79,16 +79,16 @@ You should get to know the following commands. The best documentation is the [Do
 
 | Command | Function |
 | --- | --- |
-| Build | build an image from Dockerfile |
-| Images | View images and high-level information |
-| Inspect | Return low-level image or container information |
-| Logs | View container logs in stdout |
-| Pull | Pull an image from Docker Hub or another registry |
+| build | build an image from Dockerfile |
+| images | View images and high-level information |
+| inspect | Return low-level image or container information |
+| logs | View container logs in stdout |
+| pull | Pull an image from Docker Hub or another registry |
 | ps | View containers and high-level information |
-| Rm | Remove containers |
-| Rmi | Remove images |
-| Run | Run a container from image |
-| Search | Search a registry for a particular image |
+| rm | Remove containers |
+| rmi | Remove images |
+| run | Run a container from image |
+| search | Search a registry for a particular image |
 
 There are many more commands - like "[docker network](https://docs.docker.com/engine/userguide/networking/)" - that may be useful to you as you develop with docker.
 
