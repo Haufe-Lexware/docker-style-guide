@@ -18,7 +18,9 @@ Haufe Group Docker Style Guide has both principles and practices for working wit
 * [Docker Compose](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/DockerCompose.md)
 * [Docker Compose Best Practices](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/BestPracticesCompose.md)
 
-Once you have read through these, get started by going through Docker's [Docker Compose documentation](https://docs.docker.com/compose/overview/), starting with the overview and working through the entire Compose section. You can leave out the experimental and "superseded" sections. The best way to understand compose is to practice. The getting started section and  tutorials in this documentation can help. Direct links to these are:
+Once you have read through these, get started by going through Docker's [Docker Compose documentation](https://docs.docker.com/compose/overview/), starting with the overview and working through the entire Compose section. You can leave out the experimental and "superseded" sections. 
+
+The best way to understand compose is to practice. The getting started section and  tutorials in this documentation can help. Direct links to these are:
 
 | Tut | Docker Skill |
 | --- | --- |
@@ -26,7 +28,7 @@ Once you have read through these, get started by going through Docker's [Docker 
 | [Django](https://docs.docker.com/compose/django/) | Learn set up a Django / Postgre app, learn how to further define services - build, volumes, ports, depends\_on |
 | [Wordpress](https://docs.docker.com/compose/wordpress/) | Learn how to set up a Wordpress service with MySQL and a data volume service, learn how to set environment variables from Compose file, learn the restart command |
 
-To get a really good basic knowledge, add these tasks to the tutorials:
+To get a really good basic knowledge, add these tasks when you work the tutorials:
 
 * Extend the configuration of each Compose file and create multiple environments with .env and .override files
 * Apply Haufe Group practices to all Compose Files. **Hint:** No secrets, Data Containers and so on. 
