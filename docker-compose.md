@@ -13,15 +13,15 @@ The Compose file is a YAML file defining services, networks and volumes. The def
 ```
 
 Docker Compose provides you with an easy way to isolate different application environments from one another. Highly convenient is that you can extend your compose configuration with addtional files to:  
-_Use variables within your files - .env files  
-_Create different service configurations e.g CI, Test, Production - .override files
+\_Use variables within your files - .env files  
+\_Create different service configurations e.g CI, Test, Production - .override files
 
 Haufe Group Docker Style Guide has both requirements and best practices for working with Docker Compose and creating Docker Compose files:
 
 * [Docker Compose](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/DockerCompose.md)
 * [Docker Compose Best Practices](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/BestPracticesCompose.md)
 
-Once you have read through these, get started by going through Docker's [Docker Compose documentation](https://docs.docker.com/compose/overview/), starting with the overview and working through the entire Compose section. You can leave out the experimental and "superseded" sections. The best way to understand compose is to practice. The getting started section and  tutorials in this documentation can help. Direct links are: 
+Once you have read through these, get started by going through Docker's [Docker Compose documentation](https://docs.docker.com/compose/overview/), starting with the overview and working through the entire Compose section. You can leave out the experimental and "superseded" sections. The best way to understand compose is to practice. The getting started section and  tutorials in this documentation can help. Direct links are:
 
 | Tut | Docker Skill |
 | --- | --- |
@@ -29,8 +29,9 @@ Once you have read through these, get started by going through Docker's [Docker 
 | [Django](https://docs.docker.com/compose/django/) | Learn set up a Django / Postgre app, learn how to further define services - built, volumes, ports, depends\_on |
 | [Wordpress](https://docs.docker.com/compose/wordpress/) | Learn how to set up a Wordpress service with MySQL and a data volume service, learn how to set environment variables from Compose file, learn the restart command |
 
-To get really good you will want to add these tasks to the tutorials:
-* Extend the configuration of each Compose file with .env and Override files
+To get really good basic knowledge, you will want to add these tasks to the tutorials:
+
+* Extend the configuration of each Compose file with .env and .override files
 * Apply Haufe Group practices to all Compose Files. **Hint:** No secrets, Data Containers and so on. 
 
 ### Section Targets
