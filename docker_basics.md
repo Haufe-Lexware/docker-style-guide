@@ -152,7 +152,7 @@ One of the nice things about working with Docker for Windows / Mac is that Docke
 
 The Haufe Style Guide has a Docker-Machine entry, but you don't have to worry about this right now.
 
-Again, Docker has fantastic documentation on all of it's tooling and the [Docker-Machine documentation](https://docs.docker.com/machine/get-started/) is no exception: So it's a good idea to work through this getting started tutorial. Since you are just getting started, you can stay local and skip the "provisioning a host" in the cloud part.
+Again, Docker has fantastic documentation on all of it's tooling and the [Docker-Machine documentation](https://docs.docker.com/machine/get-started/) is no exception: So it's a good idea to work through this getting started tutorial. Since you are just getting started, you can stay local and skip the "provisioning a host" in the cloud part if you like.
 
 **Achtung:** Be sure to name your Docker Host Machines extremely well: While there is no official naming convention a transparent naming system with **Application, Customer** and other relevant information is important so you know what's running on your host machines.
 
