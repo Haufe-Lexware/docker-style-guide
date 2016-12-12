@@ -1,6 +1,6 @@
 # Why Docker
 
-Docker is in general very cool in the sense that, once you have learned it, Docker makes application development easier. Don't take my word for it though, here is what it says in the [Haufe Docker Style Guide Introduction](/StyleGuideHome.md). Once agian, Docker provides its own documentation and their [use cases are here](https://www.docker.com/use-cases).   
+Docker is in general very cool in the sense that, once you have learned it, Docker makes application development easier. Don't take my word for it though, here is what it says in the [Haufe Docker Style Guide Introduction](/StyleGuideHome.md). Once agian, Docker provides its own documentation and their [use cases are here](https://www.docker.com/use-cases).  
 Some more uses cases for software developers can be found on [Romin Irani's blog](https://rominirani.com/docker-use-cases-ca12afba75b0#.1112htwem).
 
 # Why Docker @ Haufe Group
@@ -28,5 +28,5 @@ And, of course, using Docker makes it easier to scale out instances of successfu
 
 ## If it works, great!
 
-So one reason why Haufe Group is interested in Docker technology is that when it is unclear if we should "build or buy" or if "buy" is too expensive, it allows us to develop, test and deploy prototypes,  reach decisions, and move along fast. This technique helps to develop business value at reasonable cost. If the prototype must go to production, Docker helps us to develop, test, build, and deploy production applications over a continuous delivery pipeline and to scale these applications in the production environment. And, even if it doesn't work out, it wasn't that much effort.
+So one reason why Haufe Group is interested in Docker technology is that when it is unclear if we should "build or buy" or if "buy" is too expensive, it allows us to develop, test and deploy prototypes,  reach decisions, and move along fast. This technique helps to develop business value at reasonable cost. If the prototype must go to production, Docker helps us to develop, test, build, and deploy production applications over a continuous delivery pipeline and to scale these applications in the production environment. And, even if it doesn't work out, Haufe Group learns a lot about its business needs, and,  it wasn't that much effort.
 
