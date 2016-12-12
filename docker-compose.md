@@ -42,7 +42,7 @@ To get really good basic knowledge, you will want to add these tasks to the tuto
 * Compose your own application from docker-compose.yml
 * Compose an application using variables - values in an .env file
 * Compose different service environments by using the extended override configuration
-* Know how to make a docker-compose.yml file Haufe Group compliant - example using data containers as volumes, no-secrets, use variable expansion.
+* Know how to make a docker-compose.yml file Haufe Group compliant 
 
 
 
