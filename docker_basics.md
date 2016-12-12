@@ -10,7 +10,7 @@ We have already linked to docker concepts so hopefully, you've already read up o
 
 There are lots of ways to learn Docker but one way of doing it is to follow these steps:
 
-* Learn Docker Hub - Learn what's out there so you can avoid doing extra work
+* Learn Docker Hub - Create a Docker ID. Learn what's out there so you can avoid doing extra work
 * Learn the Docker Engine Client and Client commands - You'll need this at build time too!
 * Learn to build images with the Dockerfile - define and document Docker images with on artifact
 * Learn about the docker-machine - the tool that manages Docker host machines and Docker swarms
@@ -25,7 +25,7 @@ Never forget: You can always learn more. But to get started, it's probably best 
 
 ## Searching Registries
 
-When you begin with docker you should have a good idea what you want to do. This is where Docker's composability can help, and chances are, that there is already an image at the Docker Hub or in the Haufe Docker Hub, that already meets your needs. So let’s say you want to create a Web application. Then you probably need some kind of Web Server.
+When you begin with docker you should have a good idea what you want to do. This is where Docker's composability can help, and chances are, that there is already an image at the Docker Hub or in the Haufe Docker Hub, that already meets your needs. So let’s say you want to create a Web application. Then you probably need some kind of Web Server, you can pull down a docker image for Apache web server, Glassfish and just about any other kind of open source web server you can imagine.
 
 There are several ways to look for images but the best way to find what’s out there is to go to [https://hub.docker.com/](https://hub.docker.com/) and search for what you need to build your application. You will also want to create a docker hub account – here you can store your personal images. Try this:
 
@@ -37,17 +37,15 @@ Browse for software that interests you.
 
 By seeing what's already on docker hub, you can get a feeling for how wide-spread docker has become and how much easier it is with docker to compose portable applications that take up very few resources.
 
-**Achtung** There is a new docker registry call the [Docker Store](https://store.docker.com/), which looks like it is slowly replacing the Docker Hub.
+**Achtung:** There is a new docker registry called the [Docker Store](https://store.docker.com/), which looks like it is slowly replacing the Docker Hub.
 
-Once you are done exploring what's there, you want to create your own docker hub account this is your docker sandbox for customized images. Once you have configured your image locally, you can push it up to Docker hub to make it publicly available.
+Once you are done exploring what's there, you want to create your own Docker ID and Docker Hub account this is your docker sandbox for customized images. Once you have configured your image locally, you can push it up to Docker hub to make it publicly available.
 
 ### Haufe Group Docker registry
 
-her
-
 In addition to docker hub, Docker enables you to push images to the Haufe registry and even create your own private registry.
 
-Now that you are done with section you should be able to -
+Now that you are done with this section you should be able to:
 
 * Search the Docker Hub for interesting images
 * Have your own Docker Hub account
@@ -63,15 +61,15 @@ The way docker works is that you create images and you create running instances 
 Both ways are important. You must understand the CLI commands - these will later be automated by the build agent - and because you must to use the Dockerfile to persist your image and automate building it later.
 
 If you have docker installed, you can create a base image by opening a console and typing in:  
-`docker pull ubuntu` if you don't have an ubuntu image on your Docker automatically searches the the Docker Hub for the latest available image.
+`docker pull ubuntu` if you don't have an ubuntu image on your system, Docker automatically searches the the Docker Hub for the latest available image.
 
-Since we are just getting started this is ok. If you are working on a project where the application is only supported by ubuntu version 14.04 then you would pull that ubuntu image by specifying the either the version or the release name in the tag - `docker pull ubuntu:trusty`
+**Achtung:** Since you are just getting started this is ok. If you are working on a project where the application is only supported by ubuntu version 14.04 then you would pull that ubuntu image by specifying the either the version or the release name in the tag - `docker pull ubuntu:trusty`
 
-The tag, what comes after the ":", contains the metainformation about the image. If there is no tag, Docker assumes that you want the latest image and pulls this.
+The tag, that comes after the ":", contains the metainformation about the image. If there is no tag, Docker assumes that you want the latest image and pulls this.
 
 Now, type in `docker images`
 
-You should get a table of images. One of the columns in the table is "tag"
+You should get a table of images. One of the columns in the table is "tag". If you pulled ubuntu: trusty, you will see trusty in the "tag" column.
 
 ### CLI Commands
 
@@ -94,16 +92,16 @@ There are many more commands - like "[docker network](https://docs.docker.com/en
 
 ### Dockerfile
 
-Once you get up to speed with the CLI you should also get know the Dockerfile. One Dockerfile defines one Docker image that will be loaded into your container at run or build time. Don't forget, in the Docker style guide there are both [Dockerfile requirements](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/Dockerfile.md) and [some Dockerfile practices](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/BestPracticesDockerfile.md) that you must follow - you might as well do it from the beginning. Actually there are quite a few published practices for writing Dockerfiles: 
+Once you get up to speed with the CLI you should also get to know the Dockerfile. One Dockerfile defines one Docker image that will be loaded into your container at run time. Don't forget, in the Docker style guide there are both [Dockerfile requirements](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/Dockerfile.md) and [some Dockerfile practices](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/BestPracticesDockerfile.md) that you must follow - you might as well do it from the beginning. Actually there are quite a few published practices for writing Dockerfiles:
 
 * [Docker's Dockerfile practices](https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/)
 * [Resion.io Dockerfile practices for 2016](https://resin.io/blog/our-dockerfile-tips-tricks/)
 
-All of these practices are good. Docker Docs also has a [Dockerfile Reference](https://docs.docker.com/engine/reference/builder/) that contains all of the Dockerfile instructions.
+Docker Docs also has a [Dockerfile Reference](https://docs.docker.com/engine/reference/builder/) that contains all of the Dockerfile instructions.
 
-Important to know about Dockerfiles is that you can not only build an image in a Dockerfile you can also do things like set environment variables and specify commands to run from the the bash console of the containers of this image.
+Important to know about Dockerfiles is that, you can not only build an image in a Dockerfile, you can also do things like set environment variables and specify commands to run from the the bash console of running containers.
 
-**Achtung:** There are two types of command directives in a Dockerfile and, in the Haufe docker landscape, it is important for you to understand hwo to use them. They are:
+**Achtung:** There are two types of command directives in a Dockerfile and, in the Haufe docker landscape, it is important for you to understand how to use them. They are:
 
 * ENTRYPOINT
 * CMD
@@ -118,22 +116,22 @@ Shall be used to run commands within the container that are likely to change.
 
 ### Whalesay tutorial
 
-The [Docker Whalesay tutorial](https://docs.docker.com/engine/getstarted/step_three/) is a good basic tutorial to understand how to build images with both the CLI and [to build your own image using Dockerfile](https://docs.docker.com/engine/getstarted/step_four/). Go ahead and do this tutorial. While you are doing this one, also note that at this stage you will always need to run an image to create a Docker container that actually does something.
+The [Docker Whalesay tutorial](https://docs.docker.com/engine/getstarted/step_three/) is a good basic tutorial to understand how to create images with the CLI and [to build your own image using Dockerfile](https://docs.docker.com/engine/getstarted/step_four/). Go ahead and do this tutorial. While you are doing this one, also note that at this stage you will always need to run an image to create a Docker container that actually does something.
 
 ### More Tutorials
 
-There are also many more tutorials that show you how to dockerize applications but also how to do more stuff with docker. These tuts are basically to develop your docker skills, but with a little work you may be able to reuse the these images for your own purposes. Here is a list:
+There are also many more tutorials that show you how to dockerize applications and also how to do more stuff with docker. These tuts are basically to develop your docker skills, but with a little work you may be able to reuse the these images for your own purposes. Here is a list:
 
 | Tut | Docker Skill |
 | --- | --- |
 | [MongoDB](https://docs.docker.com/engine/examples/mongodb/) | Learn how to dockerize MongoDB, push your image to your DockerHub account and share |
-| [PostgreSQL](https://docs.docker.com/engine/examples/postgresql_service/) | Learn how dockerize PostgreSQL, learn how to use container volumes |
-| [SSH service](https://docs.docker.com/engine/examples/running_ssh_service/) | Learn how to set environment variables in Dockerfile \(and propagate further\), review removing containers and images |
+| [PostgreSQL](https://docs.docker.com/engine/examples/postgresql_service/) | Learn how dockerize PostgreSQL, learn how to use                container volumes |
+| [SSH service](https://docs.docker.com/engine/examples/running_ssh_service/) | Learn how to set environment variables in Dockerfile \(and    propagate further\), review removing containers and images |
 
 ### Section targets
 
 * Know how to find what your are looking for in Docker Regsitries \(Docker Hub and Haufe Group Docker Registry\)
-* Get to know the Docker Engine CLI and how to use CLI commands to search for and pull, tag and push base images 
+* Get to know the Docker Engine CLI and how to use CLI commands to search for, pull, tag and push Docker images 
 * Get to know how to run and manage containers with the docker CLI
 * Understand Dockerfile - Instructions like VOLUME, WORKDIR, ADD, COPY
 * Know Haufe Group Requirements
@@ -148,17 +146,17 @@ The final piece of tooling in the basics section is the Docker Machine. Accordin
 > * Provision and manage multiple remote Docker hosts
 > * Provision Swarm clusters
 
-We will mostly take a look at creating and managing hosts in this section. Remember a Docker Host is a Linus virtual machine that contains a Docker Daemon. In production, it is important to be able to create and manage hosts for many reasons. One of the reasons is data security. For example, the Haufe Docker Guide states that
+We will mostly take a look at creating and managing hosts in this section. Remember a Docker Host is a Linux virtual machine that contains a Docker Daemon. In production, it is important to be able to create and manage hosts for many reasons. One of the reasons is data security. For example, the Haufe Docker Guide states that
 
 > For each customer that uses a dockerized application, you must create a separate host machine.
 
-With docker machine, you can create as many hosts as you like. You manage hosts with the Docker-Machine CLI. Also, up to now you should have been able to do all of the docker exercises, because docker installs a "default" host machine at installation. This is great for testing dockerized applications, but for development, you will create many Docker Hosts - both for different customers and for different applications. And so, it's going to be important to know what's on all of these hosts so you can be sure that your working on the right VM!
+With docker machine, you can create as many hosts as you like. You manage hosts with the Docker-Machine CLI. Up to now, you should have been able to do all of the docker exercises, because docker installs a "default" host machine at installation. This is great for testing dockerized applications, but for development, you will create many Docker Hosts - both for different customers and for different applications. And so, it's going to be important to have good data labels to know what's to be sure that you are working on the right VM!
 
 One of the nice things about working with Docker for Windows / Mac is that Docker Machine is installed along with the other tools by the installer. If you have Linux you must [install Docker Machine separately](https://docs.docker.com/machine/install-machine/).
 
 The Haufe Style Guide has a [Docker-Machine entry](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/DockerMachine.md), but you don't have to worry about this right now.
 
-Again, Docker has fantastic documentation on all of it's tooling and the [Docker-Machine documentation](https://docs.docker.com/machine/get-started/) is no exception: So it's a good idea to work through this getting started tutorial. Since you are just getting started, you can stay local and skip the "provisioning a host" in the cloud part if you like.
+Again, Docker has fantastic documentation on all of it's tooling and the [Docker-Machine documentation](https://docs.docker.com/machine/get-started/) is no exception: So it's a good idea to work through this "getting started" tutorial. Since you are just getting started, you can stay local and skip the "provisioning a host" in the cloud part if you like.
 
 **Achtung:** Be sure to name your Docker Host Machines extremely well: While there is no official naming convention a transparent naming system with **Application, Customer** and other relevant information is important so you know what's running on your host machines.
 
@@ -167,7 +165,7 @@ Again, Docker has fantastic documentation on all of it's tooling and the [Docker
 When you are done with this section, you should be able to:
 
 * Create a new Docker Host 
-* Use many Docker-Machine commands
+* Know how to use many Docker Machine commands
 * Discover important information about your host \(inspect, port, ip\)
 * Select and switch hosts that contain different images
 

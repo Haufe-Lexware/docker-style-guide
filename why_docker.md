@@ -17,7 +17,7 @@ There are a lot of enterprise software packages out there to do get this kind of
 
 ## Starting small with Docker
 
-Marketing still wanted to get this data, and so, instead of buying an enterprise software that has high costs and an uncertain value proposition, they decided to try to build an application that would cost little and that adds value as it grows. Enter Docker. Haufe Group doesn't need docker to create a prototype application, but by using Docker, the following is easier:
+Marketing still wanted to get this data, and so, instead of buying an enterprise software that has high costs and an uncertain value proposition, they decided to try to build an application that would cost little and that adds value as it grows. Enter Docker. Haufe Group doesn't need Docker to create a prototype application, but by using Docker, the following is easier:
 
 * Locate, compose and run single applications
 * Compose and run multiple applications to work together as services
