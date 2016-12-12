@@ -61,7 +61,7 @@ The way docker works is that you create images and you create running instances 
 Both ways are important. You must understand the CLI commands - these will later be automated by the build agent - and because you must to use the Dockerfile to persist your image and automate building it later.
 
 If you have docker installed, you can create a base image by opening a console and typing in:  
-`docker pull ubuntu` if you don't have an ubuntu image on your Docker automatically searches the the Docker Hub for the latest available image.
+`docker pull ubuntu` if you don't have an ubuntu image on your system, Docker automatically searches the the Docker Hub for the latest available image.
 
 Since we are just getting started this is ok. If you are working on a project where the application is only supported by ubuntu version 14.04 then you would pull that ubuntu image by specifying the either the version or the release name in the tag - `docker pull ubuntu:trusty`
 
