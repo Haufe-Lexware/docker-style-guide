@@ -23,12 +23,16 @@ Haufe Group Docker Style Guide has both requirements and best practices for work
 * [Docker Compose](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/DockerCompose.md)
 * [Docker Compose Best Practices](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/BestPracticesCompose.md)
 
-Once you have read through these, get started by going through Docker's [Docker Compose documentation](https://docs.docker.com/compose/overview/)
+Once you have read through these, get started by going through Docker's [Docker Compose documentation](https://docs.docker.com/compose/overview/), starting with the overview and working throught the entire Compose section. 
+
+
 
 ### Section Targets
 * Understand the concept behind Docker Compose and how it should be used in Haufe Group
 * Create several composed applications by working the docker tutorial
 * Know how to use many DC CLI commmands
 * Compose your own application from docker-compose.yml
+* Compose an application using variables - values in an .env file
+* Compose different environments by using the extended override configuration
 * Know how to make a docker-compose.yml file Haufe Group compliant - example using data containers as volumes, no-secrets, use variable expansion.
 
