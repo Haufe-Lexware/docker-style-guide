@@ -94,7 +94,7 @@ There are many more commands - like "[docker network](https://docs.docker.com/en
 
 ### Dockerfile
 
-Once you get used to the CLI you should also get know the Dockerfile. One Dockerfile defines one Docker image that will be loaded into your container at run or build time. Don't forget, in the Docker style guide there are both [Dockerfile requirements](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/Dockerfile.md) and [some Dockerfile practices](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/BestPracticesDockerfile.md) that you must follow - you might as well do it from the beginning.
+Once you get up to speed with the CLI you should also get know the Dockerfile. One Dockerfile defines one Docker image that will be loaded into your container at run or build time. Don't forget, in the Docker style guide there are both [Dockerfile requirements](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/Dockerfile.md) and [some Dockerfile practices](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/BestPracticesDockerfile.md) that you must follow - you might as well do it from the beginning.
 
 Docker Docs also has a [Dockerfile Reference](https://docs.docker.com/engine/reference/builder/) that contains all of the Dockerfile instructions.
 
