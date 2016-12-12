@@ -135,7 +135,7 @@ There are also many more tutorials that show you how to dockerize applications b
 * Understand Dockerfile - Instructions like VOLUME, WORKDIR, ADD, COPY
 * Know Haufe Group Requirements
 * Build your own images with Dockerfile. 
-* Understand how to develop locally and add changes to your application by building Dockerfile
+* Understand how to develop locally and add these changes to your Docker image by building Dockerfile
 
 ## Docker Machine
 
