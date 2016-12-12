@@ -1,65 +1,42 @@
-# **Haufe Docker Style Guide**
 
-![Haufe](images/logo-haufede.png) 
-![Docker](images/docker-logo.png)
+# Why does Haufe need it's own docker book
 
-## Introduction
+I don't really know if it's fair to call this a book. I think it's probably better to call it a Docker frame or  something similar. Fact is, there is a lot of Docker documentation out on the net and also some official Haufe documentation - like our Docker Style Guide. So, the purpose of this "Docker frame" is to frame useful content for Haufe developers, release engineers, runtime operators, and anyone else like you, who are going to use docker on a regular basis into a relevant context. 
 
-Docker is a technology, that provides:
+This context should provide you with things like: 
+* A human-readable organization, so you can find docker knowledge that you must have fast(er)
+* Recommendations on how you should learn docker for working at Haufe
+* Cool links to Docker documentation that fits to what you are doing with Docker
+* Some Haufe-unique tips on how to do stuff like get around our fantastic firewall and proxy server
 
-- unique way to include a softwarepackage and all its dependencies into one single package: **Docker Images**
-- a lightweight solution for process-isolation in contrast to the heavier Virtual-Machine approach: **Docker Containers**
-- a runtime to decouple the Linux installation inside and outside of a Docker Container (with the exception of the kernel being shared): **Docker Engine**
-- a solution to combine, configure and control multiple containers, networks and hosts: **Docker Compose**
-- a tool to prepare and manage single or clustered systems running the Docker Engine: **Docker Machine**
-- an almost explosively growing system of tools and pre-packaged appplications ... by Docker Inc., other Companies and "The Community": Rancher, Consul, Panamax, ...
+Hopefully, the Haufe Docker book can provide you with a good frame of reference to get started with docker and help you progress up to automatically building and deploying composed, scalable, dockerized applications over continuous delivery pipelines - for development purposes here at Haufe Group. It will take a while to put all of the information into this frame, and we, the folks who collaborate on this project, welcome your feedback over all channels, so we can make the information here better as we go. 
 
-The overall architecture is explained in the original Docker documentation in [Understand the architecture](https://docs.docker.com/engine/understanding-docker/)
 
-You find a slightly outdated, but quite good Docker overview at Peter Rossbachs [Docker Basics](https://github.com/rossbachp/docker-basics/blob/master/slides.md)
+## Organization: Frame of reference
+This book is designed to help Haufe Group employees get started using docker. The organization is taken from the "Next Best Action" project, where non-engineer employees were asked to create a small application in Docker. 
 
-The [Official Docker Documentation](https://docs.docker.com/) gives a good overview about the main component and its accompanying tools on the [Introduction to Engine user guide](https://docs.docker.com/engine/userguide/intro/)
+In the first part of the book, the organization is designed, for employees, who have no experience with Docker and, who may not work regularly at developing software. The second part of the book, let's say from Docker Compose on-wards, gets into concepts that need to be supported by software developers. Keeping that in mind, and the fact that this book is really a framework, here is how you should use this book to learn Docker.
 
-## The style guide
 
-This set of documents called the "**Haufe Docker Style Guide**" represent **mandantory requirements**, recommended best practices and informational resources for using **Docker** in **official (public or internal) Haufe products, services or solutions**.
+## How to use the Docker book
+Our CTO asked me to create a rolling narrative for this book, meaning, that the book should provide a continuous story line for learning docker. Since Docker has already been documented extremely well in other parts of the internet, much of this book is designed to point you to these links, so you can read about concepts and tutorials. After that you can come back to this book to continue with the next step of working with docker. 
 
-### When to use the style guide?
+To put it in plain English, the proposed way to use this book is to: read the book, follow the links, learn the concept or do the tutorial (you can of course keep going), but then come back to the book to move on to the next step. The book links not only official Docker docs but also other documentation and Haufe Docker documentation that contains requirements for using Docker in production at Haufe Group. You will want to bookmark these links so you can access them when working on tutorials and, later, developing your own dockerized apps.
 
-The "**Haufe Docker Style Guide**" **MUST** be used when you **create**, **modifiy** or **extend** Docker based solutions.
+But, you also need to read the content of the book too. This Docker book contains previously undocumented information like how to work from behind of the Haufe Group proxy server or to understand why we want to use docker at Haufe Group. Maybe not so much information as in an O'Reilly media book, but still important if you want to use Docker locally on your dev machine.
 
-**Existing** Docker installations and/or components **might** have to adapt out of specific security or business reasons.
 
-### Who has to use the style guide?
-It is the responsibility of Developers, Release Engineers AND Runtime Operators to apply the style guide to a specific project!
 
->	Please follow the style guide, but don't follow blindly!
->	You can break the rules with justification.
 
-### How to ask for changes to the style guide?
-This and related documents are "work in progress". We’d love your feedback – whether you agree, disagree, or have some additional practices and tips to add.
 
->	We encourage you to improve the style guide with modifications and extensions.
->	Inform the CTO Office (mailto:_CTOLeads@haufe-lexware.com) in this cases.
->
->	Please contribute!
 
-## **Style Guide**
-- [Haufe's Docker Toolset](HaufeDockerToolset.md)
-- [DRAFT - Docker In Production @Haufe](DRAFT-HaufeDockerInProduction.md)
-- [Docker Host](DockerHost.md)
-- [Docker Machine](DockerMachine.md)
-- [Docker Engine](DockerEngine.md)
-- [Dockerfile](Dockerfile.md)
-	- [Best Practices](BestPracticesDockerfile.md)
-- [Docker Image](DockerImage.md)
-- [Docker Container](DockerContainer.md)
-	- [Best Practices](BestPracticesContainer.md)
-- [Docker Compose](DockerCompose.md)
-	- [Best Practices](BestPracticesCompose.md)
 
-## To be done ...
-- [Network, Service Discovery etc.](.md)
-- [Monitoring](.md)
-- [Microservices](.md)
-- ["Dockerizing" existing solutions](.md)
+
+
+
+
+
+
+
+
+

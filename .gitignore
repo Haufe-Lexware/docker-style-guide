@@ -48,3 +48,23 @@ crashlytics.properties
 crashlytics-build.properties
 
 
+=======
+#Gitbook files
+# Added by Scott in merge of book and style guide on 12.12.2016
+# Node rules:
+## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+## Dependency directory
+## Commenting this out is preferred by some people, see
+## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
+node_modules
+
+# Book build output
+_book
+
+# eBook build output
+*.epub
+*.mobi
+*.pdf
+
