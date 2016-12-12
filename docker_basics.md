@@ -99,7 +99,7 @@ Once you get up to speed with the CLI you should also get to know the Dockerfile
 
 Docker Docs also has a [Dockerfile Reference](https://docs.docker.com/engine/reference/builder/) that contains all of the Dockerfile instructions.
 
-Important to know about Dockerfiles is that you can not only build an image in a Dockerfile you can also do things like set environment variables and specify commands to run from the the bash console of running containers.
+Important to know about Dockerfiles is that, you can not only build an image in a Dockerfile, you can also do things like set environment variables and specify commands to run from the the bash console of running containers.
 
 **Achtung:** There are two types of command directives in a Dockerfile and, in the Haufe docker landscape, it is important for you to understand how to use them. They are:
 
@@ -116,7 +116,7 @@ Shall be used to run commands within the container that are likely to change.
 
 ### Whalesay tutorial
 
-The [Docker Whalesay tutorial](https://docs.docker.com/engine/getstarted/step_three/) is a good basic tutorial to understand how to build images with both the CLI and [to build your own image using Dockerfile](https://docs.docker.com/engine/getstarted/step_four/). Go ahead and do this tutorial. While you are doing this one, also note that at this stage you will always need to run an image to create a Docker container that actually does something.
+The [Docker Whalesay tutorial](https://docs.docker.com/engine/getstarted/step_three/) is a good basic tutorial to understand how to create images with the CLI and [to build your own image using Dockerfile](https://docs.docker.com/engine/getstarted/step_four/). Go ahead and do this tutorial. While you are doing this one, also note that at this stage you will always need to run an image to create a Docker container that actually does something.
 
 ### More Tutorials
 
@@ -146,7 +146,7 @@ The final piece of tooling in the basics section is the Docker Machine. Accordin
 > * Provision and manage multiple remote Docker hosts
 > * Provision Swarm clusters
 
-We will mostly take a look at creating and managing hosts in this section. Remember a Docker Host is a Linus virtual machine that contains a Docker Daemon. In production, it is important to be able to create and manage hosts for many reasons. One of the reasons is data security. For example, the Haufe Docker Guide states that
+We will mostly take a look at creating and managing hosts in this section. Remember a Docker Host is a Linux virtual machine that contains a Docker Daemon. In production, it is important to be able to create and manage hosts for many reasons. One of the reasons is data security. For example, the Haufe Docker Guide states that
 
 > For each customer that uses a dockerized application, you must create a separate host machine.
 
