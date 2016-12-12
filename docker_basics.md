@@ -101,9 +101,9 @@ Once you get up to speed with the CLI you should also get know the Dockerfile. O
 
 All of these practices are good. Docker Docs also has a [Dockerfile Reference](https://docs.docker.com/engine/reference/builder/) that contains all of the Dockerfile instructions.
 
-Important to know about Dockerfiles is that you can not only build an image in a Dockerfile you can also do things like set environment variables and specify commands to run from the the bash console of the containers of this image.
+Important to know about Dockerfiles is that you can not only build an image in a Dockerfile you can also do things like set environment variables and specify commands to run from the the bash console of running containers.
 
-**Achtung:** There are two types of command directives in a Dockerfile and, in the Haufe docker landscape, it is important for you to understand hwo to use them. They are:
+**Achtung:** There are two types of command directives in a Dockerfile and, in the Haufe docker landscape, it is important for you to understand how to use them. They are:
 
 * ENTRYPOINT
 * CMD
