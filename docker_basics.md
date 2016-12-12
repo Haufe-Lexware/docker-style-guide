@@ -150,7 +150,7 @@ With docker machine, you can create as many hosts as you like. You manage hosts 
 
 One of the nice things about working with Docker for Windows / Mac is that Docker Machine is installed along with the other tools by the installer. If you have Linux you must [install Docker Machine separately](https://docs.docker.com/machine/install-machine/).
 
-The Haufe Style Guide has a Docker-Machine entry, but you don't have to worry about this right now.
+The Haufe Style Guide has a [Docker-Machine entry](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/DockerMachine.md), but you don't have to worry about this right now.
 
 Again, Docker has fantastic documentation on all of it's tooling and the [Docker-Machine documentation](https://docs.docker.com/machine/get-started/) is no exception: So it's a good idea to work through this getting started tutorial. Since you are just getting started, you can stay local and skip the "provisioning a host" in the cloud part if you like.
 
