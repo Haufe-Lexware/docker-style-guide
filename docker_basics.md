@@ -97,7 +97,7 @@ Once you get up to speed with the CLI you should also get to know the Dockerfile
 * [Docker's Dockerfile practices](https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/)
 * [Resion.io Dockerfile practices for 2016](https://resin.io/blog/our-dockerfile-tips-tricks/)
 
-All of these practices are good. Docker Docs also has a [Dockerfile Reference](https://docs.docker.com/engine/reference/builder/) that contains all of the Dockerfile instructions.
+Docker Docs also has a [Dockerfile Reference](https://docs.docker.com/engine/reference/builder/) that contains all of the Dockerfile instructions.
 
 Important to know about Dockerfiles is that you can not only build an image in a Dockerfile you can also do things like set environment variables and specify commands to run from the the bash console of running containers.
 
