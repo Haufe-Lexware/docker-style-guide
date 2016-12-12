@@ -27,8 +27,8 @@ If you plan to use Docker from the offices in Freiburg, You have to ensure that 
 Go to the [Getting Started - Docker for Windows](https://docs.docker.com/docker-for-windows/) or [Getting Started - Docker for Mac](https://docs.docker.com/docker-for-mac/) and read up on how to access the settings. For the "Dockers For" tools you will at least have to:
 
 * Share drives for Docker volumes
-* Set proxies
-* Set No\_Proxy
+* Set proxy variables
+* Set the no\_proxy variable
 
 And you may have to:
 
