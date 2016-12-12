@@ -17,12 +17,12 @@ Haufe Group Docker Style Guide has both requirements and best practices for work
 * [Docker Compose](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/DockerCompose.md)
 * [Docker Compose Best Practices](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/BestPracticesCompose.md)
 
-Once you have read through these, get started by going through Docker's [Docker Compose documentation](https://docs.docker.com/compose/overview/), starting with the overview and working through the entire Compose section. You can leave out the experimental and "superseded" sections. The best way to understand compose is to practice. The getting started section and  tutorials in this documentation can help. Direct links are:
+Once you have read through these, get started by going through Docker's [Docker Compose documentation](https://docs.docker.com/compose/overview/), starting with the overview and working through the entire Compose section. You can leave out the experimental and "superseded" sections. The best way to understand compose is to practice. The getting started section and  tutorials in this documentation can help. Direct links to these are:
 
 | Tut | Docker Skill |
 | --- | --- |
-| [Getting started](https://docs.docker.com/compose/gettingstarted/) | Learn how to to compse a basic Python app, using two services, learn compose file instructions |
-| [Django](https://docs.docker.com/compose/django/) | Learn set up a Django / Postgre app, learn how to further define services - built, volumes, ports, depends\_on |
+| [Getting started](https://docs.docker.com/compose/gettingstarted/) | Learn how to to compose a basic Python app, using two services, learn compose file instructions |
+| [Django](https://docs.docker.com/compose/django/) | Learn set up a Django / Postgre app, learn how to further define services - build, volumes, ports, depends\_on |
 | [Wordpress](https://docs.docker.com/compose/wordpress/) | Learn how to set up a Wordpress service with MySQL and a data volume service, learn how to set environment variables from Compose file, learn the restart command |
 
 To get really good basic knowledge, you will want to add these tasks to the tutorials:
