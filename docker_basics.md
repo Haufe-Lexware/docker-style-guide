@@ -114,9 +114,14 @@ There are also many more tutorials that show you how to dockerize applications b
 | Tut | Docker Skill |
 | -- | -- |
 | [MongoDB](https://docs.docker.com/engine/examples/mongodb/) | Learn how to dockerize MongoDB, push your image to your DockerHub account and share |
-| [PostgreSQL](https://docs.docker.com/engine/examples/postgresql_service/) | Learn hwo dockerize PostgreSQL, learn how to use container volumes |
+| [PostgreSQL](https://docs.docker.com/engine/examples/postgresql_service/) | Learn how dockerize PostgreSQL, learn how to use container volumes |
 | [SSH service](https://docs.docker.com/engine/examples/running_ssh_service/) | Learn how to set environment variables in Dockerfile (and propagate further), review removing containers and images |
 
+### Section targets
+* Know how to find what your are looking for in Docker Regsitries (Docker Hub and Haufe Group Docker Registry)
+* Get to know the Docker Engine CLI and how to use CLI commands to search for and pull, tag and push base images 
+* Get to know how to run and manage containers with the docker CLI
+* Understand Dockerfile - Instructions and Haufe Group Requirements - and build your own images with Dockerfile. 
 
 ## Docker Machine
 

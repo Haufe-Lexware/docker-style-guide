@@ -25,7 +25,6 @@ Haufe Group Docker Style Guide has both requirements and best practices for work
 
 Once you have read through these, get started by going through Docker's [Docker Compose documentation](https://docs.docker.com/compose/overview/)
 
-
 ### Section Targets
 * Understand the concept behind Docker Compose and how it should be used in Haufe Group
 * Create several composed applications by working the docker tutorial
