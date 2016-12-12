@@ -136,7 +136,7 @@ There are also many more tutorials that show you how to dockerize applications b
 
 ## Docker Machine
 
-The final piece of tooling in the basices section is the Docker Machine. According to Docker, Docker Machine used to perform the following tasks.
+The final piece of tooling in the basics section is the Docker Machine. According to Docker, Docker Machine used to perform the following tasks.
 
 > * Install and run Docker on Mac or Windows
 > * Provision and manage multiple remote Docker hosts
