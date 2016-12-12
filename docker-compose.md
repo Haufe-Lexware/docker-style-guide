@@ -23,8 +23,14 @@ Haufe Group Docker Style Guide has both requirements and best practices for work
 * [Docker Compose](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/DockerCompose.md)
 * [Docker Compose Best Practices](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/BestPracticesCompose.md)
 
-Once you have read through these, get started by going through Docker's [Docker Compose documentation](https://docs.docker.com/compose/overview/), starting with the overview and working throught the entire Compose section. 
+Once you have read through these, get started by going through Docker's [Docker Compose documentation](https://docs.docker.com/compose/overview/), starting with the overview and working throught the entire Compose section. The best way to understand compose is to practice. The getting started section and three tutorials in this documentation can help: 
 
+
+| Tut | Docker Skill |
+| --- | --- |
+| [Getting started](https://docs.docker.com/compose/gettingstarted/) | Learn how to to compse a basic Python app, using two services |
+| [PostgreSQL](https://docs.docker.com/engine/examples/postgresql_service/) | Learn how dockerize PostgreSQL, learn how to use container volumes |
+| [SSH service](https://docs.docker.com/engine/examples/running_ssh_service/) | Learn how to set environment variables in Dockerfile \(and propagate further\), review removing containers and images |
 
 
 
