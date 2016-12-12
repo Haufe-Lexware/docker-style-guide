@@ -132,7 +132,9 @@ There are also many more tutorials that show you how to dockerize applications b
 * Know how to find what your are looking for in Docker Regsitries \(Docker Hub and Haufe Group Docker Registry\)
 * Get to know the Docker Engine CLI and how to use CLI commands to search for and pull, tag and push base images 
 * Get to know how to run and manage containers with the docker CLI
-* Understand Dockerfile - Instructions and Haufe Group Requirements - and build your own images with Dockerfile. 
+* Understand Dockerfile - Instructions like VOLUME, WORKDIR, ADD, COPY and Haufe Group Requirements
+* Build your own images with Dockerfile. 
+* Understand how to develop locally and add changes to your application by building Dockerfile - Mounting Volumes
 
 ## Docker Machine
 
