@@ -150,13 +150,13 @@ We will mostly take a look at creating and managing hosts in this section. Remem
 
 > For each customer that uses a dockerized application, you must create a separate host machine.
 
-With docker machine, you can create as many hosts as you like. You manage hosts with the Docker-Machine CLI. Also, up to now you should have been able to do all of the docker exercises, because docker installs a "default" host machine at installation. This is great for testing dockerized applications, but for development, you will create many Docker Hosts - both for different customers and for different applications. And so, it's going to be important to know what's on all of these hosts so you can be sure that your working on the right VM!
+With docker machine, you can create as many hosts as you like. You manage hosts with the Docker-Machine CLI. Up to now, you should have been able to do all of the docker exercises, because docker installs a "default" host machine at installation. This is great for testing dockerized applications, but for development, you will create many Docker Hosts - both for different customers and for different applications. And so, it's going to be important to have good data labels to know what's to be sure that you are working on the right VM!
 
 One of the nice things about working with Docker for Windows / Mac is that Docker Machine is installed along with the other tools by the installer. If you have Linux you must [install Docker Machine separately](https://docs.docker.com/machine/install-machine/).
 
 The Haufe Style Guide has a [Docker-Machine entry](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/DockerMachine.md), but you don't have to worry about this right now.
 
-Again, Docker has fantastic documentation on all of it's tooling and the [Docker-Machine documentation](https://docs.docker.com/machine/get-started/) is no exception: So it's a good idea to work through this getting started tutorial. Since you are just getting started, you can stay local and skip the "provisioning a host" in the cloud part if you like.
+Again, Docker has fantastic documentation on all of it's tooling and the [Docker-Machine documentation](https://docs.docker.com/machine/get-started/) is no exception: So it's a good idea to work through this "getting started" tutorial. Since you are just getting started, you can stay local and skip the "provisioning a host" in the cloud part if you like.
 
 **Achtung:** Be sure to name your Docker Host Machines extremely well: While there is no official naming convention a transparent naming system with **Application, Customer** and other relevant information is important so you know what's running on your host machines.
 
@@ -165,7 +165,7 @@ Again, Docker has fantastic documentation on all of it's tooling and the [Docker
 When you are done with this section, you should be able to:
 
 * Create a new Docker Host 
-* Use many Docker-Machine commands
+* Know how to use many Docker Machine commands
 * Discover important information about your host \(inspect, port, ip\)
 * Select and switch hosts that contain different images
 
