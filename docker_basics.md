@@ -2,7 +2,7 @@
 
 Learning the docker basics means getting up to speed on the Haufe Group Docker tooling and the accepted docker repositories. More advanced stuff - like composing multiple docker processes into coordinated services or building docker processes and services as part of CI/CD comes later.
 
-The Haufe Group Docker Style Guide has an section on which [Docker tools are accepted](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/HaufeDockerToolset.md). And, There is also a style guide section for [accepted Docker repositories](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/Dockerfile.md#use-only-well-maintained-images-from-a-trusted-registry) - where predefined images can be searched, stored and reused.
+The Haufe Group Docker Style Guide has an section on which [Docker tools are accepted](/HaufeDockerToolset.md). And, There is also a style guide section for [accepted Docker repositories](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/Dockerfile.md#use-only-well-maintained-images-from-a-trusted-registry) - where predefined images can be searched, stored and reused.
 
 We have already linked to docker concepts so hopefully, you've already read up on them. You should have already installed and tested docker, so now, it's time to get started.
 
@@ -17,7 +17,7 @@ There are lots of ways to learn Docker but one way of doing it is to follow thes
 
 In this section you are going to create a base image, use Dockerfile to create images, and learn how to create new hosts and manage these hosts.
 
-Never forget: You can always learn more more. But to get started, it's probably best to review [how docker images and containers work](https://docs.docker.com/engine/getstarted/step_two/). Also before your get started, pls read:
+Never forget: You can always learn more. But to get started, it's probably best to review [how docker images and containers work](https://docs.docker.com/engine/getstarted/step_two/). Also before your get started, pls read:
 
 * [Haufe Docker Style Guide - Docker Images](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/DockerImage.md)
 * [Haufe Docker Style Guide - Docker Containers](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/DockerContainer.md)
