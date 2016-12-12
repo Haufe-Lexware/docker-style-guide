@@ -10,7 +10,7 @@ We have already linked to docker concepts so hopefully, you've already read up o
 
 There are lots of ways to learn Docker but one way of doing it is to follow these steps:
 
-* Learn Docker Hub - Learn what's out there so you can avoid doing extra work
+* Learn Docker Hub - Create a Docker ID. Learn what's out there so you can avoid doing extra work
 * Learn the Docker Engine Client and Client commands - You'll need this at build time too!
 * Learn to build images with the Dockerfile - define and document Docker images with on artifact
 * Learn about the docker-machine - the tool that manages Docker host machines and Docker swarms
