@@ -31,7 +31,7 @@ Once you have read through these, get started by going through Docker's [Docker 
 
 To get really good you will want to add these tasks to the tutorials:
 * Extend the configuration of each Compose file with .env and Override files
-* Make each Compose file Haufe Group compliant
+* Apply Haufe Group practices to all Compose Files. Hint - No secrets, Data Containers
 
 ### Section Targets
 
