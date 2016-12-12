@@ -43,8 +43,6 @@ Once you are done exploring what's there, you want to create your own Docker ID 
 
 ### Haufe Group Docker registry
 
-her
-
 In addition to docker hub, Docker enables you to push images to the Haufe registry and even create your own private registry.
 
 Now that you are done with section you should be able to -
