@@ -92,7 +92,7 @@ There are many more commands - like "[docker network](https://docs.docker.com/en
 
 ### Dockerfile
 
-Once you get up to speed with the CLI you should also get know the Dockerfile. One Dockerfile defines one Docker image that will be loaded into your container at run or build time. Don't forget, in the Docker style guide there are both [Dockerfile requirements](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/Dockerfile.md) and [some Dockerfile practices](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/BestPracticesDockerfile.md) that you must follow - you might as well do it from the beginning. Actually there are quite a few published practices for writing Dockerfiles:
+Once you get up to speed with the CLI you should also get to know the Dockerfile. One Dockerfile defines one Docker image that will be loaded into your container at run or build time. Don't forget, in the Docker style guide there are both [Dockerfile requirements](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/Dockerfile.md) and [some Dockerfile practices](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/BestPracticesDockerfile.md) that you must follow - you might as well do it from the beginning. Actually there are quite a few published practices for writing Dockerfiles:
 
 * [Docker's Dockerfile practices](https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/)
 * [Resion.io Dockerfile practices for 2016](https://resin.io/blog/our-dockerfile-tips-tricks/)
