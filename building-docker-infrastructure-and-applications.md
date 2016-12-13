@@ -6,6 +6,11 @@ The pipeline has several steps
 * Project is added to the Source Repository
 * Project is built from source and and added to the haufe registry haufe.docker.io
 
+## Dockerfile
+* No Volume Mounting use COPY or ADD to move add your application to the Docker image
+* 
+
+
 ## Source 
 * BitBucket
 * TFS w/ Git
