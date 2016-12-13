@@ -52,7 +52,7 @@ It has also been difficult to start using Docker swarm on a Windows Machine, usi
 
 If the proxy server causes too much pain, perhaps the easiest way to get around the proxy is to set up a virtual machine on an external service like Azure and depending on the OS, to use an RDP client or your favorite SSH client to tunnel in to remote virtual machine. Here again you have to know how to get outside of the Haufe proxy server and firewall. Once you are on your remote machine, you can install docker and create docker solutions without the normal networking constraints.
 
-A Hybrid solution is also to develop the application locally 
+
 
 
 
