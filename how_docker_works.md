@@ -7,7 +7,7 @@ While there are many docker tools out there now, the official Haufe toolset is:
 * [Docker Machine](https://docs.docker.com/machine/overview/)
 * [Docker Registries](https://docs.docker.com/engine/understanding-docker/#docker-registries)
 
-You can find many of the best descriptions for how docker works on the Docker Docs website. 
+You can find many of the best descriptions for how docker and docker tooling works on the Docker Docs website. 
 
 
 
