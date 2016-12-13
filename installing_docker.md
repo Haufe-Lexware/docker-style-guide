@@ -40,14 +40,17 @@ The Haufe proxy for both http and https is: `10.12.1.236:8083/`
 
 Even if you have already done this in the Docker for Windows / Mac settings. You may still have some problems building images.
 
-**Achtung:** On Windows, I have also encountered some problems at create image time when extending base images by using package managers like “apt” on Linux from a Dockerfile. The workaround for this was to add build arguments that set the proxy server with the Docker Builder. In Docker you can do this two ways  
-•    Use the -–build-arg option with the “docker build” command  
-•    Use the ARG instruction in a Dockerfile  
+**Achtung:** On Windows (With Docker for Windows), I have also encountered some problems at create image time when extending base images by using package managers like “apt” on Linux from a Dockerfile. The workaround for this was to add build arguments that set the proxy server with the Docker Builder. In Docker you can do this two ways  
+
+* Use the -–build-arg option with the “docker build” command  
+* Use the ARG instruction in a Dockerfile  
 These arguments are only passed to the builder and do not persist in image or running container.
 
 ### Develop Remotely
 
-If you are developing remotely, perhaps the easiest way to get around the proxy is to set up a virtual machine on an external service like Azure and depending on the OS, to use an RDP client or your favorite SSH client to tunnel in to remote virtual machine. Here again you have to know how to get outside of the Haufe proxy server and firewall. Once you are on your remote machine, you can install docker and create docker solutions without the normal networking constraints.
+If the proxy server causes too much pain, perhaps the easiest way to get around the proxy is to set up a virtual machine on an external service like Azure and depending on the OS, to use an RDP client or your favorite SSH client to tunnel in to remote virtual machine. Here again you have to know how to get outside of the Haufe proxy server and firewall. Once you are on your remote machine, you can install docker and create docker solutions without the normal networking constraints.
+
+A Hybrid solution is also to develop the application locally 
 
 
 
