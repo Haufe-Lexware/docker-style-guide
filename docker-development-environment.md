@@ -6,7 +6,10 @@ That brings us to developing with Docker. Remember, one of Docker principles is 
 
 Understanding how to use the Docker toolset and being able to develop professional software applications using Docker are two different things. Now that you are acquainted with accepted Haufe Group Docker tooling, let's look at your Dev Env for working with Docker. Another example: Currently, the only Docker technology supported by Haufe Group release engineering is building docker images to the Haufe Group Docker Registry. 
 
-We have already said that the Docker is primarily a mechanism for packaging and orchestrating software applications, and you may have noticed that you can mount(our copy) a local folder into a Docker image by mounting a volume. So you know you can update your docker image by simply rebuilding the image after you make changes to your software. Let's take a look about what kind of support development environments have for: 
+We have already said that the Docker is primarily a mechanism for packaging and orchestrating software applications, and you may have noticed that you can mount(our copy) a local folder into a Docker image by mounting a volume. So you know you can update your docker image by simply rebuilding the image after you make changes to your software. Let's take a look about what kind of support development environments have for Docker.
+
+## .NET
+We have many products developed with Microsoft Products. For these products developing in a native Microsoft environment is probably a good idea. In additon to provisioning Docker Hosts on Azure with Docker Machine, to support development with Docker, Microsoft has created [Visual Studio Tools for Docker](https://marketplace.visualstudio.com/items?itemName=MicrosoftCloudExplorer.VisualStudioToolsforDocker-Preview). The level of support for this is still developing, but Microsoft enables developers to add native docker support in Visual Studio for .NETCore projects. Most of Microsofts Docker Support Documentation can be found at [Visual Studio Tools](https://marketplace.visualstudio.com/items?itemName=MicrosoftCloudExplorer.VisualStudioToolsforDocker-Preview).
 
 
 
