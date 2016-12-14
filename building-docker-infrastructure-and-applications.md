@@ -10,8 +10,8 @@ The build pipeline has these steps
 ## Dockerfile
 Once you get to this point you need to  conform to the Haufe Group style guide for [Dockerfile practices](/BestPracticesDockerfile.md). 
 
-* You must not use volume mounting. You must use COPY or ADD to copy your files directly into the docker image. your application to the Docker image
-* 
+**Achtung:** You must not use volume mounting. You must use COPY or ADD to copy your files directly into the docker image. your application to the Docker image
+
 
 
 ## Source 
