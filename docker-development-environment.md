@@ -11,6 +11,6 @@ We have already said that the Docker is primarily a mechanism for packaging and 
 ## .NET
 We have many products developed with Microsoft Products. For these products developing in a native Microsoft environment is probably a good idea. In additon to provisioning Docker Hosts on Azure with Docker Machine, to support development with Docker, Microsoft has created [Visual Studio Tools for Docker](https://marketplace.visualstudio.com/items?itemName=MicrosoftCloudExplorer.VisualStudioToolsforDocker-Preview). The level of support for this is still developing, but Microsoft enables developers to add native docker support in Visual Studio for .NETCore projects. Most of Microsofts Docker Support Documentation can be found at [Visual Studio Tools](https://marketplace.visualstudio.com/items?itemName=MicrosoftCloudExplorer.VisualStudioToolsforDocker-Preview).
 
-
+## Java
 
 
