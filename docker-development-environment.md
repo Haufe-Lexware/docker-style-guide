@@ -1,8 +1,12 @@
 # My Docker development environment
 
-Understanding how to use the Docker toolset and being able to develop professional software applications using Docker are two different things. Now that you are acquainted with accepted Haufe Group Docker tooling, let's look at your Dev Env for working with Docker. 
+So what you have seen so far are the basic docker tools that you may use here at Haufe Group. What you have hopefully also notices is that there is a tooling progression that makes using docker more efficient. One example would be that if you have started using Docker Compose, you should have less use for the Docker Engine CLI. That doesn't mean you won't need it, it just means you will need it less because it is much more convenient to to use Docker-Compose to spin up applications that can actually do something.
 
-We have already said that the Docker is primarily a mechanism for packaging and orchestrating software applicaitons, and you may have noticed that you can mount(our copy) a local folder into a Docker image by mounting a volume. So you know you can update your docker image by simply rebuilding the image after you make changes to your software. So now it's time to look at the principles and practices of developing docker, and how to set up the dev environment on your machine. 
+That brings us to developing with Docker. Remember, one of Docker principles is that Docker acts as packaging and orchestration technology for software. If you are packaging your software using docker, the only difference that that you pack your software into a Docker image, when you are ready to merge up the next version of your software. Right now - end of 2016 - is a good time to get started with Docker, because    Haufe Group is also just getting started. 
+
+Understanding how to use the Docker toolset and being able to develop professional software applications using Docker are two different things. Now that you are acquainted with accepted Haufe Group Docker tooling, let's look at your Dev Env for working with Docker. Another example: Currently, the only Docker technology supported by Haufe Group release engineering is building docker images to the Haufe Group Docker Registry. 
+
+We have already said that the Docker is primarily a mechanism for packaging and orchestrating software applications, and you may have noticed that you can mount(our copy) a local folder into a Docker image by mounting a volume. So you know you can update your docker image by simply rebuilding the image after you make changes to your software. Let's take a look about what kind of support development environments have for: 
 
 
 
