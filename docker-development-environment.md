@@ -4,7 +4,7 @@ So what you have seen so far are the basic docker tools that you may use here at
 
 That brings us to developing with Docker. Remember, one of our Docker principles is that Docker acts as packaging and orchestration technology for software. This is no different in the production environment.  
 
-Fortunately Docker is not word-intensive. So, if you are packaging your software using docker, the only difference to what you are doing right now is that that you pack your software into a Docker image when you are ready to merge up the next version of your software.
+Fortunately Docker is not work-intensive. So, if you are packaging your software using docker, the only difference to what you are doing right now is that that you pack your software into a Docker image when you are ready to merge up the next version of your software.
 
 Now that you are acquainted with Haufe Group Docker tooling, let's look at your Dev Env for working with Docker. 
 
