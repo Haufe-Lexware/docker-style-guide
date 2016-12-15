@@ -11,10 +11,10 @@ We have already said that the Docker is primarily a mechanism for packaging and 
 Web Technologies have already embraced Docker and there are many Docker images to get you started developing containerized web applications written in just about any well known languages.There is a huge community of developers who are creating new images everyday, essentially containerizing development environments that you can pull and start using.  
 
 ## Docker at dev-time
-Let's review some of the concepts of Docker again quickly. Docker is all about packaging applications. Reusing these packages - images, composed services and so on - to develop images applications without lots of setup overhead by stringing multiple Docker images together to crete a full-blown application environment is definitely an advantage. Theoretically, these images don't even have to be of the same technology stack to talk to each other and, realistically, Docker images can run from anywhere where you can install docker. If you have read this book, you shouldn't have to be asking yourself,"What the hell can Docker do for my development?". If you are still wondering what you can do on your local dev machine though, here are some ideas:
+Let's review some of the concepts of Docker again quickly. Docker is all about packaging applications. Reusing these packages - images, composed services and so on - to develop images applications without lots of setup overhead by stringing multiple Docker images together to crete a full-blown application environment is definitely an advantage. Theoretically, these images don't even have to be of the same technology stack to talk to each other and, realistically, Docker images can run from anywhere where you can install docker. If you have read this book, you shouldn't have to be asking yourself,"What the hell can Docker do for my development?". Now that you can pull and extend images, and compose these images into coordinated services to create applications, you can incorporate Docker into your normal dev workflow by:
 
-* Create new images that "contain" a single reusable process - Dockerfile
-* Reuse these images and add new application logic to extend to create composed services - docker-compose.yml
+* Packing your software into new Docker images that "contain" a single reusable process - Dockerfile
+* Reuse these images and images from others to extend to create composed services - docker-compose.yml
 
 Naturally, it's a lot easier to develop with an IDE. 
 
