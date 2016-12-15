@@ -16,7 +16,7 @@ Let's review some of the concepts of Docker again quickly. Docker is all about p
 * Create new images that "contain" a single reusable process - Dockerfile
 * Reuse these images and add new application logic to extend to create composed services - docker-compose.yml
 
-Naturally, it's a lot easier to do develop with an IDE. 
+Naturally, it's a lot easier to develop with an IDE. 
 
 ## IDE Support
 IDEs are also starting to support managing docker from within the IDE environment.  IDE dev teams are still developing their Docker support offerings and all have different levels of support for both the Docker toolchain and for the different application framworks that they support. Here is rundown on the Docker capabilities for some well-known IDEs.
