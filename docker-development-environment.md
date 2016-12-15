@@ -9,7 +9,7 @@ Fortunately Docker is not work-intensive. So, if you are packaging your software
 Now that you are acquainted with Haufe Group Docker tooling, let's look at your Dev Env for working with Docker. 
 
 ## Docker at dev-time
-Reusing Docker packages - images - enables you to develop applications without lots of setup overhead. Being able to string multiple Docker images together to create a full-blown application environment with just one configuration file is definitely an advantage to you as a developer. 
+Reusing Docker packages - images - enables you to develop applications without lots of setup overhead, and being able to string multiple Docker images together to create a full-blown application environment with just one configuration file is definitely an advantage for you as a developer. 
 
 Theoretically, these images don't even have to be of the same technology stack to talk to each other and, realistically, Docker images can run in any environment where you can install docker. If you have read this book, you shouldn't have to be asking yourself,"What the hell can Docker do for my development?". Now that you can pull and extend images, and compose these images into coordinated services to create applications, you can incorporate Docker into your normal dev workflow by:
 
