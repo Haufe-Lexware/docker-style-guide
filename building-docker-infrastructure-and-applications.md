@@ -17,12 +17,19 @@ Once you get to this point you need to  conform to the Haufe Group style guide f
 ## Source Control
 Once you are done developing and debugging, you commit your Dockerfile to source control. These repositories supported for running Docker builds are:
 * BitBucket - Here you can commit to the Haufe Group Cloud or on-premise repo
-* TFS w/ Git or Team Foundation Version Control
+* TFS w/ Git or Team Foundation Version Control.
 
-By commiting a Dockerfile to either one of these repositories. Your Docker image will be built. 
+By commiting a Dockerfile to either one of these repositories. Your Docker image is built. 
 
-## Supported Repositories
-
-## Supported Build 
+## Supported Build Tools
+Build tools that support building Haufe Group Docker image are:
 * GO.Cd 
 * Jenkins
+
+### Go.Cd
+Go.Cd is thoughtworks continuous delivery tool that enables to configure and run continuous delivery pipelines for code projects. Haufe Group has written an plugin for go cd that builds the image Dockerfile and pushes the image to the Haufe repository. 
+
+### Jenkins
+Jenkins also supports building Docker images. Since there is no Docker plugin for Jenkins, this where the Docker Engine CLI `build` and `push` commands are automated.
+
+In any case, both Go.Cd and Jenkins support building Docker images and placing them in our Docker registry. The Haufe Group Docker registry is located at 
