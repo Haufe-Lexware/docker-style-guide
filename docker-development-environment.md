@@ -10,10 +10,28 @@ We have already said that the Docker is primarily a mechanism for packaging and 
 
 Web Technologies have already embraced Docker and there are many Docker images to get you started developing containerized web applications written in just about any well known languages.There is a huge community of developers who are creating new images everyday, essentially containerizing development environments that you can pull and start using.  
 
-## .NET
-We have many products developed with Microsoft Products. For these products developing in a native Microsoft environment is probably a good idea. In additon to provisioning Docker Hosts on Azure with Docker Machine, to support development with Docker, Microsoft has created [Visual Studio Tools for Docker](https://marketplace.visualstudio.com/items?itemName=MicrosoftCloudExplorer.VisualStudioToolsforDocker-Preview). The level of support for this is still developing, but Microsoft enables developers to add native docker support in Visual Studio for .NETCore projects. Most of Microsofts Docker Support Documentation can be found at [Visual Studio Tools](https://marketplace.visualstudio.com/items?itemName=MicrosoftCloudExplorer.VisualStudioToolsforDocker-Preview). Support here is  still pretty rudimentary, and so it is kind of awkward how Docker Compose files are placed in the project, but it's coming along...
+## Docker at dev-time
+Let's review some of the concepts of Docker again quickly. Docker is all about packaging applications. Reusing these packages - images, composed services and so on - to develop images applications without lots of setup overhead by stringing multiple Docker images together to crete a full-blown application environment is definitely an advantage. Theoretically, these images don't even have to be of the same technology stack to talk to each other and, realistically, Docker images can run from anywhere where you can install docker. If you have read this book, you shouldn't have to be asking yourself,"What the hell can Docker do for my development?". If you are still wondering what you can do on your local dev machine though, here are some ideas:
 
-## Java
+* Create new images that "contain" a single reusable process - Dockerfile
+* Reuse these images and add new application logic to extend to create composed services - docker-compose.yml
+
+Naturally, it's a lot easier to do develop with an IDE. 
+
+## IDE Support
+IDEs are also starting to support managing docker from within the IDE environment.  IDE dev teams are still developing their Docker support offerings and all have different levels of support for both the Docker toolchain and for the different application framworks that they support. Here is rundown on the Docker capabilities for some well-known IDEs.
+
+### Visual Studio / .NET et al.
+
+We have many products developed with Microsoft Products. For these products developing in a native Microsoft environment is probably a good idea. In additon to provisioning Docker Hosts on Azure with Docker Machine, to support development with Docker, Microsoft has created [Visual Studio Tools for Docker](https://marketplace.visualstudio.com/items?itemName=MicrosoftCloudExplorer.VisualStudioToolsforDocker-Preview). The level of support and how docker is supported (**toolchain up to Docker Compose**) for "VS Tools for Docker" is still evolving.
+
+Microsoft enables developers to add native docker support in Visual Studio **for .NETCore projects**. Most of Microsofts Docker Support Documentation can be found at [Visual Studio Tools](https://marketplace.visualstudio.com/items?itemName=MicrosoftCloudExplorer.VisualStudioToolsforDocker-Preview). Support here is  still pretty rudimentary, and so it is kind of awkward how Docker Compose files are placed in the project, but it's coming along...
+
+## Eclipse / Java et al.
+Eclipse is also moving toward supporting  Docker, and there are already [Eclipse plugins](https://marketplace.eclipse.org/search/site/%2522Docker%2522) in the marketplace for creating, running and managing **Docker images and containers**. For the moment it looks like docker engine is the only supported tooling. So here too, the eclipse folks are just getting started. 
+
+##Intellij IDEA, PHP Storm / Java, PHP, JavaScript et al.
+Intellij has perhaps the [most support for Docker](https://www.jetbrains.com/help/idea/2016.2/docker.html). Both the IDEA IDE and its stripped down cousin PHP Storm have support for **docker tooling up to Docker compose**
 
 
 ## How to pull images from the Haufe Group Docker Registry
