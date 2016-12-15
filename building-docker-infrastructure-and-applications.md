@@ -3,7 +3,7 @@ This title may also change in the future as Haufe Group incorporates more of doc
 
 The build pipeline has these steps
 * Dockerfile is added to project
-* Project is added to the Source Repository
+* Project is added to the source repository
 * The build uses Dockerfile to create an image
 * The build pushes this image to haufe registry haufe.docker.io
 
@@ -12,7 +12,7 @@ This is still an early stage of docker capability, but it allows you and others 
 ## Dockerfile
 Once you get to this point you need to  conform to the Haufe Group style guide for [Dockerfile practices](/BestPracticesDockerfile.md). 
 
-**Achtung:** For a build Docker image, you must not use volume mounting. You must use COPY or ADD to copy your files directly and bake them into your docker image. your application to the Docker image. If you have been mounting volumes in your dev project you need to change this.
+**Achtung:** if you want to build your Docker image, you must not use volume mounting in your Dockerfile. Instead, you must use COPY or ADD to copy your files directly and bake them into your docker image. your application to the Docker image. If you have been mounting volumes in your dev project you need to change this before your build.
 
 ## Source Control
 Once you are done developing and debugging, you commit your Dockerfile to source control. These repositories supported for running Docker builds are:
