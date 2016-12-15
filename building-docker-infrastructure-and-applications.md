@@ -7,16 +7,17 @@ The build pipeline has these steps
 * The build uses Dockerfile to create an image
 * The build pushes this image to haufe registry haufe.docker.io
 
+This is still an early stage of docker capability, but it allows you and others to push your approved images to the Haufe docker registry and to reuse them in future projects: The major advantage being that you can push these app containers anywhere and run them anywhere. 
+
 ## Dockerfile
 Once you get to this point you need to  conform to the Haufe Group style guide for [Dockerfile practices](/BestPracticesDockerfile.md). 
 
-**Achtung:** You must not use volume mounting. You must use COPY or ADD to copy your files directly into the docker image. your application to the Docker image
+**Achtung:** For a build Docker image, you must not use volume mounting. You must use COPY or ADD to copy your files directly and bake them into your docker image. your application to the Docker image. If you have been mounting volumes in your dev project you need to change this.
 
-
-
-## Source 
-* BitBucket
-* TFS w/ Git
+## Source Control
+Once you are done developing and debugging, you commit your Dockerfile to source control. These repositories supported for running Docker builds are:
+* BitBucket - Here you can commit to the Haufe Group Cloud or on-premise repo
+* TFS w/ Git or Team Foundation Version Control
 
 ## Supported Repositories
 
