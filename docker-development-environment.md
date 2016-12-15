@@ -34,7 +34,6 @@ Eclipse is also moving toward supporting  Docker, and there are already [Eclipse
 Intellij has perhaps the [most support for Docker](https://www.jetbrains.com/help/idea/2016.2/docker.html). Both the IDEA IDE and its stripped down cousin PHP Storm have support for **docker tooling up to Docker compose**
 
 
-## How to pull images from the Haufe Group Docker Registry
 
 
 
