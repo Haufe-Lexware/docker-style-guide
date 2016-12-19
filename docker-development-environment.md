@@ -1,6 +1,6 @@
 # My Docker development environment - Draft
 
-So what you have seen so far are the basic docker tools that you may use here at Haufe Group. What you have hopefully also noticed is that there is a tooling progression that makes using docker more efficient and speeds up development with Docker. One example would be that if you have started using Docker Compose, you should have less use for the Docker Engine CLI. That doesn't mean you won't need it, it just means you will need it less because it is much more convenient to to use Docker-Compose to create and spin up applications that can actually do something.
+So what you have seen so far are the basic docker tools that you may use here at Haufe Group. What you have hopefully also noticed is that there is a tooling progression that makes using docker more efficient and speeds up development with Docker the higher-up you go on the toolchain. One example would be that if you have started using Docker Compose, you should have less use for the Docker Engine CLI. That doesn't mean you won't need it, it just means you will need it less because it is much more convenient to to use Docker-Compose to create and spin up applications that can actually do something.
 
 That brings us to developing with Docker. Remember, one of our Docker principles is that Docker acts as packaging and orchestration technology for software. This is no different in the production environment.  
 
