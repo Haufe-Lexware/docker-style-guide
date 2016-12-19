@@ -150,7 +150,7 @@ We will mostly take a look at creating and managing hosts in this section. Remem
 
 > For each customer that uses a dockerized application, you must create a separate host machine.
 
-With docker machine, you can create as many hosts as you like. You manage hosts with the Docker-Machine CLI. Up to now, you should have been able to do all of the docker exercises, because docker installs a "default" host machine at installation. This is great for testing dockerized applications, but for development, you will create many Docker Hosts - both for different customers and for different applications. And so, it's going to be important to have good data labels to know what's to be sure that you are working on the right VM!
+With docker machine, you can create as many hosts as you like. You manage hosts with the Docker-Machine CLI. Up to now, you should have been able to do all of the docker exercises, because docker installs a "default" host machine at installation. This is great for testing dockerized applications, but for development, you will create many Docker Hosts - both for different customers and for different applications. And so, it's important to have good data labels to know what's to be sure that you are working on the right VM!
 
 One of the nice things about working with Docker for Windows / Mac is that Docker Machine is installed along with the other tools by the installer. If you have Linux you must [install Docker Machine separately](https://docs.docker.com/machine/install-machine/).
 
