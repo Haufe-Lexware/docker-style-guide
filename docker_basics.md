@@ -158,7 +158,13 @@ The Haufe Style Guide has a [Docker-Machine entry](https://github.com/Haufe-Lexw
 
 Again, Docker has fantastic documentation on all of it's tooling and the [Docker-Machine documentation](https://docs.docker.com/machine/get-started/) is no exception: So it's a good idea to work through this "getting started" tutorial. Since you are just getting started, you can stay local and skip the "provisioning a host" in the cloud part if you like.
 
-**Achtung:** Be sure to name your Docker Host Machines extremely well: While there is no official naming convention a transparent naming system with **Application, Customer** and other relevant information is important so you know what's running on your host machines.
+**Achtung:** Be sure to name your Docker Host Machines extremely well: While there is no official naming convention a transparent naming system with **Application, Customer** and other relevant information is important so you know what's running on your host machines. 
+
+With Docker Machine you can also create hosts in the cloud. You can work these tutorials to provision Docker hosts in the cloud - 
+
+* [Docker Host on AWS](https://docs.docker.com/machine/examples/aws/)
+* [Docker Host on Digital Ocean](https://docs.docker.com/machine/examples/ocean/)
+* [Docker Host on Microsoft Azure](https://docs.microsoft.com/en-us/azure/vs-azure-tools-docker-machine-azure-config)
 
 ### Section targets
 
@@ -168,6 +174,7 @@ When you are done with this section, you should be able to:
 * Know how to use many Docker Machine commands
 * Discover important information about your host \(inspect, port, ip\)
 * Select and switch hosts that contain different images
+* Create (and clean up) remote Docker hosts on cloud service providers
 
 
 
