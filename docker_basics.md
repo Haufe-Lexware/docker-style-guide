@@ -4,7 +4,7 @@ Learning the docker basics means getting up to speed on the Haufe Group Docker t
 
 The Haufe Group Docker Style Guide has an section on which [Docker tools are accepted](/HaufeDockerToolset.md). And, There is also a style guide section for [accepted Docker repositories](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/Dockerfile.md#use-only-well-maintained-images-from-a-trusted-registry) - where predefined images can be searched, stored and reused.
 
-We have already linked to docker concepts so hopefully, you've already read up on them. You should have already installed and tested docker, so now, it's time to get started.
+We have already linked to docker concepts so hopefully, you've already read up on them. You should have already installed and tested docker, so now, it's time to get started. You may want to bookmark Docker Store too.
 
 ## Getting Help
 Before getting into the basics, if you need help you can get to various Docker community channels from [this web page](https://docs.docker.com/opensource/get-help/). Don't hesitate to ask for help. Docker has a big community and usually it's better to ask around before you experience frustration.
