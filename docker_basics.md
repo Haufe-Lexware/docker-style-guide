@@ -7,7 +7,11 @@ The Haufe Group Docker Style Guide has an section on which [Docker tools are acc
 We have already linked to docker concepts so hopefully, you've already read up on them. You should have already installed and tested docker, so now, it's time to get started. You may want to bookmark Docker Store too.
 
 ## Getting Help
-Before getting into the basics, if you need help you can get to various Docker community channels from [this web page](https://docs.docker.com/opensource/get-help/). Don't hesitate to ask for help. Docker has a big community and usually it's better to ask around before you experience frustration.
+Before getting into the basics, if you need help you can get to various Docker community channels from [this web page](https://docs.docker.com/opensource/get-help/). 
+
+Additionally, you can ask the Haufe Docker Community in our [Rocket Chat Docker Channel](https://chat.haufe.com/channel/docker).
+
+Don't hesitate to ask for help. Docker has a big community and usually it's better to ask around before you experience frustration.
 
 ## A work flow proposal to capture the basics
 
