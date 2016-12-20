@@ -13,4 +13,5 @@
 * [Deploying a Docker service in the cloud](deploying-a-docker-service-in-the-cloud.md)
 * [Docker development environment](docker_development_environment.md)
 * [Building Docker infrastructure and applications](building_docker_infrastructure_and_applications.md)
+* [Glossary of Terms](GLOSSARY.md)
 
