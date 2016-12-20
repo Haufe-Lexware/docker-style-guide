@@ -30,7 +30,7 @@ The best way to understand compose is to practice. The getting started section a
 
 To get a really good basic knowledge, add these tasks when you work the tutorials:
 
-* Extend the configuration of each Compose file and create multiple environments with .env and .override files
+* Extend the configuration of each Compose file and create multiple environments with .env and .override files.
 * Apply Haufe Group practices to all Compose Files. **Hint:** No secrets, Data Containers and so on. 
 
 ### Section Targets
