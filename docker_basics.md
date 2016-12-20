@@ -1,13 +1,14 @@
 # Docker Basics
 
-Learning the docker basics means getting up to speed on the Haufe Group Docker tooling and the accepted docker repositories. More advanced stuff - like composing multiple docker processes into coordinated services or building docker processes and services as part of CI/CD comes later.
+Learning the Docker basics means getting up to speed on the Haufe Group Docker tooling and the Docker repositories. More advanced stuff - like composing multiple docker processes into coordinated services or building docker processes and services as part of CI/CD comes later.
 
 The Haufe Group Docker Style Guide has an section on which [Docker tools are accepted](/HaufeDockerToolset.md). And, There is also a style guide section for [accepted Docker repositories](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/Dockerfile.md#use-only-well-maintained-images-from-a-trusted-registry) - where predefined images can be searched, stored and reused.
 
 We have already linked to docker concepts so hopefully, you've already read up on them. You should have already installed and tested docker, so now, it's time to get started. You may want to bookmark Docker Store too.
 
 ## Getting Help
-Before getting into the basics, if you need help you can get to various Docker community channels from [this web page](https://docs.docker.com/opensource/get-help/). 
+
+Before getting into the basics, if you need help you can get to various Docker community channels from [this web page](https://docs.docker.com/opensource/get-help/).
 
 Additionally, you can ask questions to the Haufe Docker Community in our [Rocket Chat Docker Channel](https://chat.haufe.com/channel/docker).
 
@@ -29,4 +30,6 @@ Never forget: You can always learn more. But to get started, it's probably best 
 * [Haufe Docker Style Guide - Docker Images](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/DockerImage.md)
 * [Haufe Docker Style Guide - Docker Containers](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/DockerContainer.md)
 * [Haufe Docker Style Guide - Container Best Practices](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/BestPracticesContainer.md)
+
+
 
