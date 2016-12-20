@@ -10,7 +10,7 @@ Both ways are important. You must understand the CLI commands - these will later
 If you have docker installed, you can create a base image by opening a console and typing in:  
 `docker pull ubuntu` if you don't have an ubuntu image on your system, Docker automatically searches the the Docker Hub for the latest available image.
 
-**Achtung:** Since you are just getting started this is ok. If you are working on a project where the application is only supported by ubuntu version 14.04 then you would pull that ubuntu image by specifying the either the version or the release name in the tag - `docker pull ubuntu:trusty`
+**Achtung:** Since you are just getting started this is ok. If you are working on a project where the application is only supported by ubuntu version 14.04 then you would pull that ubuntu image by specifying either the version or the release name in the tag - `docker pull ubuntu:trusty`
 
 The tag, that comes after the ":", contains the metainformation about the image. If there is no tag, Docker assumes that you want the latest image and pulls this.
 
@@ -41,4 +41,5 @@ There are many more commands - like "[docker network](https://docs.docker.com/en
 
 * Get to know the Docker Engine CLI and how to use CLI commands to search for, pull, manage and push Docker images 
 * Get to know how to run and manage containers with the docker CLI
+* Know the Haufe 
 
