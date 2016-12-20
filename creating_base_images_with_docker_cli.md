@@ -37,3 +37,8 @@ You should get to know the following commands. The best documentation is the [Do
 
 There are many more commands - like "[docker network](https://docs.docker.com/engine/userguide/networking/)" - that may be useful to you as you develop with docker.
 
+### Section targets
+
+* Get to know the Docker Engine CLI and how to use CLI commands to search for, pull, tag and push Docker images 
+* Get to know how to run and manage containers with the docker CLI
+
