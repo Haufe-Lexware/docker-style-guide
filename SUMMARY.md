@@ -10,8 +10,6 @@
 * [Building your own images with Dockerfile](building_your_own_images_with_dockerfile.md)
 * [Managing Docker hosts with Docker Machine](managing_docker_hosts_with_docker_machine.md)
 * [Docker Compose](docker_compose.md)
-* [Docker development environment](docker-development-environment.md)
-* [Building Docker infrastructure and applications](building-docker-infrastructure-and-applications.md)
-
-
+* [Docker development environment](docker_development_environment.md)
+* [Building Docker infrastructure and applications](building_docker_infrastructure_and_applications.md)
 
