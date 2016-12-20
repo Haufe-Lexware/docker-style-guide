@@ -41,5 +41,5 @@ There are many more commands - like "[docker network](https://docs.docker.com/en
 
 * Get to know the Docker Engine CLI and how to use CLI commands to search for, pull, manage and push Docker images 
 * Get to know how to run and manage containers with the docker CLI
-* Know the Haufe 
+* Know the Haufe requirements for images and containers
 
