@@ -12,7 +12,7 @@ Before getting into the basics, if you need help you can get to various Docker c
 
 Additionally, you can ask questions to the Haufe Docker Community in our [Rocket Chat Docker Channel](https://chat.haufe.com/channel/docker).
 
-Don't hesitate to ask for help. Docker has a big community and usually it's better to ask around before you experience frustration.
+Don't hesitate to ask for help. Docker has a big community, and usually it's better to ask around before you experience frustration.
 
 ## A work flow proposal to capture the basics
 
