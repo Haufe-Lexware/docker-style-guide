@@ -1,4 +1,4 @@
-# My Docker development environment - Draft
+# My Docker development environment
 
 So what you have seen so far are the basic docker tools that you may use here at Haufe Group. What you have hopefully also noticed is that there is a tooling progression that makes using docker more efficient and speeds up development with Docker the higher-up you go on the toolchain. 
 
