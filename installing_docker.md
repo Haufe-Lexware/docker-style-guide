@@ -1,6 +1,6 @@
 # Installing Docker
 
-The Docker installation that you use locally is completely up to you. Docker comes in several different flavors. However, it probably makes most sense to install Docker in a Linux environment. We have noticed some problems with drive sharing on Docker for Windows, here it was important to make sure we used the “Network user” – Domain\UserName – to be able to perform mounts between the host file system and docker file system: The Network User is the “real owner” of your computer’s file system, and you must use this user to be able to enable sharing and mounting.
+The Docker installation that you use locally is completely up to you. Docker comes in several different flavors. However, it probably makes most sense to install Docker in a Linux environment. For Example, we noticed some problems with drive sharing on Docker for Windows, here it was important to make sure we used the “Network user” – Domain\UserName – to be able to perform mounts between the host file system and docker file system: The Network User is the “real owner” of your computer’s file system, and you must use this user to be able to enable sharing and mounting.
 
 Official Docker documentation has an excellent and comprehensive tutorial on how to install docker [at this location](https://docs.docker.com/engine/getstarted/step_one/) . Here the Docker Docs step you through doing a basic install of docker for your flavor of operating system and how to test docker by running the "hello world" Docker image. Specific links are:
 
@@ -8,9 +8,9 @@ Official Docker documentation has an excellent and comprehensive tutorial on how
 * [Install Docker for Mac](https://docs.docker.com/engine/installation/mac/)
 * [Install Docker for Linux](https://docs.docker.com/engine/installation/)
 
-**Note:** It may be necessary to install toolbox still **need to check this with the folks downstairs.**
+**Note:** It may be necessary to install toolbox still **need to check this with the folks downstairs.** Or simply to 
 
-While you can run Docker on just about any kind of OS, Docker hosts and containers are always Linux-based. This may change, but it's still important to get familiar with basic Linux commands and Linux utility commands - for example how to use "apt" or "curl" for retrieving and updating new packages on Ubuntu Linux and basics like "chown", "chmod".
+While you can run Docker on just about any kind of OS, Docker hosts and containers are always Linux-based. This may change, but it's still important to get familiar with basic Linux commands and Linux utility commands - for example how to use "apt" or "curl" for retrieving and updating new packages on Ubuntu Linux and permissions basics like "chown", "chmod".
 
 Once you get docker installed, you are going to start working with:
 
