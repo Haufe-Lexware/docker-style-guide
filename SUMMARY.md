@@ -9,7 +9,6 @@
 * [Using Docker registries](using_docker_registries.md)
 * [Creating base images with Docker CLI](creating_base_images_with_docker_cli.md)
 * [Building your own images with Dockerfile](building_your_own_images_with_dockerfile.md)
-* [Docker Compose](docker_compose.md)
 * [Docker development environment](docker_development_environment.md)
 * [Setting up a docker in your project](setting-up-a-docker-in-your-project.md)
 * [Building Docker images](building_docker_infrastructure_and_applications.md)
