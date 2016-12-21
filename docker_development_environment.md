@@ -44,4 +44,9 @@ Microsoft Azure premiere service for Docker is its [Azure Container Service](htt
  ### Amazon Web Services 
 AWS has their [EC2 Container Service](https://aws.amazon.com/ecs/?nc2=h_m1) as part of their EC2 service for launching and managing containers - EC2CS integrates with other services like the load balancing service. Amazon also has [Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/), which focuses on deplying applications and auto-scaling these applications as neede to handle load.
 
+### Digital Ocean
+Digitial Ocean also enables you to create Docker servers with one click. Digital Ocean is more on the IaaS side of cloud services but they have been working closely with Docker to support container technology.
+
+It is important to note that you can provision Docker hosts on all of these cloud service providers using docker-machine. The acceptance for Docker is wide and their are many options where you can deploy and manage your docker apps in the cloud. Even if some of these services aren't what we would select in a production environment, it is interesting to see that the big providers are developing them. 
+
 
