@@ -39,7 +39,9 @@ Another example: Currently, the only Docker technology supported by Haufe Group 
 Cloud providers are very docker friendly and major cloud players like Azure, AWS and Digital Ocean all offer native support for Docker. They are even beginning to offer Administrating and Operating services for containers. While Docker has proven problematic for some of the product offerings from cloud "as a service" providers, they are embracing the technology. 
 
 ### Azure
-Microsoft Azure premiere service for Docker is its [Azure Container Service](https://azure.microsoft.com/en-us/services/container-service/) for enabling native hosing, deployment, monitoring and management of containers natively. 
+Microsoft Azure premiere service for Docker is its [Azure Container Service](https://azure.microsoft.com/en-us/services/container-service/) for enabling native hosting, deployment, monitoring and management of containers natively. But there are more services including VMs that install Docker at provisioning time, Docker Datacenter, and a development environment for Docker that combines Red Hat Linux with Visual Studio installed.
+
+
 
  ### AWS  
 
