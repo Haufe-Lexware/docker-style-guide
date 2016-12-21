@@ -26,7 +26,7 @@ The best way to understand compose is to practice. The getting started section a
 | --- | --- |
 | [Getting started](https://docs.docker.com/compose/gettingstarted/) | Learn how to to compose a basic Python app, using two services, learn compose file instructions |
 | [Django](https://docs.docker.com/compose/django/) | Learn set up a Django / Postgre app, learn how to further define services - build, volumes, ports, depends\_on |
-| [Wordpress](https://docs.docker.com/compose/wordpress/) | Learn how to set up a Wordpress service with MySQL and a data volume service, learn how to set environment variables from Compose file, learn the restart command |
+| [Wordpress](https://docs.docker.com/compose/wordpress/) | Learn how to set up a Wordpress service with MySQL and a data volume service, learn how to set environment variables from Compose file, learn the restart instruction |
 
 To get a really good basic knowledge, add these tasks when you work the tutorials:
 
