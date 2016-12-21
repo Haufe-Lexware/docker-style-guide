@@ -11,7 +11,7 @@
 * [Managing Docker hosts with Docker Machine](managing_docker_hosts_with_docker_machine.md)
 * [Docker Compose](docker_compose.md)
 * [Docker development environment](docker_development_environment.md)
-* [Adding Docker to your code project](building_docker_infrastructure_and_applications.md)
 * [Setting up a docker in your project](setting-up-a-docker-in-your-project.md)
+* [Building Docker images](building_docker_infrastructure_and_applications.md)
 * [Glossary of Terms](GLOSSARY.md)
 
