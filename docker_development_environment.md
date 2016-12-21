@@ -41,7 +41,7 @@ Cloud providers are very docker friendly and major cloud players like Azure, AWS
 ### Azure
 Microsoft Azure premiere service for Docker is its [Azure Container Service](https://azure.microsoft.com/en-us/services/container-service/) for enabling native hosting, deployment, monitoring and management of containers natively. But there are more services including [Docker on Ubuntu VM](https://azure.microsoft.com/en-us/marketplace/partners/canonicalandmsopentech/dockeronubuntuserver1404lts/), [Docker Datacenter](https://azure.microsoft.com/en-us/marketplace/partners/docker/dockerdatacenterdocker-datacenter/), and a [VM that enables deploying Docker Apps to Red Hat Open Shift](https://azure.microsoft.com/en-us/marketplace/partners/click2cloud-inc/click2cloud-devops-cloud-solution/). We probably don't want to use this last one.
 
- ### AWS  
-AWS has their [EC2 Container Service](https://aws.amazon.com/ecs/?nc2=h_m1)
+ ### Amazon Web Services 
+AWS has their [EC2 Container Service](https://aws.amazon.com/ecs/?nc2=h_m1) as part of their EC2 service for launching and managing containers - EC2CS integrates with other services like the load balancing service. Amazon also has [Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/), which focuses on deplying applications and auto-scaling these applications as neede to handle load.
 
 
