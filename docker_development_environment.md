@@ -25,7 +25,7 @@ IDEs are also starting to support developing with Docker from within the IDE env
 
 We have many Microsoft-technology-based products. For these products, developing in a native Microsoft environment is probably a good idea. In additon to provisioning Docker Hosts on Azure with Docker Machine, to support development with Docker, Microsoft has created [Visual Studio Tools for Docker](https://marketplace.visualstudio.com/items?itemName=MicrosoftCloudExplorer.VisualStudioToolsforDocker-Preview). The level of support and how docker is supported (**toolchain up to Docker Compose**) for "VS Tools for Docker" is still evolving.
 
-Microsoft enables developers to add native docker support in Visual Studio **for .NET Core projects**. Much of Microsoft's Visual Studio Docker Support Documentation can be found at [Visual Studio Tools](https://marketplace.visualstudio.com/items?itemName=MicrosoftCloudExplorer.VisualStudioToolsforDocker-Preview). Support here is  still pretty rudimentary, and so it is kind of awkward how Docker Compose files are placed in the project, but it's coming along...
+Microsoft enables developers to add native docker support in Visual Studio **for .NET Core projects**. Much of Microsoft's Visual Studio Docker Support Documentation can be found at [Visual Studio Tools](https://marketplace.visualstudio.com/items?itemName=MicrosoftCloudExplorer.VisualStudioToolsforDocker-Preview). Support here is  still pretty rudimentary, and so it is kind of awkward how Docker Compose files are placed in the project, but it's coming along... Docker and Microsoft are teaming up to and sometime soon Docker may support Windows containers. To see what Microsoft and Docker are up to take a look [here](https://www.simple-talk.com/cloud/platform-as-a-service/windows-containers-and-docker/) and here. 
 
 ## Eclipse / Java et al.
 Eclipse is also moving toward supporting Docker development, and there are already [Eclipse plugins](https://marketplace.eclipse.org/search/site/%2522Docker%2522) in the marketplace for creating, running and managing **Docker images and containers**. For the moment it looks like docker engine is the only supported tooling. So here too, the Eclipse folks are just getting started. 
@@ -35,7 +35,13 @@ Intellij has perhaps the [most support for Docker](https://www.jetbrains.com/hel
 
 Another example: Currently, the only Docker technology supported by Haufe Group release engineering is building docker images to the Haufe Group Docker Registry. 
 
+## Cloud Environments
+Cloud providers are very docker friendly and major cloud players like Azure, AWS and Digital Ocean all offer native support for Docker. They are even beginning to offer Administrating and Operating services for containers. While Docker has proven problematic for some of the product offerings from cloud "as a service" providers, they are embracing the technology. 
 
+### Azure
+Microsoft Azure premiere service for Docker is its [Azure Container Service](https://azure.microsoft.com/en-us/services/container-service/) for enabling native hosing, deployment, monitoring and management of containers natively. 
+
+ ### AWS  
 
 
 
