@@ -1,4 +1,4 @@
-# My Docker development environment
+# The extended Docker environment
 
 So what you have seen so far are the basic docker tools that you may use here at Haufe Group. What you have hopefully also noticed is that there is a tooling progression that makes using docker more efficient and speeds up development with Docker the higher-up you go on the toolchain. 
 
@@ -45,8 +45,22 @@ Microsoft Azure premiere service for Docker is its [Azure Container Service](htt
 AWS has their [EC2 Container Service](https://aws.amazon.com/ecs/?nc2=h_m1) as part of their EC2 service for launching and managing containers - EC2CS integrates with other services like the load balancing service. Amazon also has [Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/), which focuses on deplying applications and auto-scaling these applications as neede to handle load.
 
 ### Digital Ocean
-Digitial Ocean also enables you to create Docker servers with one click. Digital Ocean is more on the IaaS side of cloud services but they have been working closely with Docker to support container technology.
+Digitial Ocean also enables you to create [Docker servers](https://www.digitalocean.com/products/one-click-apps/docker/) with one click. Digital Ocean is more on the IaaS side of cloud services but they have been working closely with Docker to support container technology.
 
-It is important to note that you can provision Docker hosts on all of these cloud service providers using docker-machine. The acceptance for Docker is wide and their are many options where you can deploy and manage your docker apps in the cloud. Even if some of these services aren't what we would select in a production environment, it is interesting to see that the big providers are developing them. 
+It is important to note that you can provision Docker hosts on all of these cloud service providers using docker-machine. The acceptance for Docker is wide and their are many options where you can deploy and manage your docker apps in the cloud. Even if some of these services aren't what we would select in a production environment, it is interesting to see that the big providers are developing them. This next section may be more interesting for Haufe Group.
+
+## Container Orchestration and Management Software
+This software is designed to deploy and manage container applications in production. There are many offerings at the moment but here we link to some of this software that may be put to use here at Huafe Group.
+
+### Kubernetes
+
+ 
+
+### Rancher
+
+ 
+ 
+
+
 
 
