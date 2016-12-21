@@ -26,7 +26,7 @@ Later you will be working with Docker environments and Docker services
 
 If you plan to use Docker from the offices in Freiburg, You have to ensure that the Haufe Proxy and the Haufe Firewall do not block your Docker Engine from communication with the internet. Since you are going to go out and get images from Docker Hub and other repositories. There are a couple of workarounds here.
 
-Go to the [Getting Started - Docker for Windows](https://docs.docker.com/docker-for-windows/) or [Getting Started - Docker for Mac](https://docs.docker.com/docker-for-mac/) and read up on how to access the settings. For the "Dockers For" tools you will at least have to:
+Go to the [Getting Started - Docker for Windows](https://docs.docker.com/docker-for-windows/) or [Getting Started - Docker for Mac](https://docs.docker.com/docker-for-mac/) and read up on how to access the settings. For the "Dockers For" tools you will have to:
 
 * Share drives for Docker volumes
 * Set proxy variables
