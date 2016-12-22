@@ -1,6 +1,6 @@
 # Installing Docker
 
-The Docker installation that you use locally is completely up to you. Docker comes in several different flavors. However, it probably makes most sense to install Docker in a Linux environment. For Example, we noticed some problems with drive sharing on Docker for Windows, here it was important to make sure we used the “Network user” – Domain\UserName – to be able to perform mounts between the host file system and docker file system: The Network User is the “real owner” of your computer’s file system, and you must use this user to be able to enable sharing and mounting.
+The Docker installation that you use locally is completely up to you. Docker comes in several different flavors. However, it probably makes most sense to install Docker in a Linux environment. For example, on my machine, I have problems networking Docker Hosts with Docker for Windows. As a result, I can't use and learn Docker Swarm locally. I also have problems using other tooling that I would like to learn more about.
 
 Official Docker documentation has an excellent and comprehensive tutorial on how to install docker [at this location](https://docs.docker.com/engine/getstarted/step_one/) . Here the Docker Docs step you through doing a basic install of docker for your flavor of operating system and how to test docker by running the "hello world" Docker image. Specific links are:
 
