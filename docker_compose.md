@@ -13,7 +13,7 @@ Docker Compose provides you with an easy way to isolate different application en
 * Use variables within your files - .env files
 * Create different service configurations e.g CI, Test, Production - .override files
 
-Haufe Group Docker Style Guide has both principles and practices for working with Docker Compose and creating Docker Compose files:
+Haufe Group Docker Style Guide has both practices for working with Docker Compose and creating Docker Compose files:
 
 * [Docker Compose](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/DockerCompose.md)
 * [Docker Compose Best Practices](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/BestPracticesCompose.md)
