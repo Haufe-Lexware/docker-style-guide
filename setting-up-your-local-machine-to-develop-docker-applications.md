@@ -33,5 +33,5 @@ For a production development and mayb for advanced startup development, setting 
 
 This is more effective because for you because if you set up remote debugging correctly, your local container environment is more likely to have the exact same configuration as a production container environment. This topic can be complex since  each IDE and each technology is different. Just to provide and example, here is a short tutorial on [how to configure VSCODE to remote debug dockerized NodeJS applications](https://alexanderzeitler.com/articles/debugging-a-nodejs-es6-application-in-a-docker-container-using-visual-studio-code/).
 
-To get this to work on my machine, I had to make a few changes to the Dockerfile and the VSCode Launch.js debug config. These changes are [here](/examples/VSCode_RemoteDebugContainer_NodeJSEnv). 
+To get this to work on my machine, I had to make a few changes to the Dockerfile and the VSCode Launch.js debug config. These changes are [here](https://github.com/SSpeights/docker-style-guide/tree/master/examples/VSCode_RemoteDebugContainer_NodeJSEnv). 
 
