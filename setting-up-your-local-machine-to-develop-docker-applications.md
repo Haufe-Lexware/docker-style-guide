@@ -13,16 +13,16 @@ IDE support for Docker is being extended every day because the major IDE makers 
 
 ### Debug from inside your container
 
-For getting started this is the easiest way to debug your docker app. This is a proven way to debug, and Docker makes this easy by already having Docker images ready for you to pull in Docker Hub. Requirements for doing it this way are:
+For getting started this technique may be the easiest way to debug your docker app. This is a proven way to debug, and Docker makes this easy by already having Docker images ready for you to pull in Docker Hub. Requirements for doing it this way are:
 
 * You must mount your code into the container
 * You must be able to have a GUI view of your container by using x11 vnc protocol. Usually instructions are on Docker Hub
 
-The downside here is that, since your container runs your IDE, it is not a production-ready container. So, you may not deploy this container.
+The downside here is that, since your container runs your IDE, it is not a production-ready container. You must not deploy this container.
 
-Another potential downside is that you could potentially delete your code if you mount files form your hard drive. You can mitigate against this by committing to git and cloning to your containers working directory.
+Another potential downside is that you could potentially delete your code if you mount files fromm your hard drive. You can mitigate against this by committing to git and initializing and cloning your code into your containers working directory, doing a rebase on subsequent run commands and so on.
 
-There are images in Docker Hub for most of the IDES VS Code, Intellij, NetBeans, Eclipse and even more IDEs. We are optimistic about these dockerized IDEs:
+There are images in Docker Hub for many well known IDEs including VS Code, Intellij, NetBeans, Eclipse and even more IDEs. We are optimistic about these dockerized IDEs:
 
 * [Visual Studio Code](https://hub.docker.com/r/jess/vscode/)
 * [Eclipse](https://hub.docker.com/r/psharkey/eclipse/)
@@ -31,7 +31,7 @@ There are images in Docker Hub for most of the IDES VS Code, Intellij, NetBeans,
 
 For a production development and mayb for advanced startup development, setting up Docker container remote debugging is more effective. Remote debugging can be defined and placing debugging components in your Docker container so the container can communicate debugging data with your IDE.  This is already partially supported by some IDEs. One example of remote debugging is that you can add docker support and debug  the container in Visual Studio for .NET Core projects.
 
+This is more effective because for you because if you set up remote debugging correctly, your local container environment is more likely to have the exact same configuration as a production container environment. This topic can be complex since  each IDE and each technology is different. Just to provide and example, here is a short tutorial on [how to configure VSCODE to remote debug dockerized NodeJS applications](https://alexanderzeitler.com/articles/debugging-a-nodejs-es6-application-in-a-docker-container-using-visual-studio-code/).
 
-
-
+To get this to work on my machine, I had to make a few changes to the Dockerfile and the VSCode Launch.js debug config. These changes are [here](/examples/VSCode_RemoteDebugContainer_NodeJSEnv). 
 
