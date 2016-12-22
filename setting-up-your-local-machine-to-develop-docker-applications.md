@@ -29,11 +29,9 @@ There are images in Docker Hub for most of the IDES VS Code, Intellij, NetBeans,
 
 ### Remote Debugging
 
-For a production development and mayb for advanced startup development, setting up Docker container remote debugging is more effective. Remote debugging can be defined and placing debugging components in your Docker container so the container can communicate debugging data with your IDE.  This is already partially supported by some IDEs. One example of remote debugging is that you can add docker support and debug  the container in Visual Studio for .NET Core projects. 
+For a production development and mayb for advanced startup development, setting up Docker container remote debugging is more effective. Remote debugging can be defined and placing debugging components in your Docker container so the container can communicate debugging data with your IDE.  This is already partially supported by some IDEs. One example of remote debugging is that you can add docker support and debug  the container in Visual Studio for .NET Core projects.
 
 
 
-Set up a runtime container add remote debugger
 
-Set remote debbuger to so the IDE and perform remote debugging
 
