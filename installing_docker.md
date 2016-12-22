@@ -1,6 +1,6 @@
 # Installing Docker
 
-The Docker installation that you use locally is completely up to you. Docker comes in several different flavors. However, it probably makes most sense to install Docker in a Linux environment. For example, on my machine, I have problems networking Docker Hosts with Docker for Windows. As a result, I can't use and learn Docker Swarm locally. I also have problems using other tooling that I would like to learn more about.
+The Docker installation that you use locally is completely up to you. Docker comes in several different flavors. However, it probably still makes most sense to install Docker in a Linux environment. For example, on my machine, I have problems networking Docker Hosts with Docker for Windows. As a result, I can't use and learn Docker Swarm locally. I also have problems using other tooling that I would like to learn more about.
 
 Official Docker documentation has an excellent and comprehensive tutorial on how to install docker [at this location](https://docs.docker.com/engine/getstarted/step_one/) . Here the Docker Docs step you through doing a basic install of docker for your flavor of operating system and how to test docker by running the "hello world" Docker image. Specific links are:
 
@@ -8,7 +8,7 @@ Official Docker documentation has an excellent and comprehensive tutorial on how
 * [Install Docker for Mac](https://docs.docker.com/engine/installation/mac/)
 * [Install Docker for Linux](https://docs.docker.com/engine/installation/)
 
-**Note:** It may be necessary to install toolbox still **need to check this with the folks downstairs.** Or simply to 
+**Note:** It may be necessary to install toolbox on windows and mac still **need to check this with the folks downstairs.** Or simply to 
 
 While you can run Docker on just about any kind of OS, Docker hosts and containers are always Linux-based. This may change, but it's still important to get familiar with basic Linux commands and Linux utility commands - for example how to use "apt" or "curl" for retrieving and updating new packages on Ubuntu Linux and permissions basics like "chown", "chmod".
 
@@ -20,7 +20,7 @@ Once you get docker installed, you are going to start working with:
 
 Later you will be working with Docker environments and Docker services
 
-**Achtung:** If you are running on Windows, it helps to download a git client and then to install so you can run Linux commands in Powershell or DOS prompt. If your CI-pipline includes Git this makes sense anyway.
+**Achtung:** If you are running on Windows, it helps to download a git client and then to install so you can run Linux commands in Powershell or DOS prompt. If your CI-pipline includes Git this makes sense anyway. Also you need the Linux shell to be able to run more powerful commands that you can't run in a Windows shell - [like removing all containers or all images](https://techoverflow.net/blog/2013/10/22/docker-remove-all-images-and-containers/).
 
 ## Using Docker inside the Haufe Network
 
@@ -36,7 +36,9 @@ And you may have to:
 
 * Change network settings
 
-For the Docker for Windows or IOS, one nice feature is that you can configure the firewall to propagate down to the Docker Host level. You can also set “no\_proxy” exceptions from within the Docker Application. For Linux, you can set the environment variables – HTTP\_PROXY, HTTPS\_PROXY and NO\_PROXY - for the domains where you intend to work with Docker that are not behind a proxy server.
+For the Docker for Windows or IOS, one nice feature is that you can configure the firewall to propagate down to the Docker Host level. You can also set “no\_proxy” exceptions from within the Docker Application. For Linux, you can set the environment variables for your virtual machine – HTTP\_PROXY, HTTPS\_PROXY and NO\_PROXY - for the domains where you intend to work with Docker that are not behind a proxy server.
+
+**Editor Note: Still need to write some more about networking for Linux installations. Also need to organize this section better.**
 
 The Haufe proxy for both http and https is: `10.12.1.236:8083/`
 
