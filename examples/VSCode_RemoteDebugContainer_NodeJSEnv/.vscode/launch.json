@@ -5,6 +5,7 @@
     "version": "0.2.0",
     "configurations": [
     {
+      // Debug config for debugging NodeJS apps on the local machine
       "name": "Launch",
       "type": "node",
       "request": "launch",
@@ -25,10 +26,13 @@
       "outDir": null
     },
     {
+      // Debug config for remote debugging (for Docker container) NodeJS apps
       "name": "Attach",
       "type": "node",
       "request": "attach",
+      // VSCode uses this port to retrieve remote debugging data, see EXPOSE and CMD in Dockerfile to see how this is configured in the container.
       "port": 5858,
+      // If you are using Docker Machine, use the "docker-machine ip" to get the ip address of your Docker Host
       "address": "10.0.75.2",
       "restart": false,
       "sourceMaps": false,
