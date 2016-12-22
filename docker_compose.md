@@ -20,7 +20,7 @@ Haufe Group Docker Style Guide has practices for working with Docker Compose and
 
 Once you have read through these, get started by going through Docker's [Docker Compose documentation](https://docs.docker.com/compose/overview/), starting with the overview and working through the entire Compose section. You can leave out the experimental and "superseded" sections. 
 
-The best way to understand compose is to practice. The getting started section and  tutorials in this documentation can help. Direct links to these are:
+The best way to understand Compose is to practice. The getting started section and  tutorials in this documentation can help. Direct links to these are:
 
 | Tut | Docker Skill |
 | --- | --- |
