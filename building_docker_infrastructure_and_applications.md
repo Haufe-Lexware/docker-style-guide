@@ -5,7 +5,7 @@ This title may also change in the future as Haufe Group incorporates more of Doc
 The build pipeline has these steps:
 
 * Dockerfile is added to project
-* Project is added to the source repository
+* Project is added to the source repository and is picked up by the build
 * The build uses Dockerfile to create an image
 * The build pushes this image to haufe registry haufe.docker.io
 
