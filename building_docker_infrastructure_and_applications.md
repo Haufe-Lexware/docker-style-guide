@@ -24,7 +24,7 @@ Once you are done developing and debugging, you commit your Dockerfile to source
 * BitBucket - Here you can commit to the Haufe Group Cloud or on-premise repo
 * TFS w/ Git or Team Foundation Version Control.
 
-By commiting a Dockerfile to either one of these repositories. Your Docker image is built.
+On commit of a Dockerfile to either one of these repositories \(that have been configured to build for Docker\), your Docker image is built.
 
 ## Supported Build Tools
 
