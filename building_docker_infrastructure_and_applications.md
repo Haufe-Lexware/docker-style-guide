@@ -41,5 +41,14 @@ Go.Cd is thoughtworks continuous delivery tool that enables to configure and run
 
 Jenkins also supports building Docker images. Since there is no Docker plugin for Jenkins, this where the Docker Engine CLI `build` and `push` commands are automated.
 
-In any case, both Go.Cd and Jenkins support building Docker images and placing them in our Docker registry. The Haufe Group Docker registry is located at
+In any case, both Go.Cd and Jenkins support building Docker images and placing them in our Docker registry. The Haufe Group Docker registry is located at.
+
+### Contact release engineering
+The RE folks who are in charge of this are: 
+
+* Nicolas Dille
+* Markus Wehrle
+
+Contact them if you have any further questions. 
+
 
