@@ -1,5 +1,7 @@
 ## Setting up your local machine to develop Docker
 
+So what you have seen so far are the basic docker tools that you may use here at Haufe Group. What you have hopefully also noticed is that there is a tooling progression that makes using docker more efficient and speeds up development with Docker the higher-up you go on the toolchain.
+
 Docker can help you with the setup of your dev environment. Docker enables you to find and coordinate application dependencies faster. At the same time, by choosing to use Docker, you also have to ensure that your application runs the way you intend it to inside the Docker container.
 
 So, you installed Docker, worked with the tools - albeit in kind of an uncomfortable way, and now, you want to start developing your application with Docker in your favorite IDE that supports your technology of choice. That's awesome, but you must be able to debug your application inside of the container to ensure that you have everything you need in the application environment.
