@@ -18,7 +18,7 @@ IDE support for Docker is being extended every day because the major IDE makers 
 For getting started this technique may be the easiest way to debug your docker app. This is a proven way to debug, and Docker makes this easy by already having Docker images ready for you to pull in Docker Hub. Requirements for doing it this way are:
 
 * You must mount your code into the container
-* You must be able to have a GUI view of your container by using x11 vnc protocol. Usually instructions are on Docker Hub
+* You must be able to have a GUI view of your container by using x11 vnc protocol or some other way to view it graphically. Usually instructions for this are on Docker Hub
 
 The downside here is that, since your container runs your IDE, it is not a production-ready container. You must not deploy this container.
 
