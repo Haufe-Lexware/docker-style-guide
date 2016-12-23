@@ -28,6 +28,8 @@ Later you will be working with Docker environments and Docker services
 
 If you plan to use Docker from the offices in Freiburg, You have to ensure that the Haufe Proxy and the Haufe Firewall do not block your Docker Engine from communication with the internet. Since you are going to go out and get images from Docker Hub and other repositories. There are a couple of workarounds here.
 
+The Haufe proxy for both http and https is: `10.12.1.236:8083/`
+
 ### Docker on Linux
 Things change but right now it looks like Docker for Windows and Docker for Mac still have some limitations, so it's better to work on Linux. This is why linux comes first in this section.
 
@@ -48,8 +50,6 @@ And you may have to:
 For the Docker for Windows or IOS, one nice feature is that you can configure the firewall to propagate down to the Docker Host level. You can also set “no\_proxy” exceptions from within the Docker Application. 
 
 **Editor Note: Still need to write some more about networking for Linux installations. Also need to organize this section better.**
-
-The Haufe proxy for both http and https is: `10.12.1.236:8083/`
 
 Even if you have already done this in the Docker for Windows / Mac settings. You may still have some problems building images.
 
