@@ -27,7 +27,7 @@ Another potential downside is that you could potentially delete your code if you
 There are images in Docker Hub for many well known IDEs including VS Code, Intellij, NetBeans, Eclipse and even more IDEs. We are optimistic about these dockerized IDEs:
 
 * [Visual Studio Code](https://hub.docker.com/r/jess/vscode/)
-* [Eclipse](https://hub.docker.com/r/psharkey/eclipse/)
+* [Intellij](https://hub.docker.com/r/psharkey/novnc/)
 
 ### Remote Debugging
 
