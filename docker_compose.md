@@ -10,7 +10,7 @@ Like Dockerfile, Docker Compose file serves as configuration and documentation. 
 
 ### Extending your composed application
 
-Docker Compose provides you with an easy way to isolate different application environments from one another. Highly convenient is that you can extend your Compose configuration with additional files to:
+Docker Compose provides you with an easy way to isolate different application environments from one another. Highly convenient is that you also can extend your Compose configuration with additional files to:
 
 * Use variables within your files - .env files
 * Create different service configurations e.g CI, Test, Production - .override files
