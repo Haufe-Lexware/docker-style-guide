@@ -8,7 +8,7 @@ Official Docker documentation has an excellent and comprehensive tutorial on how
 * [Install Docker for Mac](https://docs.docker.com/engine/installation/mac/)
 * [Install Docker for Linux](https://docs.docker.com/engine/installation/)
 
-**Note:** It may be necessary to install toolbox on windows and mac still **need to check this with the folks downstairs.**
+**Note:** It may be necessary to install toolbox on Windows and Mac still **need to check this with the folks downstairs.**
 
 ### Building blocks for working with Docker
 
