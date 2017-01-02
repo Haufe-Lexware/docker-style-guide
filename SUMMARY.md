@@ -12,4 +12,5 @@
 * [Docker Compose](docker_compose.md)
 * [Setting up your local machine to develop Docker applications](setting-up-your-local-machine-to-develop-docker-applications.md)
 * [Building Docker images](building_docker_infrastructure_and_applications.md)
+* [Glossary](GLOSSARY.md)
 
