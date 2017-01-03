@@ -26,7 +26,7 @@ For getting started this technique may be the easiest way to debug your docker a
 
 The downside here is that, since your container runs your IDE, it is not a production-ready container. You must not deploy this container.
 
-Another potential downside is that you could potentially delete your code if you mount files fromm your hard drive. You can mitigate against this by committing to git and initializing and cloning your code into your containers working directory, doing a rebase on subsequent run commands and so on.
+Another potential downside is that you could potentially delete your code if you mount files from your hard drive. You can mitigate against this by committing to git and initializing and cloning your code into your containers working directory, doing a rebase on subsequent run commands and so on.
 
 There are images in Docker Hub for many well known IDEs including VS Code, Intellij, NetBeans, Eclipse and even more IDEs. We are optimistic about these dockerized IDEs:
 
@@ -35,7 +35,7 @@ There are images in Docker Hub for many well known IDEs including VS Code, Intel
 
 ### Remote Debugging
 
-For a production development and mayb for advanced startup development, setting up Docker container remote debugging is more effective. Remote debugging can be defined and placing debugging components in your Docker container so the container can communicate debugging data with your IDE.  This is already partially supported by some IDEs. One example of remote debugging is that you can add docker support and debug  the container in Visual Studio for .NET Core projects.
+For a production development and maybe for startup development, setting up Docker container remote debugging is more effective. Remote debugging can be defined and placing debugging components in your Docker container so the container can communicate debugging data with your IDE.  This is already partially supported by some IDEs. One example of remote debugging is that you can add docker support and debug  the container in Visual Studio for .NET Core projects.
 
 This is more effective because, if you set up remote debugging correctly, your local container environment is more likely to have the exact same configuration as a production container environment. This topic can be complex since  each IDE and each technology is different. Just to provide and example, here is a short tutorial on [how to configure VSCODE to remote debug dockerized NodeJS applications](https://alexanderzeitler.com/articles/debugging-a-nodejs-es6-application-in-a-docker-container-using-visual-studio-code/).
 
