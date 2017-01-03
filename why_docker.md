@@ -7,7 +7,7 @@ Some more uses cases for software developers can be found on [Romin Irani's blog
 
 To give you an idea why we want to use Docker at Haufe Group, let's take a look at one of our projects - Next Best Action. Our marketing departments are looking to move away from classical push marketing because they don't believe they can really understand our customers with classical marketing techniques.
 
-**Editors Note: We will want to add more use cases as the arise, list them and link them separately. For each use case their will be more**
+**Editors Note: We will want to add more use cases as they arise, list them and link them separately. For each use case there ought to be more examples and so on.**
 
 ## Marketing needs to know more
 
