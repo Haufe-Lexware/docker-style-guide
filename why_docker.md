@@ -1,6 +1,6 @@
 # Why Docker
 
-Docker is in general very cool in the sense that, once you have learned it, Docker makes application development easier. Don't take my word for it though, here is what it says in the [Haufe Docker Style Guide Introduction](/StyleGuideHome.md). Once again, Docker provides its own documentation and their [use cases are here](https://www.docker.com/use-cases).  
+Docker is in general very cool in the sense that, once you have learned it, Docker makes application development easier. Don't take my word for it though, here is what it says in the [Haufe Docker Style Guide Introduction](StyleGuideHome.md). Once again, Docker provides its own documentation and their [use cases are here](https://www.docker.com/use-cases).  
 Some more uses cases for software developers can be found on [Romin Irani's blog](https://rominirani.com/docker-use-cases-ca12afba75b0#.1112htwem).
 
 ## Why Docker @ Haufe Group
