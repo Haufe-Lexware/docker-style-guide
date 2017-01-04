@@ -1,6 +1,6 @@
 # Composing applications with Docker Compose
 
-Composing is exactly what you do with Docker compose. While it's possible to create an application from a single docker image, when you think about docker's purpose - to serve as a packaging system for our software applications and also how docker "packages" these applications - creating a full-blown application on one big image requires more work than creating many small images and configuring them to work together when Docker is involved. Single big images defeat the purpose of Docker. In [Docker Compose Overview](https://docs.docker.com/compose/overview/)    states that:
+Composing is exactly what you do with Docker compose. While it's possible to create an application from a single docker image, when you think about docker's purpose - to serve as a packaging system for our software applications and also how docker "packages" these applications - creating a full-blown application on one big image requires more work than creating many small images and configuring them to work together when Docker is involved. Single big images defeat the purpose of Docker. [Docker Compose Overview](https://docs.docker.com/compose/overview/)    states that:
 
 > Compose enables you to configure and run multi-container applications.
 
