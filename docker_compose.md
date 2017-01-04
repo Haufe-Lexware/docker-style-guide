@@ -1,6 +1,6 @@
 # Composing applications with Docker Compose
 
-Composing is exactly what you do with Docker compose. While it's possible to create an application from a single docker image, when you think about docker's purpose - to serve as a packaging system for our software applications and also how docker "packages" these applications - creating a full-blown application on one big image requires more work than creating many small images and configuring them to work together. Single big images defeat the purpose of Docker. In [Docker Compose Overview](https://docs.docker.com/compose/overview/)    states that:
+Composing is exactly what you do with Docker compose. While it's possible to create an application from a single docker image, when you think about docker's purpose - to serve as a packaging system for our software applications and also how docker "packages" these applications - creating a full-blown application on one big image requires more work than creating many small images and configuring them to work together when Docker is involved. Single big images defeat the purpose of Docker. [Docker Compose Overview](https://docs.docker.com/compose/overview/)    states that:
 
 > Compose enables you to configure and run multi-container applications.
 
@@ -8,30 +8,39 @@ Like Dockerfile, Docker Compose file serves as configuration and documentation. 
 
 > The Compose file is a YAML file defining services, networks and volumes. The default path for a Compose file is ./docker-compose.yml.
 
-Docker Compose provides you with an easy way to isolate different application environments from one another. Highly convenient is that you can extend your Compose configuration with additional files to:
+### Extending your composed application
 
-* Use variables within your files - .env files
-* Create different service configurations e.g CI, Test, Production - .override files
+Docker Compose provides you with an easy way to isolate different application environments from one another. Highly convenient is that you also can extend your Compose configuration with additional files to:
 
-Haufe Group Docker Style Guide has both principles and practices for working with Docker Compose and creating Docker Compose files:
+* Use variables within your files - [.env files](https://docs.docker.com/compose/env-file/) and [add variables into your Compose file](https://docs.docker.com/compose/environment-variables/)
+* [Create different service configurations](https://docs.docker.com/compose/extends/) e.g CI, Test, Production - .override files
+
+This can be helpful if you want to test different Compose environments.
+
+### Docker Compose practices
+
+Haufe Group Docker Style Guide has practices for working with Docker Compose and creating Docker Compose files:
 
 * [Docker Compose](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/DockerCompose.md)
 * [Docker Compose Best Practices](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/BestPracticesCompose.md)
 
-Once you have read through these, get started by going through Docker's [Docker Compose documentation](https://docs.docker.com/compose/overview/), starting with the overview and working through the entire Compose section. You can leave out the experimental and "superseded" sections. 
+Once you have read through these, get started by going through Docker's [Docker Compose documentation](https://docs.docker.com/compose/overview/), starting with the overview and working through the entire Compose section. You can leave out the experimental and "superseded" sections.
 
-The best way to understand compose is to practice. The getting started section and  tutorials in this documentation can help. Direct links to these are:
+### Docker Compose practice
+
+The best way to understand Compose is to practice. The getting started section and  tutorials in this documentation can help. Direct links to these are:
 
 | Tut | Docker Skill |
 | --- | --- |
 | [Getting started](https://docs.docker.com/compose/gettingstarted/) | Learn how to to compose a basic Python app, using two services, learn compose file instructions |
 | [Django](https://docs.docker.com/compose/django/) | Learn set up a Django / Postgre app, learn how to further define services - build, volumes, ports, depends\_on |
-| [Wordpress](https://docs.docker.com/compose/wordpress/) | Learn how to set up a Wordpress service with MySQL and a data volume service, learn how to set environment variables from Compose file, learn the restart command |
+| [Wordpress](https://docs.docker.com/compose/wordpress/) | Learn how to set up a Wordpress service with MySQL and a data volume service, learn how to set environment variables from Compose file, learn the restart instruction |
 
 To get a really good basic knowledge, add these tasks when you work the tutorials:
 
 * Extend the configuration of each Compose file and create multiple environments with .env and .override files.
 * Apply Haufe Group practices to all Compose Files. **Hint:** No secrets, Data Containers and so on. 
+* Finally, if you didn't already read it, you should read [Compose in Production ](https://docs.docker.com/compose/production/) to understand what you must change to make your compose application production-ready.
 
 ### Section Targets
 

@@ -7,6 +7,8 @@ The way docker works is that you create images and you create running instances 
 
 Both ways are important. You must understand the CLI commands - these will later be automated by the build agent - and because you must to use the Dockerfile to persist your image and automate building it later.
 
+### Create an image with the CLI
+
 If you have docker installed, you can create a base image by opening a console and typing in:  
 `docker pull ubuntu` if you don't have an ubuntu image on your system, Docker automatically searches the the Docker Hub for the latest available image.
 
