@@ -40,7 +40,7 @@ To get a really good basic knowledge, add these tasks when you work the tutorial
 
 * Extend the configuration of each Compose file and create multiple environments with .env and .override files.
 * Apply Haufe Group practices to all Compose Files. **Hint:** No secrets, Data Containers and so on. 
-* Finally, if you didn't already read it, you should read [Compose in Production ](https://docs.docker.com/compose/production/) to understand what you must changes to make your compose applicaiton produciton-ready.
+* Finally, if you didn't already read it, you should read [Compose in Production ](https://docs.docker.com/compose/production/) to understand what you must change to make your compose application production-ready.
 
 ### Section Targets
 
