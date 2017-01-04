@@ -12,10 +12,10 @@ Like Dockerfile, Docker Compose file serves as configuration and documentation. 
 
 Docker Compose provides you with an easy way to isolate different application environments from one another. Highly convenient is that you also can extend your Compose configuration with additional files to:
 
-* Use variables within your files - .env files
-* Create different service configurations e.g CI, Test, Production - .override files
+* Use variables within your files - [.env files](https://docs.docker.com/compose/env-file/) and [add variables into your Compose file](https://docs.docker.com/compose/environment-variables/)
+* [Create different service configurations](https://docs.docker.com/compose/extends/) e.g CI, Test, Production - .override files
 
-This can be helpful if you want to test different Compose environments. 
+This can be helpful if you want to test different Compose environments.
 
 ### Docker Compose practices
 
@@ -24,7 +24,7 @@ Haufe Group Docker Style Guide has practices for working with Docker Compose and
 * [Docker Compose](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/DockerCompose.md)
 * [Docker Compose Best Practices](https://github.com/Haufe-Lexware/docker-style-guide/blob/master/BestPracticesCompose.md)
 
-Once you have read through these, get started by going through Docker's [Docker Compose documentation](https://docs.docker.com/compose/overview/), starting with the overview and working through the entire Compose section. You can leave out the experimental and "superseded" sections. 
+Once you have read through these, get started by going through Docker's [Docker Compose documentation](https://docs.docker.com/compose/overview/), starting with the overview and working through the entire Compose section. You can leave out the experimental and "superseded" sections.
 
 ### Docker Compose practice
 
