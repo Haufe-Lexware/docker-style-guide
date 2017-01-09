@@ -8,7 +8,7 @@
 
 **Section targets**: Section targets are learning targets placed at the end of each section in the book. These targets show you what you will have learned if you read and work through the linked documentation. Using these targets you can reflect on whether or not you've learned enough or if you should go back and do some more.
 
-**Instruction:** An instruction is an entry in either a Dockerfile or a Docker Compose file. Instructions "instruct" the Docker build component or the Docker Compose what to do and are triggered by:
+**Instruction:** An instruction is an entry in either a Dockerfile or a Docker Compose file. Instructions "instruct" the Docker build component or Docker Compose what to do with the purpose:
 
 * To build an image \(`docker build` command\)
 * To spin up a docker services into Docker applications \(`docker-compose up` command, et al.\)
