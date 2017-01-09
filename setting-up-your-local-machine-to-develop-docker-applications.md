@@ -33,6 +33,8 @@ There are images in Docker Hub for many well known IDEs including VS Code, Intel
 * [Visual Studio Code](https://hub.docker.com/r/jess/vscode/)
 * [Intellij](https://hub.docker.com/r/psharkey/novnc/)
 
+Instructions on how to install these images are in the descriptions on Docker Hub.
+
 ### Remote Debugging
 
 For a production development and maybe for startup development, setting up Docker container remote debugging is more effective. Remote debugging can be defined and placing debugging components in your Docker container so the container can communicate debugging data with your IDE.  This is already partially supported by some IDEs. One example of remote debugging is that you can add docker support and debug  the container in Visual Studio for .NET Core projects.
