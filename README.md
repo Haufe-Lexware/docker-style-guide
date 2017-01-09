@@ -25,3 +25,21 @@ To put it in plain English, the proposed way to use this book is to: read the bo
 
 But, you also need to read the content of the book too. This Docker book contains previously undocumented information like how to work from behind of the Haufe Group proxy server or to understand why we want to use docker at Haufe Group. Maybe not so much information as in an O'Reilly Media book, but still important if you want to use Docker locally on your dev machine.
 
+# Table of contents
+
+* [Why a Haufe Docker Book](README.md)
+* [Why Docker](why_docker.md)
+* [How docker works](how_docker_works.md)
+* [Installing Docker](installing_docker.md)
+* [Docker Basics](docker_basics.md)
+* [Using Docker registries](using_docker_registries.md)
+* [Creating base images with Docker CLI](creating_base_images_with_docker_cli.md)
+* [Building your own images with Dockerfile](building_your_own_images_with_dockerfile.md)
+* [Managing Docker host with Docker Machine](managing_docker_hosts_with_docker_machine.md)
+* [Docker Compose](docker_compose.md)
+* [Setting up your local machine to develop Docker applications](setting-up-your-local-machine-to-develop-docker-applications.md)
+* [Building Docker images](building_docker_infrastructure_and_applications.md)
+* [Glossary](GLOSSARY.md)
+
+
+
