@@ -7,7 +7,7 @@ Some more uses cases for software developers can be found on [Romin Irani's blog
 
 To give you an idea why we want to use Docker at Haufe Group, let's take a look at one of our projects - Next Best Action. Our marketing departments are looking to move away from classical push marketing because they don't believe they can really understand our customers with classical marketing techniques.
 
-**Editors Note: We will want to add more use cases as they arise, list them and link them separately. For each use case there ought to be more examples and so on.**
+**Editor's Note: We will want to add more use cases as they arise, list them and link them separately. For each use case there ought to be more examples and so on.**
 
 ## Marketing needs to know more
 
@@ -31,4 +31,6 @@ And, of course, using Docker makes it easier to scale out instances of successfu
 ## If it works, great! if not, no problem!
 
 So one reason why Haufe Group is interested in Docker technology is that when it is unclear if we should "build or buy" or if "buy" is too expensive, it allows us to develop, test and deploy prototypes,  reach decisions, and move along fast. This technique helps to develop business value at reasonable cost. If the prototype must go to production, Docker helps us to develop, test, build, and deploy production applications over a continuous delivery pipeline and to scale these applications in the production environment. And, even if it doesn't work out, Haufe Group learns a lot about its business needs, and,  it wasn't that much effort.
+
+**Editor's Note**: New use cases should be added as corresponding business cases / implementations arise
 
