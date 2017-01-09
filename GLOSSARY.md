@@ -13,7 +13,7 @@
 * To build an image \(`docker build` command\)
 * To spin up a docker services into Docker applications \(`docker-compose up` command, et al.\)
 
-Examples of Docker instruction are: Dockerfile: FROM, COPY, ADD, VOLUME, EXPOSE. Docker Compose: 
+Examples of Docker instructions are: **Dockerfile**: FROM, COPY, ADD, VOLUME, EXPOSE. **Docker Compose**: services, image, ports, restart.
 
 **Command: **A command is issued from the the CLI or uses the Docker API to direct the Docker Daemon to do something. CLI Examples:
 
