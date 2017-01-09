@@ -34,7 +34,7 @@ The Haufe proxy for both http and https is: `10.12.1.236:8083/`
 
 Things change but right now it looks like Docker for Windows and Docker for Mac still have some limitations, so it's better to work on Linux. This is why linux comes first in this section.
 
-**Editors Note: This section isn't done yet need to get more info for a local Linx dist**
+**Editor's Note: This section isn't done yet need to get more info for a local Linx dist**
 
 For Linux, you can set the environment variables for your virtual machine – HTTP\_PROXY, HTTPS\_PROXY and NO\_PROXY - for the domains where you intend to work with Docker that are not behind a proxy server.
 
