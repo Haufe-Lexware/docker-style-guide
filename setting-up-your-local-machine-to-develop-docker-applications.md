@@ -8,18 +8,18 @@ Docker can help you with the setup of your dev environment. Docker enables you t
 
 So, you installed Docker, worked with the tools - albeit in kind of an uncomfortable way, and now, you want to start developing your application with Docker in your favorite IDE that supports your technology of choice. That's awesome, but you must be able to debug your application inside of the container to ensure that you have everything you need in the application environment.
 
-By debugging, we don't mean debugging your code because you do this in your IDE. We mean ensuring that your application has everything that it needs to run in the container. One of your targets here is to create an immutable running application environment and configuring this environment is one of your debug tasks.
+By debugging, we don't mean debugging your code because you do this in your IDE. We mean ensuring that your application has everything that it needs to run in the container. One of your targets here is to create an immutable running application environment and to configure this environment.
 
 ### Docker and your favorite IDE
 
-IDE support for Docker is being extended every day because the major IDE makers realize the importance of container technologies, and so it can be that native IDE support for "debugging all applications from inside all Docker containers" is available soon. This level of debugging coverage is not available right now though - so there are essentially two ways to debug a Docker container:
+IDE support for Docker is being extended every day because the major IDE providers realize the importance of container technologies, and so, it can be that native IDE support for "debugging all applications from inside all Docker containers" is available soon. This level of debugging coverage is not available right now though - so there are essentially two ways to debug a Docker container:
 
-* Debug using a Docker Container runs your IDE
+* Debug using a Docker Container that runs your IDE
 * Debug using remote debugging
 
 ### Debug from inside your container
 
-For getting started this technique may be the easiest way to debug your docker app. This is a proven way to debug, and Docker makes this easy by already having Docker images ready for you to pull in Docker Hub. Requirements for doing it this way are:
+For getting started this technique may be the easiest way to debug your docker app. This is a proven way to debug, and Docker makes this easy by providing ready-to-pull Docker images in Docker Hub. Requirements for doing it this way are:
 
 * You must mount your code into the container
 * You must be able to have a GUI view of your container by using x11 vnc protocol or some other way to view it graphically. Usually instructions for this are on Docker Hub
@@ -32,6 +32,8 @@ There are images in Docker Hub for many well known IDEs including VS Code, Intel
 
 * [Visual Studio Code](https://hub.docker.com/r/jess/vscode/)
 * [Intellij](https://hub.docker.com/r/psharkey/novnc/)
+
+Instructions on how to install these images are in the descriptions on Docker Hub.
 
 ### Remote Debugging
 
