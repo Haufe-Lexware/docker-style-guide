@@ -14,7 +14,7 @@ By debugging, we don't mean debugging your code because you do this in your IDE.
 
 IDE support for Docker is being extended every day because the major IDE providers realize the importance of container technologies, and so, it can be that native IDE support for "debugging all applications from inside all Docker containers" is available soon. This level of debugging coverage is not available right now though - so there are essentially two ways to debug a Docker container:
 
-* Debug using a Docker Container runs your IDE
+* Debug using a Docker Container that runs your IDE
 * Debug using remote debugging
 
 ### Debug from inside your container
