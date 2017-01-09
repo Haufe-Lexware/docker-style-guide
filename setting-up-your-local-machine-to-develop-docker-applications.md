@@ -8,7 +8,7 @@ Docker can help you with the setup of your dev environment. Docker enables you t
 
 So, you installed Docker, worked with the tools - albeit in kind of an uncomfortable way, and now, you want to start developing your application with Docker in your favorite IDE that supports your technology of choice. That's awesome, but you must be able to debug your application inside of the container to ensure that you have everything you need in the application environment.
 
-By debugging, we don't mean debugging your code because you do this in your IDE. We mean ensuring that your application has everything that it needs to run in the container. One of your targets here is to create an immutable running application environment and configuring this environment is one of your debug tasks.
+By debugging, we don't mean debugging your code because you do this in your IDE. We mean ensuring that your application has everything that it needs to run in the container. One of your targets here is to create an immutable running application environment and configuring this environment.
 
 ### Docker and your favorite IDE
 
