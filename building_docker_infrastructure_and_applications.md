@@ -15,7 +15,7 @@ This is still an early stage of docker capability, but it allows you and others 
 
 Once you get to this point you need to  conform to the Haufe Group style guide for [Dockerfile practices](/BestPracticesDockerfile.md).
 
-**Achtung:** if you want to build your Docker image, you must not use volume mounting in your Dockerfile. Instead, you must use COPY or ADD to copy your files directly and bake them into your docker image. your application to the Docker image. If you have been mounting volumes in your dev project you need to change this before your build.
+**Achtung:** if you want to build your Docker image, you must not use volume mounting in your Dockerfile. Instead, you must use COPY or ADD to copy your files directly and bake them into your docker image.  If you have been mounting volumes in your dev project you need to change this before your build.
 
 ## Source Control
 
@@ -44,11 +44,11 @@ Jenkins also supports building Docker images. Since there is no Docker plugin fo
 In any case, both Go.Cd and Jenkins support building Docker images and placing them in our Docker registry. The Haufe Group Docker registry is located at.
 
 ### Contact release engineering
-The RE folks who are in charge of this are: 
+
+The RE folks who are in charge of this are:
 
 * Nicolas Dille
 * Markus Wehrle
 
-Contact them if you have any further questions. 
-
+Contact them if you have any further questions.
 
