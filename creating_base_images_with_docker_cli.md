@@ -45,7 +45,16 @@ There are many more commands - like "[docker network](https://docs.docker.com/en
 
 Getting some practice with the CLI is good and here are some tutorials that step you through from basic commands to ssh-ing into the container itself to update software "in-container".
 
+| Tut | Docker Skill |
+| :--- | :--- |
+| [Romirani Part 2 Basic commands](https://rominirani.com/docker-tutorial-series-part-2-basic-commands-baaf70807fd3#.4et5fzv52) | Learn some basic commands including "search" and "run" |
+| [Romirani Part 3 Manage images and containers](https://rominirani.com/docker-tutorial-series-part-3-more-on-images-and-containers-68ce7a026fc1#.81u5vtrpt) | Learn more commands to manage images and containers + expose an Apache Web Server by mapping ports. |
+| [Romirani Part 5 Build your own image](https://rominirani.com/docker-tutorial-series-part-5-building-your-own-docker-images-b4a448b44afc#.1mip1x4as) | Build your own image learn how to ssh into your container with the CLI to work inside of it.  |
+| [Romirani Part 7 Data volumes](https://rominirani.com/docker-tutorial-series-part-7-data-volumes-93073a1b5b72#.mgwgl2c5b) | Learn how to use data volumes from the CLI.  |
 
+That should be enough to get started. 
+
+Achtung: These tutorials were made for the Boot2Docker environment and, on Windows, Docker Toolset, which is an older version of Docker. Still, you should be able to work through the tutorial, Just ignore the part about Boot2Docker. Also, for "Part 5", in the real Docker world you will not want to work directly inside the container, you will want to configure these commands as instructions in your Dockerfile. More on that in the next section.
 
 ### Section targets
 
