@@ -43,7 +43,9 @@ There are many more commands - like "[docker network](https://docs.docker.com/en
 
 ## CLI Tutorials
 
-Getting some practice with the CLI is good and here are some tutorials that step you through from basic commands to ssh-ing into the container itself to update software "in-container"
+Getting some practice with the CLI is good and here are some tutorials that step you through from basic commands to ssh-ing into the container itself to update software "in-container".
+
+
 
 ### Section targets
 
