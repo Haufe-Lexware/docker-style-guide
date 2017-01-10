@@ -1,8 +1,8 @@
 # Installing Docker
 
-The Docker installation that you use locally is completely up to you. Docker comes in several different flavors. If you want to do something with Docker, it still makes the most sense to install Docker in a Linux environment. On my machine, I have problems networking Docker Hosts with Docker for Windows. As a result, I can't use and learn Docker Swarm locally. I also have problems using other tooling that I would like to learn more about.
+The Docker installation that you use locally is completely up to you. Docker comes in several different flavors. If you want to do something with Docker, it still makes the most sense to install Docker in a Linux environment. Right now, on my machine, I have problems networking Docker Hosts with Docker for Windows. As a result, I can't use and learn Docker Swarm locally. I also have problems using other tooling that I would like to learn more about.
 
-Official Docker documentation has an excellent and comprehensive tutorial on how to install docker [at this location](https://docs.docker.com/engine/getstarted/step_one/) . Here the Docker Docs step you through doing a basic install of docker for your flavor of operating system and how to test docker by running the "hello world" Docker image. Specific links are:
+Official Docker documentation has an excellent and comprehensive tutorial on how to install docker [at this location](https://docs.docker.com/engine/getstarted/step_one/) . Here the Docker Docs step you through doing a basic install of docker for your flavor of operating system and how to test Docker by running the "hello world" Docker image. Specific links are:
 
 * [Install Docker for Windows](https://docs.docker.com/engine/installation/windows/)
 * [Install Docker for Mac](https://docs.docker.com/engine/installation/mac/)
@@ -52,7 +52,7 @@ And you may have to:
 
 For the Docker for Windows or IOS, one nice feature is that you can configure the firewall to propagate down to the Docker Host level. You can also set “no\_proxy” exceptions from within the Docker Application.
 
-**Editor Note: Still need to write some more about networking for Linux installations. Also need to organize this section better.**
+**Editor's Note: Still need to write some more about networking for Linux installations. Also need to organize this section better.**
 
 Even if you have already done this in the Docker for Windows / Mac settings. You may still have some problems building images.
 
@@ -62,9 +62,9 @@ Even if you have already done this in the Docker for Windows / Mac settings. You
 * Use the ARG instruction in a Dockerfile  
   These arguments are only passed to the builder and do not persist in image or running container.
 
-It has also been difficult to start using Docker swarm on a Windows Machine, using Hyper-V as the virtualizatoin technology. I am still trying to work out all of the kinks with Docker for Windows. Because all of the Docker funcitonality doesn't "just work", it may be better to develop locally, test to see if it works and then push to a remote location.
+It has also been difficult to start using Docker Swarm on a Windows Machine, using Hyper-V as the virtualization technology. I am still trying to work out all of the kinks with Docker for Windows. Because all of the Docker functionality doesn't "just work", it may be better to develop locally, test to see if it works and then push to a remote location.
 
-### Develop Remotely
+### Develop remotely
 
 If the proxy server causes too much pain, perhaps the easiest way to get around the proxy is to set up a virtual machine on an external service like Azure and depending on the OS, to use an RDP client or your favorite SSH client to tunnel in to the remote virtual machine.
 

@@ -8,9 +8,9 @@ We have already linked to docker concepts so hopefully, you've already read up o
 
 ## Getting Help
 
-Before getting into the basics, if you need help you can get to various Docker community channels from [this web page](https://docs.docker.com/opensource/get-help/).
+Before getting into the basics, if you need help you can get to various Docker community channels from [this web page](https://docs.docker.com/opensource/get-help/). And also, of course, you can get help at the [Stackoverflow Docker area](http://stackoverflow.com/documentation/docker/topics). 
 
-Additionally, you can ask questions to the Haufe Docker Community in our [Rocket Chat Docker Channel](https://chat.haufe.com/channel/docker).
+Additionally, you can ask questions to the Haufe Docker Community in our [Rocket Chat Docker Channel](https://chat.haufe.com/channel/docker). 
 
 Don't hesitate to ask for help. Docker has a big community, and usually it's better to ask around before you experience frustration.
 

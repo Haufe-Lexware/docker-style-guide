@@ -9,8 +9,10 @@ Both ways are important. You must understand the CLI commands - these will later
 
 ### Create an image with the CLI
 
+The CLI is the command line interface part of Docker Engine.
+
 If you have docker installed, you can create a base image by opening a console and typing in:  
-`docker pull ubuntu` if you don't have an ubuntu image on your system, Docker automatically searches the the Docker Hub for the latest available image.
+`docker pull ubuntu` if you don't have an Ubuntu image on your system, Docker automatically searches the the Docker Hub for the latest available image.
 
 **Achtung:** Since you are just getting started this is ok. If you are working on a project where the application is only supported by ubuntu version 14.04 then you would pull that ubuntu image by specifying either the version or the release name in the tag - `docker pull ubuntu:trusty`
 
@@ -38,6 +40,8 @@ You should get to know the following commands. The best documentation is the [Do
 | search | Search a registry for a particular image |
 
 There are many more commands - like "[docker network](https://docs.docker.com/engine/userguide/networking/)" - that may be useful to you as you develop with docker.
+
+
 
 ### Section targets
 
