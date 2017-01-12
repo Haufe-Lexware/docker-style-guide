@@ -45,5 +45,5 @@ To get this to work on my machine, I had to make a few changes to the Dockerfile
 
 ## Prerequisite \#2: also create a production environment
 
-Once you have a working dev environment you still also need to set up a production environment that doesn't contain any IDE or active remote debugging components. This is still essential to ensure that your application works correctly and to test other stuff that may be affected by the debugger. In the case of the Node tutorial you would create a Node image that does not activate the debugger utility.
+Once you have a working dev environment you still also need to set up a production environment that doesn't contain any IDE or active remote debugging components. This is still essential to ensure that your application works correctly and to test other stuff that may be affected by the debugger. In the case of the Node tutorial, you would create a Node image that does not activate the debugger utility.
 
