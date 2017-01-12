@@ -45,7 +45,5 @@ To get this to work on my machine, I had to make a few changes to the Dockerfile
 
 ## Prerequisite \#2: also create a production environment
 
-Once you have a working dev environment you still also need to set up a production environment that doesn't contain any IDE or remote debugging components. This is still essential to ensure that your application works correctly. 
-
-
+Once you have a working dev environment you still also need to set up a production environment that doesn't contain any IDE or remote debugging components. This is still essential to ensure that your application works correctly.
 
