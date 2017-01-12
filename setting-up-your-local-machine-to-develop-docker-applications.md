@@ -43,7 +43,7 @@ This is more effective because, if you set up remote debugging correctly, your l
 
 To get this to work on my machine, I had to make a few changes to the Dockerfile and the VSCode Launch.js debug config. These changes are [here](https://github.com/SSpeights/docker-style-guide/tree/master/examples/VSCode_RemoteDebugContainer_NodeJSEnv).
 
-## Prerequisite \#2: also create a production environment
+## Prerequisite \#2: Also create a production environment
 
 Once you have a working dev environment you still also need to set up a production environment that doesn't contain any IDE or active remote debugging components. This is still essential to ensure that your application works correctly. In the case of the Node tutorial, you would create a Node image that does not activate the debugger utility.
 
