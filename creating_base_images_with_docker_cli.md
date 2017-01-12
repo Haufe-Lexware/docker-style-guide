@@ -56,7 +56,7 @@ Getting some practice with the CLI is good and here are some tutorials that step
 
 That should be enough to get started.
 
-**Achtung:** These tutorials were made for the Boot2Docker environment and, on Windows, Docker Toolset, which is an older version of Docker. Still, you should be able to work through the tutorial. Just ignore the part about Boot2Docker. Also, for "Part 5", in the real Docker world, you do not want to work directly inside the container, you will want to configure these commands as instructions in your Dockerfile. More on that in the next section.
+**Achtung:** These tutorials were made for the Docker Toolset, which is an older version of Docker for Windows. Still, you should be able to work through the tutorial. Just ignore the part about Boot2Docker. Also, for "Part 5", in the real Docker world, you do not want to work directly inside the container, you will want to configure these commands as instructions in your Dockerfile. More on that in the next section.
 
 ### Section targets
 
