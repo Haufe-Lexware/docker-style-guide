@@ -39,7 +39,11 @@ Instructions on how to install these images are in the descriptions on Docker Hu
 
 For a production development and maybe for startup development, setting up Docker container remote debugging is more effective. Remote debugging can be defined and placing debugging components in your Docker container so the container can communicate debugging data with your IDE.  This is already partially supported by some IDEs. One example of remote debugging is that you can add docker support and debug  the container in Visual Studio for .NET Core projects.
 
-This is more effective because, if you set up remote debugging correctly, your local container environment is more likely to have the exact same configuration as a production container environment. This topic can be complex since  each IDE and each technology is different. Just to provide and example, here is a short tutorial on [how to configure VSCODE to remote debug dockerized NodeJS applications](https://alexanderzeitler.com/articles/debugging-a-nodejs-es6-application-in-a-docker-container-using-visual-studio-code/).
+This is more effective because, if you set up remote debugging correctly, your local container dev environment is closer to the same configuration as a production container environment. This topic can be complex since  each IDE and each technology is different. Just to provide an example, here is a short tutorial on [how to configure VSCODE to remote debug dockerized NodeJS applications](https://alexanderzeitler.com/articles/debugging-a-nodejs-es6-application-in-a-docker-container-using-visual-studio-code/).
 
 To get this to work on my machine, I had to make a few changes to the Dockerfile and the VSCode Launch.js debug config. These changes are [here](https://github.com/SSpeights/docker-style-guide/tree/master/examples/VSCode_RemoteDebugContainer_NodeJSEnv).
+
+## Prerequisite \#2: Also create a production environment
+
+Once you have a working dev environment you still also need to set up a production environment that doesn't contain any IDE or active remote debugging components. This is still essential to ensure that your application works correctly. In the case of the Node tutorial, you would create a Node image that does not activate the debugger utility.
 

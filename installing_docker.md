@@ -8,8 +8,6 @@ Official Docker documentation has an excellent and comprehensive tutorial on how
 * [Install Docker for Mac](https://docs.docker.com/engine/installation/mac/)
 * [Install Docker for Linux](https://docs.docker.com/engine/installation/)
 
-**Editor's** **Note:** It may be necessary to install toolbox on Windows and Mac still **need to check this with the folks downstairs.**
-
 ### Building blocks for working with Docker
 
 While you can run Docker on just about any kind of OS, Docker hosts and containers are always Linux-based. This may change, but it's still important to get familiar with basic Linux commands and Linux executable and utility commands - for example how to use "apt" or "curl" for retrieving and updating new packages on Ubuntu Linux and permissions basics like "chown", "chmod".
