@@ -56,7 +56,7 @@ Even if you have already done this in the Docker for Windows / Mac settings. You
 
 **Achtung:** On Windows \(With Docker for Windows\), I have also encountered some problems at create image time when extending base images by using package managers like “apt” on Linux from a Dockerfile. The workaround for this was to add build arguments that set the proxy server with the Docker Builder. In Docker you can do this two ways
 
-* Use the [-–build-arg option](http://docs-stage.docker.com/v1.10/engine/reference/commandline/build/#set-build-time-variables-build-arg#set-build-time-variables-build-arg) with the “docker build” command  
+* Use the [-–build-arg option](http://docs-stage.docker.com/v1.10/engine/reference/commandline/build/#set-build-time-variables-build-arg) with the “docker build” command  
 * Use the ARG instruction in a Dockerfile  
   These arguments are only passed to the builder and do not persist in image or running container.
 
