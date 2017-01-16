@@ -60,7 +60,7 @@ Even if you have already done this in the Docker for Windows / Mac settings. You
 * Use the ARG instruction in a Dockerfile  
   These arguments are only passed to the builder and do not persist in image or running container.
 
-It has also been difficult to start using Docker Swarm on a Windows Machine, using Hyper-V as the virtualization technology. I am still trying to work out all of the kinks with Docker for Windows. Because all of the Docker functionality doesn't "just work", it may be better to develop locally, test to see if it works and then push to a remote location.
+It has also been difficult to start using Docker Swarm on a Windows Machine, using Hyper-V as the virtualization technology. I am still trying to work out all of the kinks with Docker for Windows. Because all of the Docker functionality doesn't "just work", it may be better to develop locally, test to see if it works and then push to a remote location to work with multiple hosts.
 
 ### Develop remotely
 
