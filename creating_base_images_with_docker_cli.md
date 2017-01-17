@@ -24,7 +24,7 @@ Now, type in `docker images`
 
 You should get a table of images. One of the columns in the table is "tag". If you pulled ubuntu: trusty, you will see trusty in the "tag" column.
 
-### CLI Commands
+### CLI commands
 
 You should get to know the following commands. The best documentation is the [Docker Command Line Reference](https://docs.docker.com/engine/reference/commandline/) and the [Docker Run Reference](https://docs.docker.com/engine/reference/run/), so this is just a list of some of the commands are important.
 
@@ -43,7 +43,7 @@ You should get to know the following commands. The best documentation is the [Do
 
 There are many more commands - like "[docker network](https://docs.docker.com/engine/userguide/networking/)" - that may be useful to you as you develop with docker.
 
-## CLI Tutorials
+## CLI tutorials
 
 Getting some practice with the CLI is good and here are some tutorials that step you through from basic commands to ssh-ing into the container itself to update software "in-container".
 

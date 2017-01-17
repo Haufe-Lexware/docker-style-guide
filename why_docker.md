@@ -19,7 +19,7 @@ There are a lot of enterprise software packages out there to do get this kind of
 
 ## Starting small with Docker
 
-Marketing still wanted to get this data, and so, instead of buying an enterprise software that has high costs and an uncertain value proposition, they decided to try to build an application that would cost little and that adds value as it grows. Enter Docker. While Haufe Group could have built a prototype application without Docker, by using Docker, the following was easier:
+Marketing still wanted to get this data, and so, instead of buying an enterprise software that has high costs and an uncertain value proposition, they decided to try and build an application that would cost little and that adds value as it grows. Enter Docker. While Haufe Group could have built a prototype application without Docker, by using Docker, the following was easier:
 
 * Locate, compose and run single applications
 * Compose and run multiple applications to work together as services
@@ -30,5 +30,5 @@ And, of course, using Docker makes it easier to scale out instances of successfu
 
 ## If it works, great! if not, no problem!
 
-So one reason why Haufe Group is interested in Docker technology is that when it is unclear if we should "build or buy" or if "buy" is too expensive, it allows us to develop, test and deploy prototypes,  reach decisions, and move along fast. This technique helps to develop business value at reasonable cost. If the prototype must go to production, Docker helps us to develop, test, build, and deploy production applications over a continuous delivery pipeline and to scale these applications in the production environment. And, even if it doesn't work out, Haufe Group learns a lot about its business needs, and,  it wasn't that much work either.
+So one reason why Haufe Group is interested in Docker technology is that when it is unclear if we should "build or buy" or if "buy" is too expensive, it allows us to develop, test and deploy prototypes,  reach decisions, and move along fast. This technique helps to develop business value at reasonable cost. If the prototype must go to production, Docker helps us to develop, test, build, and deploy production applications over a continuous delivery pipeline and to scale these applications in the production environment. And, even if it doesn't work out, Haufe Group learns a lot about its business needs, and,  it wasn't that much work either. Here's how.
 

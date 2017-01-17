@@ -1,15 +1,15 @@
 # Why does Haufe need it's own docker book
 
-I don't really know if it's fair to call this a book. I think it's probably better to call it a Docker frame or  something similar. Fact is, there is a lot of Docker documentation out on the net and also some official Haufe documentation - like our Docker Style Guide. So, the purpose of this "Docker frame" is to frame useful content for Haufe developers, release engineers, runtime operators, and anyone else like you, who are going to use Docker on a regular basis into a relevant context.
+I don't really know if it's fair to call this a book. I think it's probably better to call it a Docker frame or  something similar. Fact is, there is a lot of Docker documentation out on the net and also some official Haufe documentation - like our Docker Style Guide. So, the purpose of this "Docker frame" is to frame useful content for Haufe developers, release engineers, runtime operators, and anyone else like you, who are going to use Docker on a regular basis, into a relevant context.
 
 This context should provide you with things like:
 
 * A human-readable organization, so you can find Docker knowledge that you must have fast\(er\)
-* Recommendations on how you should learn Docker for working at Haufe
+* Recommendations on how you should learn Docker
 * Cool links to Docker documentation that fits to what you are doing with Docker
 * Some Haufe-unique tips on how to do stuff like get around our fantastic firewall and proxy server
 
-Hopefully, the Haufe Docker book can provide you with a good frame of reference to get started with Docker and help you progress up to automatically building and deploying composed, scalable, dockerized applications over continuous delivery pipelines. It will take a while to put all of the information into this frame, and we, the folks who collaborate on this project, welcome your feedback over all channels, so we can make the information here better as we go.
+Hopefully, the Haufe Group Docker book can provide you with a good frame of reference to get started with Docker and help you progress up to automatically building and deploying composed, scalable, dockerized applications over continuous delivery pipelines. It will take a while to put all of the information into this frame, and we, the folks who collaborate on this project, welcome your feedback over all channels, so we can make the information here better as we go.
 
 ## Organization: Frame of reference
 
@@ -21,9 +21,9 @@ In the first part of the book, the organization is designed, for employees, who 
 
 Our CTO asked me to create a rolling narrative for this book, meaning, that the book should provide a continuous story line for learning Docker. Since Docker has already been documented extremely well in other parts of the internet, much of this book is designed to point you to these links, so you can read about concepts and tutorials. After that you can come back to this book to continue with the next step of working with Docker.
 
-To put it in plain English, the proposed way to use this book is to: read the book, follow the links, learn the concept or do the tutorial \(you can of course keep going\), but then come back to the book to move on to the next step. The book links not only official Docker docs but also other documentation and Haufe Docker documentation that contains requirements for using Docker in production at Haufe Group. You will want to bookmark these links so you can access them when working on tutorials and, later, developing your own dockerized apps.
+To put it in plain English, the proposed way to use this book is to: read the book, follow the links, learn the concept or do the tutorial \(you can of course keep going\), but then come back to the book to move on to the next step. The book links not only official Docker docs but also to other third-party documentation and to Haufe Group Docker documentation that contains requirements for using Docker in production at Haufe Group. You will want to bookmark these links so you can access them when working on tutorials and, later, developing your own dockerized apps.
 
-But, you also need to read the content of the book too. This Docker book contains previously undocumented information like how to work from behind of the Haufe Group proxy server or to understand why we want to use Docker at Haufe Group. Maybe not so much information as in an O'Reilly Media book, but still important if you want to use Docker locally on your dev machine.
+But, you also need to read the content of the book too. This Docker book contains previously undocumented information like how to work from behind of the Haufe Group proxy server or to understand why we want to use Docker at Haufe Group. Maybe not so much information as in an O'Reilly Media book, but still important if you want to use Docker locally on your dev machine to develop software.
 
 # Table of contents
 
