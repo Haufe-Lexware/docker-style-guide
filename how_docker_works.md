@@ -8,5 +8,5 @@ While there are many docker tools out there now, the official Haufe Group toolse
 * [Docker Machine](https://docs.docker.com/machine/overview/)
 * [Docker Registries](https://docs.docker.com/engine/understanding-docker/#docker-registries)
 
-You can find many of the best descriptions for how docker and docker tooling works on the Docker Docs website. Understanding how docker works is important if you want to be able to use correctly from the beginning. These concepts will be linked again contextually throughout the book, but I encourage you to get a small foundation on the inner workings of docker tooling bofore diving in.
+You can find many of the best descriptions for how docker and docker tooling works on the Docker Docs website. Understanding how docker works is important if you want to be able to use correctly from the beginning. These concepts will be linked again contextually throughout the book, but I encourage you to get a small foundation on the inner workings of docker tooling before diving in.
 
