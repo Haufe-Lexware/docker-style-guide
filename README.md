@@ -25,6 +25,21 @@ To put it in plain English, the proposed way to use this book is to: read the bo
 
 But, you also need to read the content of the book too. This Docker book contains previously undocumented information like how to work from behind of the Haufe Group proxy server or to understand why we want to use Docker at Haufe Group. Maybe not so much information as in an O'Reilly Media book, but still important if you want to use Docker locally on your dev machine to develop software.
 
+## Contributing to Haufe Group's DockBook
+
+If you are working with Docker in your spare time or for a Haufe Group project and feel like you have something to contribute, we want your input! Providing "real help" to people who want to learn Docker and maintaining this book are both very important for us, and the best way to do it is to leverage the knowledge of the entire Haufe Group Docker community. So, if you want to add an additional section or provide a code samples to give people a hands-on idea how Docker principles work, we're all for it.
+
+To help with the book go to the [Haufe Docker Style Guide GitHub repository](https://github.com/Haufe-Lexware/docker-style-guide) and fork it to your own GitHub account. Then, [Create a GitBook account](https://www.gitbook.com) and use your forked repository as the books content: You do this from the "GitHub" section in your book's "Settings". With GitBook, you can do everything from your browser, including editing the book. Alternatively, if you want, you can just fork the GitHub account and edit the markdown from a good editor like VS Code. When you have something new, make a pull request from your local repo.
+
+Your changes will be reviewed and, if they add value, merged into the Haufe-Lexware Style Guide repository and published via our GitBook. If you, have any questions about any of this feel free to ask the Style Guide editors about forking, working with GitBook, or whatever other questions you may have.
+
+Our style guide has a very simple structure:
+
+* .md files in the master branch are the documentation. 
+* Code samples go in the "examples" folder - pls create a separate, well-labeled folder for your example.
+
+Hope to be getting pull requests for the Docker Style Guide soon!
+
 # Table of contents
 
 * [Why a Haufe Docker Book](README.md)
