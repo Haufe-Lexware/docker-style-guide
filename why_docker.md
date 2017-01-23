@@ -15,7 +15,7 @@ To understand our customers, Haufe Group wishes to be able to predict how our cu
 
 ## Enterprise software was too much money, functionality...
 
-There are a lot of enterprise software packages out there to do get this kind of data. But, after marketing reviewed several different applications, there wasn't enough buy in from the various marketing groups to make a "buy decision" at the enterprise level. The costs were too high, the feature set too big, and Haufe Group would never get enough value.
+There are a lot of enterprise software packages out there to get this kind of data. But, after marketing reviewed several different applications, there wasn't enough buy in from the various marketing groups to make a "buy decision" at the enterprise level. The costs were too high, the feature set too big, and Haufe Group would never get enough value.
 
 ## Starting small with Docker
 
