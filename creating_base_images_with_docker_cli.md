@@ -26,6 +26,8 @@ You should get a table of images. One of the columns in the table is "tag". If y
 
 ### CLI commands
 
+**ACHTUNG**: As of release 1.13 Docker has added what appears to be "command domains" to the CLI. The command domains serve the purpose of adding a new layer of "management" resources to the CLI \(the Docker API\) so when you type  - `docker container <subcommand>`- you know you are going to be managing containers. If You are running Docker 1.13.xx or later, pleas also get acquainted with these commands as well, you will need them in the future to form working requests to the Docker Daemon.
+
 You should get to know the following commands. The best documentation is the [Docker Command Line Reference](https://docs.docker.com/engine/reference/commandline/) and the [Docker Run Reference](https://docs.docker.com/engine/reference/run/), so this is just a list of some of the commands are important.
 
 | Command | Function |
