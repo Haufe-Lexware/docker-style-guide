@@ -8,7 +8,11 @@ Like Dockerfile, Docker Compose file serves as configuration and documentation. 
 
 > The Compose file is a YAML file defining services, networks and volumes. The default path for a Compose file is ./docker-compose.yml.
 
-### Extending your composed application
+## Compose Instruction Reference
+
+**Editor's Note**: Here we wish to add some compose keywords to reinforce how 
+
+## Extending your composed application
 
 Docker Compose provides you with an easy way to isolate different application environments from one another. Highly convenient is that you also can extend your Compose configuration with additional files to:
 
@@ -17,7 +21,7 @@ Docker Compose provides you with an easy way to isolate different application en
 
 This can be helpful if you want to test different Compose environments.
 
-### Docker Compose practices
+## Docker Compose practices
 
 Haufe Group Docker Style Guide has practices for working with Docker Compose and creating Docker Compose files:
 
@@ -26,7 +30,7 @@ Haufe Group Docker Style Guide has practices for working with Docker Compose and
 
 Once you have read through these, get started by going through Docker's [Docker Compose documentation](https://docs.docker.com/compose/overview/), starting with the overview and working through the entire Compose section. You can leave out the experimental and "superseded" sections.
 
-### Docker Compose practice
+## Docker Compose practice
 
 The best way to understand Compose is to practice. The getting started section and  tutorials in this documentation can help. Direct links to these are:
 
@@ -42,7 +46,7 @@ To get a really good basic knowledge, add these tasks when you work the tutorial
 * Apply Haufe Group practices to all Compose Files. **Hint:** No secrets, data containers and so on. 
 * Finally, if you didn't already read it, you should read [Compose in Production ](https://docs.docker.com/compose/production/) to understand what you must change to make your compose application production-ready.
 
-### Section Targets
+## Section Targets
 
 * Understand the concept behind Docker Compose and how it should be used in Haufe Group
 * Create several composed applications by working the docker tutorial
