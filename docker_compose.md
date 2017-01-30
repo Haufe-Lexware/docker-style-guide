@@ -10,7 +10,7 @@ Like Dockerfile, Docker Compose file serves as configuration and documentation. 
 
 ## Compose Instruction Reference
 
-**Editor's Note**: Here we wish to add some compose keywords to reinforce how 
+**Editor's Note**: Here we wish to add some compose keywords to reinforce which commands are useful. Especially since v3 is out now. 
 
 ## Extending your composed application
 
