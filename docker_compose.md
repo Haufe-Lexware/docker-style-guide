@@ -12,13 +12,13 @@ Like Dockerfile, Docker Compose file serves as configuration and documentation. 
 
 **Achtung:** The compose file defines services, and services are normally implemented with / within 1 docker container. For the this section the word "service" refers to both: a Docker service is exposed by a Docker container.
 
-Some of the Docker Compose instructions that help to configure multi-container applications are listed below. For documentation that list all Docker Compose instructions, [go to Docker Compose file reference](https://docs.docker.com/compose/compose-file/).
+Some of the Docker Compose instructions that help to configure multi-container applications are listed below. For documentation that list all Docker Compose instructions, [go to Docker Compose file reference](https://docs.docker.com/compose/compose-file/). The top level Compose file sections - `services:` and  
 
 | Instruction | Function |
 | :--- | :--- |
 | args | Adds build arguments that are processed as environment variables during the service build process \(only\). |
 | build | Configuration options that are applied to a service at build time |
-| depends\_on | Assigns dependencies \(on other services\) to service definitions in a Compose file. with `depends\_on` you also configure, which containers are started first at `docker-compose up` time. |
+| depends\_on | Assigns dependencies \(on other services\) to service definitions in a Compose file. with `depends\_on` you also configure container startup order for `docker-compose up` time. |
 | deploy | Define deployment and service-run configurations. Only active when deploying to a Docker swarm, using `docker stack deploy`. Compose v3 only.|
 | entrypoint | Override for default image entrypoint. |
 | expose | Exposes a service port without mapping it to the Docker Host. |
