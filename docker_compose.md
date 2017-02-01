@@ -16,15 +16,16 @@ Some of the Docker Compose instructions that help to configure multi-container a
 
 | Instruction | Function |
 | :--- | :--- |
-| build | Configuration options that are applied to a service at build time |
 | args | Adds build arguments that are processed as environment variables during the service build process \(only\). |
-| restart\_policy | Configures service restart when a service exits. |
+| build | Configuration options that are applied to a service at build time |
+| depends\_on | Assigns dependencies \(on other services\) to service definitions in a Compose file. with `depends\_on` you also configure, which containers are started first at `docker-compose up` time. |
+| deploy | Define deployment and service-run configurations. Only active when deploying to a Docker swarm. |
 | entrypoint | Override for default image entrypoint. |
 | expose | Exposes a service port without mapping it to the Docker Host. |
 | labels | Adds metadata to a service. |
 | networks | Assigns a network to a service. By default all services run on the same network. |
 | ports | Exposes ports for a Docker service and performs port mapping between Docker Host and the service. |
-| depends\_on | Assigns dependencies \(on other services\) to service definitions in a Compose file. with `depends\_on` you also configure, which containers are started first at `docker-compose up` time. |
+| restart\_policy | Configures service restart when a service exits. |
 | volumes | Mounts paths or named volumes to a service. For v3 compose files volumes replaces volumes\_from for mounting data containers. |
 
 ## Extending your composed application
