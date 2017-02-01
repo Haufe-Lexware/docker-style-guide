@@ -10,7 +10,7 @@ Like Dockerfile, Docker Compose file serves as configuration and documentation. 
 
 ## Compose Instruction Reference
 
-**Editor's Note**: Here we wish to add some compose keywords to reinforce which commands are useful. Especially since v3 is out now.
+The Compose file defines services, and services are normally implemented with / within a single docker container. Because of the potential to interchange 
 
 Some of the Docker Compose instructions that help to configure multi-container applications are listed below. For documentation that list all Docker Compose instructions, [go to Docker Compose file reference](https://docs.docker.com/compose/compose-file/).
 
@@ -19,7 +19,7 @@ Some of the Docker Compose instructions that help to configure multi-container a
 | build | Configuration options that are applied at build time |
 | args | Adds build arguments that are processed as environment variables during the build process \(only\). |
 | restart\_policy | Configures container service restart when a container exits. |
-| entrypoint | Override for default entrypoint. |
+| entrypoint | Override for default entrypoint in Dockerfile. |
 | expose | Exposes a container port without mapping it to the Docker Host. |
 | labels | Adds metadata to a service container. |
 | networks | assigns a network to a Docker service by default all services run on the same network. |
