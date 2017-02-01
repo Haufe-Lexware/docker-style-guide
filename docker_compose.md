@@ -22,6 +22,7 @@ Some of the Docker Compose instructions that help to configure multi-container a
 | deploy | Define deployment and service-run configurations. Only active when deploying to a Docker swarm, using `docker stack deploy`. Compose v3 only.|
 | entrypoint | Override for default image entrypoint. |
 | expose | Exposes a service port without mapping it to the Docker Host. |
+| env_file | Add environment variables from a file. Can be a single value or a list. |
 | labels | Adds metadata to a service. |
 | networks | Assigns a network to a service. By default all services run on the same network. |
 | ports | Exposes ports for a Docker service and performs port mapping between Docker Host and the service. |
