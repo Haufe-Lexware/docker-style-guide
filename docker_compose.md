@@ -10,22 +10,22 @@ Like Dockerfile, Docker Compose file serves as configuration and documentation. 
 
 ## Compose Instruction Reference
 
-The Compose file defines services, and services are normally implemented with / within a single docker container. Because of the potential to interchange 
+**Achtung:** The compose file defines services, and services are normally implemented with / within 1 docker container. For the this section the word "service" refers to both: a Docker service is exposed by a Docker container.
 
 Some of the Docker Compose instructions that help to configure multi-container applications are listed below. For documentation that list all Docker Compose instructions, [go to Docker Compose file reference](https://docs.docker.com/compose/compose-file/).
 
 | Instruction | Function |
 | :--- | :--- |
-| build | Configuration options that are applied at build time |
-| args | Adds build arguments that are processed as environment variables during the build process \(only\). |
-| restart\_policy | Configures container service restart when a container exits. |
-| entrypoint | Override for default entrypoint in Dockerfile. |
-| expose | Exposes a container port without mapping it to the Docker Host. |
-| labels | Adds metadata to a service container. |
-| networks | assigns a network to a Docker service by default all services run on the same network. |
-| ports | Exposes ports for a Docker service and performs port mapping between Docker Host and the container service. |
-| depends\_on | Assigns service dependencies to service definitions in a Compose file. with `depends\_on` you also configure, which containers are started first at `docker-compose up` time. |
-| volumes | Mounts paths or named volumes. For v3 compose files volumes replaces volumes\_from for mounting data containers. |
+| build | Configuration options that are applied to a service at build time |
+| args | Adds build arguments that are processed as environment variables during the service build process \(only\). |
+| restart\_policy | Configures service restart when a service exits. |
+| entrypoint | Override for default image entrypoint. |
+| expose | Exposes a service port without mapping it to the Docker Host. |
+| labels | Adds metadata to a service. |
+| networks | Assigns a network to a service. By default all services run on the same network. |
+| ports | Exposes ports for a Docker service and performs port mapping between Docker Host and the service. |
+| depends\_on | Assigns dependencies \(on other services\) to service definitions in a Compose file. with `depends\_on` you also configure, which containers are started first at `docker-compose up` time. |
+| volumes | Mounts paths or named volumes to a service. For v3 compose files volumes replaces volumes\_from for mounting data containers. |
 
 ## Extending your composed application
 
