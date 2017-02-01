@@ -10,7 +10,21 @@ Like Dockerfile, Docker Compose file serves as configuration and documentation. 
 
 ## Compose Instruction Reference
 
-**Editor's Note**: Here we wish to add some compose keywords to reinforce which commands are useful. Especially since v3 is out now. 
+**Editor's Note**: Here we wish to add some compose keywords to reinforce which commands are useful. Especially since v3 is out now.
+
+Some of the Docker Compose instructions that help to configure multi-container applications are listed below. For documentation that list all Docker Compose instructions, [go to Docker Compose file reference](https://docs.docker.com/compose/compose-file/).
+
+| Instruction | Function |
+| :--- | :--- |
+| FROM | Defines the base image you shall use for your Docker image. |
+| COPY/ADD | Adds files from a specific location to your image. |
+| RUN | Runs commands on top of your image, creating a new image layer on top of the existing image |
+| WORKDIR | Specifies the start directory in your image |
+| ENV | Sets environment variable in your image |
+| ENTRYPOINT | see above |
+| ports | Exposes ports for a Docker service and performs port mapping between Docker Host and the container service. |
+| depends\_on | Assigns service dependencies to service definitions in a Compose file. with `depends\_on` you also configure, which containers are started first at `docker-compose up` time. |
+| volumes | Mounts paths or named volumes. For v3 compose files volumes replaces volumes\_from for mounting data containers. |
 
 ## Extending your composed application
 
