@@ -19,8 +19,8 @@ Some of the Docker Compose instructions that help to configure multi-container a
 | build | Configuration options that are applied at build time |
 | args | Adds build arguments that are processed as environment variables during the build process \(only\). |
 | restart\_policy | Adds files from a specific location to your image. |
-| entrypoint | Runs commands on top of your image, creating a new image layer on top of the existing image |
-| expose | Specifies the start directory in your image |
+| entrypoint | Override for default entrypoint. |
+| expose | Exposes a container port without mapping it to the Docker Host.  |
 | labels | Adds metadata to a service container. |
 | networks | assigns a network to a Docker service by default all services run on the same network. |
 | ports | Exposes ports for a Docker service and performs port mapping between Docker Host and the container service. |
