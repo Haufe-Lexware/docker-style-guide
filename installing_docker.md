@@ -68,7 +68,7 @@ For the Docker for Windows or IOS, one nice feature is that you can configure th
 
 Even if you have already done this in the Docker for Windows / Mac settings. You may still have some problems building images.
 
-**Achtung:** On Windows \(With Docker for Windows\), I have also encountered some problems at create image time when extending base images by using package managers like “apt” on Linux from a Dockerfile. The workaround for this was to add build arguments that set the proxy server with the Docker Builder. In Docker you can do this two ways
+**Achtung:** On Windows \(With Docker for Windows\), I have also encountered some problems at create image time when extending base images by using package managers like “apt” on Linux from a Dockerfile. The workaround for this was to add build arguments that set the proxy server with the Docker Builder. In Docker you can do this two ways.
 
 * Use the [-–build-arg option](http://docs-stage.docker.com/v1.10/engine/reference/commandline/build/#set-build-time-variables-build-arg) with the “docker build” command  
 * Use the ARG instruction in a Dockerfile  
