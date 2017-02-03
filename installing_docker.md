@@ -38,7 +38,7 @@ If I run Docker on Linux, I would like to be able to leverage all of the feature
 
 The second difficulty ended up blocking me: I could not figure out how to activate virtualization on my Linux VM! During this process, I also discovered that it is very difficult to enter the bios settings for a HyperV and what's more that only certain Hypervisor technologies support nested virtualization - creating VMs inside of VMs. This added an additional constraint that you have to have a supported environment to create new Docker Hosts. Not being an expert on Docker Host drivers, even if I had gotten the functionality working, it was unclear to me, which driver to use to create new hosts.
 
-**Editor's note**: If someone has a solution for this feel free to document it here in the style guide.
+**Editor's note**: If someone has a specific solution for this feel free to document it here in the style guide.
 
 Our Docker practices for Docker Hosts allow you to use the following Linux distributions:
 
