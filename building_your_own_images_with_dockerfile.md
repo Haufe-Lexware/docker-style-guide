@@ -29,7 +29,7 @@ Docker Docs also has a [Dockerfile Reference](https://docs.docker.com/engine/ref
 | FROM | Defines the base image you shall use for your Docker image. |
 | COPY/ADD | Adds files from a specific location to your image. |
 | RUN | Runs commands on top of your image, creating a new image layer on top of the existing image |
-| WORKDIR | Specifies the start directory in your imge |
+| WORKDIR | Specifies the start directory in your image |
 | ENV | Sets environment variable in your image |
 | ENTRYPOINT | see above |
 | CMD | see above |
