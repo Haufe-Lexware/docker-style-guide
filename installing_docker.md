@@ -30,9 +30,22 @@ The Haufe proxy for both http and https is: `10.12.1.236:8083/`
 
 ### Docker on Linux
 
-Things change but right now it looks like Docker for Windows and Docker for Mac still have some limitations, so it's better to work on Linux. This is why linux comes first in this section.
+Things change but right now it looks like Docker for Windows and Docker for Mac still have some limitations, so it's better to work \(also\) with Docker on Linux. This is why linux comes first in this section.
 
-**Editor's Note: This section isn't done yet need to get more info for a local Linx dist**
+After having installed Linux on a VM on my Windows machine, using HyperV, **I  recommend that you set up a dual-boot configuration on your dev machine or get hold of a second computer that has Linux as the operating system**. 
+
+If I run Docker on Linux, I would like to be able to leverage all of the features of Docker, including swarm mode. The immediate problem I encountered with a HyperV VM of Linux was that I still could not network properly. Our ICT department helped me to fix this - and since then I've learned and re-learned much about Linux. 
+
+The second difficulty ended up blocking me: I could not figure out how to activate virtualization on my Linux VM! During this process, I also discovered that it is very difficult to enter the bios settings for a HyperV and what's more that only certain Hypervisor technologies support nested virtualization - creating VMs inside of VMs. This added an additional constraint that you have to have a supported environment to create new Docker Hosts. Not being an expert on Docker Host drivers, even if I had gotten the functionality working, it was unclear to me, which driver to use to create new hosts.
+
+**Editor's note**: If someone has a solution for this feel free to document it here in the style guide.
+
+Our Docker practices for Docker Hosts allow you to use the following Linux distributions:
+
+* [CentOS](https://docs.docker.com/engine/installation/linux/centos/)
+* [Redhat](https://docs.docker.com/engine/installation/linux/rhel/)
+* [Debian](https://docs.docker.com/engine/installation/linux/debian/)
+* [Ubuntu](https://docs.docker.com/engine/installation/linux/ubuntu/)
 
 For Linux, you can set the environment variables for your virtual machine – HTTP\_PROXY, HTTPS\_PROXY and NO\_PROXY - for the domains where you intend to work with Docker that are not behind a proxy server.
 
