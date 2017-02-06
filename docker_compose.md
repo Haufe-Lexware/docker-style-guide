@@ -8,7 +8,7 @@ Like Dockerfile, Docker Compose file serves as configuration and documentation. 
 
 > The Compose file is a YAML file defining services, networks and volumes. The default path for a Compose file is ./docker-compose.yml.
 
-## Compose Instruction Reference
+## Compose File Instruction Reference
 
 **Achtung:** The compose file defines services, and services are normally implemented with / within 1 docker container. For the this section the word "service" refers to both: a Docker service is exposed by a Docker container.
 
