@@ -10,7 +10,7 @@ Like Dockerfile, Docker Compose file serves as configuration and documentation. 
 
 ## Compose File Instruction Reference
 
-**Achtung:** The compose file defines services, and services are normally implemented with / within 1 docker container. For the this section the word "service" refers to both: a Docker service is exposed by a Docker container.
+**Achtung:** The compose file defines services, and services are normally implemented with / within 1 docker container. For the this section the word "service" refers to both: a Docker service is exposed by a Docker container. Additionally, you may want to test 
 
 Some of the Docker Compose instructions that help to configure multi-container applications are listed below. For documentation that list all Docker Compose instructions, [go to Docker Compose file reference](https://docs.docker.com/compose/compose-file/). The top level Compose file sections - `services:` and
 
