@@ -30,15 +30,13 @@ The Haufe proxy for both http and https is: `10.12.1.236:8083/`
 
 ### Docker on Linux
 
-Things change but right now it looks like Docker for Windows and Docker for Mac still have some limitations, so it's better to work \(also\) with Docker on Linux. This is why linux comes first in this section.
+Things change but right now it looks like Docker for Windows and Docker for Mac still have some limitations, so it's better to work \(also\) with Docker on Linux. This is why linux comes first in this section. 
 
-After having installed Linux on a VM on my Windows machine, using HyperV, **I  recommend that you set up a dual-boot configuration on your dev machine or get hold of a second computer that has Linux as the operating system**.
+After having installed Linux on a VM on my Windows machine, using HyperV, **I  recommend that you set up a dual-boot configuration on your dev machine or get hold of a second computer that has Linux as the operating system**. If you wish to proceed with HyperV or another virtualization technology some thing to be aware of are: 
+
+that your network adapter must be "external" to get out from behind the firewall. 
 
 If I run Docker on Linux, I would like to be able to leverage all of the features of Docker, including swarm mode. The immediate problem I encountered with a HyperV VM of Linux was that I still could not network properly. Our ICT department helped me to fix this - and since then I've learned and re-learned much about Linux.
-
-The second difficulty ended up blocking me: I could not figure out how to activate virtualization on my Linux VM! During this process, I also discovered that it is very difficult to enter the bios settings for a HyperV and what's more that only certain Hypervisor technologies support nested virtualization - creating VMs inside of VMs. This added an additional constraint that you have to have a supported environment to create new Docker Hosts. Not being an expert on Docker Host drivers, even if I had gotten the functionality working, it was unclear to me, which driver to use to create new hosts.
-
-**Editor's note**: If someone has a specific solution for this feel free to document it here in the style guide.
 
 Our Docker practices for Docker Hosts allow you to use the following Linux distributions:
 
@@ -50,7 +48,7 @@ Our Docker practices for Docker Hosts allow you to use the following Linux distr
 
 For Linux, you can set the environment variables for your virtual machine – HTTP\_PROXY, HTTPS\_PROXY and NO\_PROXY - for the domains where you intend to work with Docker that are not behind a proxy server.
 
-## Docker for Windows and Docker for Mac
+### Docker for Windows and Docker for Mac
 
 Go to the [Getting Started - Docker for Windows](https://docs.docker.com/docker-for-windows/) or [Getting Started - Docker for Mac](https://docs.docker.com/docker-for-mac/) and read up on how to access the settings. For the "Dockers For" tools you will have to:
 
