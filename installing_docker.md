@@ -1,6 +1,6 @@
 # Installing Docker
 
-The Docker installation that you use locally is completely up to you. Docker comes in several different flavors. If you want to do something with Docker, it still makes the most sense to install Docker in a Linux environment. Right now, on my machine, I have problems networking Docker Hosts with Docker for Windows. As a result, I can't use and learn Docker Swarm locally. I also have problems using other tooling that I would like to learn more about.
+The Docker installation that you use locally is completely up to you. Docker comes in several different flavors. If you want to do something with Docker, it still makes the most sense to install Docker in a Linux environment. Right now, on my machine, I have problems networking Docker Hosts with Docker for Windows. 
 
 Official Docker documentation has an excellent and comprehensive tutorial on how to install docker [at this location](https://docs.docker.com/engine/getstarted/step_one/) . Here the Docker Docs step you through doing a basic install of docker for your flavor of operating system and how to test Docker by running the "hello world" Docker image. Specific links are:
 
