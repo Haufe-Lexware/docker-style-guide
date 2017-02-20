@@ -2,9 +2,9 @@
 
 * [Why a Haufe Docker Book](README.md)
 * [Why Docker](why_docker.md)
-* [How docker works](how_docker_works.md)
 * [Installing Docker](installing_docker.md)
 * [Docker Basics](docker_basics.md)
+* [How docker works](how_docker_works.md)
 * [Using Docker registries](using_docker_registries.md)
 * [Creating base images with Docker CLI](creating_base_images_with_docker_cli.md)
 * [Building your own images with Dockerfile](building_your_own_images_with_dockerfile.md)
