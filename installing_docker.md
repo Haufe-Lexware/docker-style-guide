@@ -1,8 +1,8 @@
 # Installing Docker
 
-The Docker installation that you use locally is completely up to you. Docker comes in several different flavors. If you want to do something with Docker, it still makes the most sense to install Docker in a Linux environment. Right now, on my machine, I have problems networking Docker Hosts with Docker for Windows. 
+The Docker installation that you use locally is completely up to you. Docker comes in several different flavors. If you want to do something with Docker, it still makes the most sense to install Docker in a Linux environment. Right now, on my machine, with Docker for Windows installed, and I still experience difficulties using Docker-Machine to manage my Docker hosts - although I have been able to get through the Docker Swarm tutorial by now.
 
-Official Docker documentation has an excellent and comprehensive tutorial on how to install docker [at this location](https://docs.docker.com/engine/getstarted/step_one/) . Here the Docker Docs step you through doing a basic install of docker for your flavor of operating system and how to test Docker by running the "hello world" Docker image. Specific links are:
+Official Docker documentation has excellent and comprehensive instructions on how to install docker [at this location](https://docs.docker.com/engine/getstarted/step_one/) . Here the Docker Docs step you through doing a basic install of docker for your flavor of operating system and how to test Docker by running the "hello world" Docker image. Specific links are:
 
 * [Install Docker for Windows](https://docs.docker.com/engine/installation/windows/)
 * [Install Docker for Mac](https://docs.docker.com/engine/installation/mac/)
@@ -20,7 +20,7 @@ Once you get docker installed, you are going to start working with:
 
 Later you will be working with Docker environments and Docker services
 
-**Achtung:** If you are running on Windows, it helps to download a git client and then to install so you can run Linux commands in Powershell or DOS prompt. If your CI-pipline includes Git this makes sense anyway. Also you need the Linux shell to be able to run more powerful commands that you can't run in a Windows shell - [like removing all containers or all images](https://techoverflow.net/blog/2013/10/22/docker-remove-all-images-and-containers/).
+**Achtung:** If you are running on Windows, it helps to download a git client and then to install so you can run Linux commands in Powershell or DOS prompt. If your CI-pipeline includes Git this makes sense anyway. Also you need the Linux shell to be able to run more powerful commands that you can't run in a Windows shell - [like removing all containers or all images](https://techoverflow.net/blog/2013/10/22/docker-remove-all-images-and-containers/). Docker is making this easier with commands like prune but you still get more power with Linux.
 
 ## Using Docker inside the Haufe Network
 
@@ -28,15 +28,15 @@ If you plan to use Docker from the offices in Freiburg, You have to ensure that 
 
 The Haufe proxy for both http and https is: `10.12.1.236:8083/`
 
+You can also arrange other solutions with our ICT department. To do so please contact them.
+
 ### Docker on Linux
 
 Things change but right now it looks like Docker for Windows and Docker for Mac still have some limitations, so it's better to work \(also\) with Docker on Linux. This is why linux comes first in this section.
 
-After having installed Linux on a VM on my Windows machine, using HyperV, **I  recommend that you set up a dual-boot configuration on your dev machine or get hold of a second computer that has Linux as the operating system**. If you wish to proceed with HyperV or another virtualization technology some thing to be aware of are:
+After having installed Linux on a VM on my Windows machine, using HyperV, **I  recommend that you set up a dual-boot configuration on your dev machine or get hold of a second computer that has Linux as the operating system**. 
 
-that your network adapter must be "external" to get out from behind the firewall.
-
-If I run Docker on Linux, I would like to be able to leverage all of the features of Docker, including swarm mode. The immediate problem I encountered with a HyperV VM of Linux was that I still could not network properly. Our ICT department helped me to fix this - and since then I've learned and re-learned much about Linux.
+If I run Docker on Linux, I would like to be able to leverage all of the features of Docker, including Docker Machine and swarm mode. The immediate problem I encountered with Linux was that I still could not network properly. Our ICT department helped me to fix this - and since then I've learned and re-learned much about Linux.
 
 Our Docker practices for Docker Hosts allow you to use the following Linux distributions:
 
@@ -46,7 +46,7 @@ Our Docker practices for Docker Hosts allow you to use the following Linux distr
 * [Ubuntu](https://docs.docker.com/engine/installation/linux/ubuntu/)
 * CoreOS - [CoreOS Container Linux](https://coreos.com/os/docs/latest/#running-coreos) is specifically designed for container infrastructure and [Docker in CoreOS](https://coreos.com/os/docs/latest/quickstart.html#container-management-with-docker) is supported OoTB.
 
-For Linux, you can set the environment variables for your virtual machine – HTTP\_PROXY, HTTPS\_PROXY and NO\_PROXY - for the domains where you intend to work with Docker that are not behind a proxy server. If you are using Docker Machine to create hosts you can set these environment variables at host-creation-time. More in this in the Docker Machine chapter.
+For Linux, you can set the environment variables for your virtual machine – HTTP\_PROXY, HTTPS\_PROXY and NO\_PROXY - for the domains where you intend to work with Docker that are behind and not behind a proxy server. If you are using Docker Machine to create hosts you can set these environment variables at host-creation-time. More in this in the Docker Machine chapter.
 
 ### Docker for Windows and Docker for Mac
 
