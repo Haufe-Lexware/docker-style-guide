@@ -62,6 +62,10 @@ That should be enough to get started.
 
 **Achtung:** These tutorials were made for the Docker Toolset, which is an older version of Docker for Windows. Still, you should be able to work through the tutorial. Just ignore the part about Boot2Docker. Also, for "Part 5", in the real Docker world, you do not want to work directly inside the container, you will want to configure these commands as instructions in your Dockerfile. More on that in the next section.
 
+## Docker CLI Cheatsheets
+
+Some good cheat sheets have been popping up the we recently and here we link to them so you have access to a [quick reference for Docker Commands on running containers](http://docker.jens-piegsa.com/#running-containers).
+
 ### Section targets
 
 * Get to know the Docker Engine CLI and how to use CLI commands to search for, pull, manage and push Docker images 
