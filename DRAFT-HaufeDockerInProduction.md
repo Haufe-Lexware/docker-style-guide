@@ -26,7 +26,7 @@ In addition to the usual OS hardening, follow https://benchmarks.cisecurity.org/
 
 ### 2. Logging
 
-A **Docker Host** (Host-OS and Docker-Engine) and any Docker-Container on a Docker-Host **MUST** provide their log-information or metrics to the (upcoming) central Haufe log-management system (greylog?). 
+A **Docker Host** (Host-OS and Docker-Engine) and any Docker-Container on a Docker-Host **MUST** provide their log-information or metrics to the (upcoming) central Haufe log-management system (graylog).
 
 The container **SHOULD** log to **stdout/stderr** and use the Docker-fluentd-log-driver to forward the logs to a (fluentd) log-proxy to take care of the central log requirement.
 
