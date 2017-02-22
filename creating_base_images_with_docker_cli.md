@@ -59,6 +59,7 @@ You should get to know the following commands. The best documentation is the [Do
 | rmi | Remove images |
 | run | Run a container from image |
 | search | Search a registry for a particular image |
+| commit | Create an image from a container.  |
 
 There are many more commands - like "[docker network](https://docs.docker.com/engine/userguide/networking/)" - that may be useful to you as you develop with docker.
 
