@@ -26,7 +26,24 @@ You should get a table of images. One of the columns in the table is "tag". If y
 
 ### CLI commands
 
-**ACHTUNG**: As of release 1.13 Docker has added what appears to be "resource domains" to the CLI commands. The command domains serve the purpose of adding a new layer of "management" resources to the CLI \(and assumedly, also the Docker API\) so when you type  - `docker container <subcommand>`- you know you are going to be managing containers and so on. If You are running Docker 1.13.xx or later, please also get acquainted with these commands as well, you will need them in the future to form working requests to the Docker Daemon. If you have the newest Docker version open up a console and type in - `docker`- to get a look at these new commands. **Editor's Note: Remove around 9.2017 this will be "just normal" by then. **
+**ACHTUNG**: As of release 1.13 Docker has added what appears to be "resource domains" to the CLI commands. The command domains serve the purpose of adding a new layer of "management" resources to the CLI \(and assumedly, also the Docker API\) so when you type  - `docker container <subcommand>`- you know you are going to be managing containers and so on. Then new resources add some complexity but is also a logical breakdown of docker resources. If You are running Docker 1.13.xx or later, please also get acquainted with these commands as well, you will need them in the future to form working requests to the Docker Daemon. If you have the newest Docker version open up a console and type in - `docker`- to get a look at these new commands. **Editor's Note: Remove around 9.2017 this will be "just normal" by then. **
+
+Docker CLI resources are listed below. Follow the links in the table to take at Docker docs for resources and their subcommands. As always you can look at the man-page type documentation by typing docker &lt;resource&gt; on the command line of your console.
+
+| Docker CLI Resource | Function |
+| --- | --- |
+| [checkpoint](https://docs.docker.com/engine/reference/commandline/checkpoint/) | Create list and remove container checkpoints. Checkpoints are persisted snapshots of running containers that can be restarted by Docker Engine. |
+| [container](https://docs.docker.com/engine/reference/commandline/container/) | Manage containers |
+| [image](https://docs.docker.com/engine/reference/commandline/image/) | Manage  images |
+| [network](https://docs.docker.com/engine/reference/commandline/network/) | Manage networks |
+| node | Manage swarm nodes |
+| [plugin](https://docs.docker.com/engine/reference/commandline/plugin/) | Manage plugins. [Plugins are defined here](https://docs.docker.com/engine/extend/plugin_api/). |
+| [secret](https://docs.docker.com/engine/reference/commandline/secret/) | Manage Docker secrets for Docker Swarm. This is an new API resource and the [In depth documentation is here.](https://docs.docker.com/engine/swarm/secrets/)  |
+| [service](https://docs.docker.com/engine/reference/commandline/service/) | Manage Docker services - for swarm mode only. [Here is how services work.](https://docs.docker.com/engine/swarm/how-swarm-mode-works/services/) |
+| [stack](https://docs.docker.com/engine/reference/commandline/stack/) | Manage Docker service stacks. This was an experimental function until very recently. [Here is how Docker thinks you should manage your service stacks](https://docs.docker.com/docker-cloud/apps/stacks/). |
+| swarm | Manage Docker swarms. |
+| system | Manage Docker itself. |
+| volume | Manage data volumes. |
 
 You should get to know the following commands. The best documentation is the [Docker Command Line Reference](https://docs.docker.com/engine/reference/commandline/) and the [Docker Run Reference](https://docs.docker.com/engine/reference/run/), so this is just a list of some of the commands are important.
 
