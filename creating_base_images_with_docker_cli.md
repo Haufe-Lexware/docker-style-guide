@@ -16,11 +16,11 @@ The CLI is the command line interface part of Docker Engine.
 If you have docker installed, you can create a base image by opening a console and typing in:  
 `docker pull ubuntu` if you don't have an Ubuntu image on your system, Docker automatically searches the the Docker Hub for the latest available image.
 
-**Achtung:** Since you are just getting started this is ok. If you are working on a project where the application is only supported by ubuntu version 14.04 then you would pull that ubuntu image by specifying either the version or the release name in the tag - `docker pull ubuntu:trusty`
+**Achtung:** Since you are just getting started this is ok. If you are working on a project where the application is only supported by ubuntu version 14.04 then you would pull that ubuntu image by specifying either the version or the release name in the tag - `docker image pull ubuntu:trusty`
 
 The tag, that comes after the ":", contains the metainformation about the image. If there is no tag, Docker assumes that you want the latest image and pulls this.
 
-Now, type in `docker images`
+Now, type in `docker image ls`
 
 You should get a table of images. One of the columns in the table is "tag". If you pulled ubuntu: trusty, you will see trusty in the "tag" column.
 
