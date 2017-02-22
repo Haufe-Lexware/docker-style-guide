@@ -1,4 +1,4 @@
-# Build Docker Images - Draft
+# Building Docker Images with Haufe Group Build Infrastructure - Draft
 
 This title may also change in the future as Haufe Group incorporates more of Docker into its builds. Currently, Haufe only supports a build process for docker images. This build pipeline pushes newly made images into the Haufe Group Docker Registry.
 
