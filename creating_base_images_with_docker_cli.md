@@ -38,7 +38,7 @@ Docker CLI resources are listed below. Follow the links in the table to take at 
 | [network](https://docs.docker.com/engine/reference/commandline/network/) | Manage networks |
 | node | Manage swarm nodes |
 | [plugin](https://docs.docker.com/engine/reference/commandline/plugin/) | Manage plugins. [Plugins are defined here](https://docs.docker.com/engine/extend/plugin_api/). |
-| [secret](https://docs.docker.com/engine/reference/commandline/secret/) | Manage Docker secrets for Docker Swarm. This is an new API resource and the [In depth documentation is here.](https://docs.docker.com/engine/swarm/secrets/)  |
+| [secret](https://docs.docker.com/engine/reference/commandline/secret/) | Manage Docker secrets for Docker Swarm. This is an new API resource and the [In depth documentation is here.](https://docs.docker.com/engine/swarm/secrets/) |
 | [service](https://docs.docker.com/engine/reference/commandline/service/) | Manage Docker services - for swarm mode only. [Here is how services work.](https://docs.docker.com/engine/swarm/how-swarm-mode-works/services/) |
 | [stack](https://docs.docker.com/engine/reference/commandline/stack/) | Manage Docker service stacks. This was an experimental function until very recently. [Here is how Docker thinks you should manage your service stacks](https://docs.docker.com/docker-cloud/apps/stacks/). |
 | swarm | Manage Docker swarms. |
@@ -79,9 +79,11 @@ That should be enough to get started.
 
 **Achtung:** These tutorials were made for the Docker Toolset, which is an older version of Docker for Windows. Still, you should be able to work through the tutorial. Just ignore the part about Boot2Docker. Also, for "Part 5", in the real Docker world, you do not want to work directly inside the container, you will want to configure these commands as instructions in your Dockerfile. More on that in the next section.
 
-## Docker CLI Cheatsheets
+## Docker CLI cheat sheet
 
-Some good cheat sheets have been popping up the we recently and here we link to them so you have access to a [quick reference for Docker Commands on running containers](http://docker.jens-piegsa.com/#running-containers).
+Some good cheat sheets have been popping up the we recently and here we link to them so you have access to a [quick reference for Docker Commands on containers](http://docker.jens-piegsa.com/#running-containers), and for [working with volumes](http://docker.jens-piegsa.com/#using-volumes).
+
+If you are working in Boot2Docker or in Linux, you can [enable log rotation like this](http://docker.jens-piegsa.com/#logging). 
 
 ### Section targets
 
