@@ -26,7 +26,7 @@ You should get a table of images. One of the columns in the table is "tag". If y
 
 ### CLI commands
 
-**ACHTUNG**: As of release 1.13 Docker has added what appears to be "resource domains" to the CLI commands. The command domains serve the purpose of adding a new layer of "management" resources to the CLI \(and assumedly, also the Docker API\) so when you type  - `docker container <subcommand>`- you know you are going to be managing containers and so on. Then new resources add some complexity but is also a logical breakdown of docker resources. If You are running Docker 1.13.xx or later, please also get acquainted with these commands as well, you will need them in the future to form working requests to the Docker Daemon. If you have the newest Docker version open up a console and type in - `docker`- to get a look at these new commands. **Editor's Note: Remove around 9.2017 this will be "just normal" by then. **
+**ACHTUNG**: As of release 1.13 Docker has added what appears to be "resource domains" to the CLI commands. The command domains serve the purpose of adding a new layer of "management" resources to the CLI \(and assumedly, also the Docker API\) so when you type  - `docker container <subcommand>`- you know you are going to be managing containers and so on. The new resources add some complexity but are also a logical breakdown of docker resources. If You are running Docker 1.13.xx or later, please also get acquainted with these commands as well, you will need them in the future to form working requests to the Docker Daemon. If you have the newest Docker version open up a console and type in - `docker`- to get a look at these new commands. **Editor's Note: Remove around 9.2017 this will be "just normal" by then. **
 
 Docker CLI resources are listed below. Follow the links in the table to take at Docker docs for resources and their subcommands. As always you can look at the man-page type documentation by typing docker &lt;resource&gt; on the command line of your console.
 
@@ -83,7 +83,7 @@ That should be enough to get started.
 
 Some good cheat sheets have been popping up the we recently and here we link to them so you have access to a [quick reference for Docker Commands on containers](http://docker.jens-piegsa.com/#running-containers), and for [working with volumes](http://docker.jens-piegsa.com/#using-volumes).
 
-If you are working in Boot2Docker or in Linux, you can [enable log rotation like this](http://docker.jens-piegsa.com/#logging). 
+If you are working in Boot2Docker or in Linux, you can [enable log rotation like this](http://docker.jens-piegsa.com/#logging).
 
 ### Section targets
 
