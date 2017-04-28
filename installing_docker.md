@@ -26,7 +26,7 @@ Later you will be working with Docker environments and Docker services
 
 If you plan to use Docker from the offices in Freiburg, You have to ensure that the Haufe Proxy and the Haufe Firewall do not block your Docker Engine from communication with the internet. Since you are going to go out and get images from Docker Hub and other repositories. There are a couple of workarounds here.
 
-The Haufe proxy for both http and https is: `10.12.1.236:8083/`
+The Haufe proxy for both http and https is: `172.26.3.1:8083/`
 
 You can also arrange other solutions with our ICT department. To do so please contact them.
 
@@ -34,7 +34,7 @@ You can also arrange other solutions with our ICT department. To do so please co
 
 Things change but right now it looks like Docker for Windows and Docker for Mac still have some limitations, so it's better to work \(also\) with Docker on Linux. This is why linux comes first in this section.
 
-After having installed Linux on a VM on my Windows machine, using HyperV, **I  recommend that you set up a dual-boot configuration on your dev machine or get hold of a second computer that has Linux as the operating system**. 
+After having installed Linux on a VM on my Windows machine, using HyperV, **I  recommend that you set up a dual-boot configuration on your dev machine or get hold of a second computer that has Linux as the operating system**.
 
 If I run Docker on Linux, I would like to be able to leverage all of the features of Docker, including Docker Machine and swarm mode. The immediate problem I encountered with Linux was that I still could not network properly. Our ICT department helped me to fix this - and since then I've learned and re-learned much about Linux.
 
