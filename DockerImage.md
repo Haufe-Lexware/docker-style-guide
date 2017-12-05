@@ -39,7 +39,7 @@ How the Name and TAGs are used in Docker processes and workflows, you can see in
   Example: mysql:5.6 vs mysql:5.7
   
 4. container:major.minor.build - this is/must be EXACTLY THE current container. If anybody needs THIS container he has to use this tag.  
-  Meaning: Builds are most likely security fixes etc. that are NOT intended to change any functionality.You might want to FORCE the presence of a specific (old) error, check the absence of a problem in a new container or guarnatee compatibility while using a new version  
+  Meaning: Builds are most likely security fixes etc. that are NOT intended to change any functionality.You might want to FORCE the presence of a specific (old) error, check the absence of a problem in a new container or guarantee compatibility while using a new version  
   Example: mysql:5.6.28 vs mysql:5.7.10  
   
 ## Adding information to version

@@ -46,7 +46,7 @@ you would still adhere to the recommendation, but violate it's intention.
 It is easy and convenient to download (pull) and use prebuild
 images from or other public registries.
 
-Because there is still the risk of poorly created or abandonded images, for non-experimental deployments, you **MUST** only use **official** Docker Images from the **Docker Hub** at [https://hub.docker.com/](https://hub.docker.com/) or from Haufe's own registry [https://registry.haufe.io/](https://registry.haufe.io).
+Because there is still the risk of poorly created or abandoned images, for non-experimental deployments, you **MUST** only use **official** Docker Images from the **Docker Hub** at [https://hub.docker.com/](https://hub.docker.com/) or from Haufe's own registry [https://registry.haufe.io/](https://registry.haufe.io).
 
 > For the Haufe registry, you will only see some "nginx welcome page" at the moment, because it's behind a reverse proxy based on ... nginx ;-).
 
@@ -80,8 +80,8 @@ A VERY bad example of a Dockerfile would be
 You **MUST** keep secrets out of the services Dockerfile **AND** its repository.
 
 Dockerfile repositories with all their accompanying files tend to be cloned,
-shared, etc. IF you forget about the secrets insinde, anybody who gains access
-to the repository would immediatly KNOW your precious secrets.
+shared, etc. IF you forget about the secrets inside, anybody who gains access
+to the repository would immediately KNOW your precious secrets.
 
 You can solve this dilemma by
 - provide secrets as **environment variables** when you start the container with `docker run -e API_KEY=4711 ...`
@@ -184,7 +184,7 @@ or warnings that an operator or admin has to take care of.
 Such messages **SHOULD** be machine readable (e.g. json formatted) to avoid extensive parsing steps in later processing.
 
 Of course, the application **MAY** uses other (additional) means of log
-forwarding but is immediatly on its own for maintenance, configuration etc.
+forwarding but is immediately on its own for maintenance, configuration etc.
 
 ## Use Exec form rather than Shell
 

@@ -19,7 +19,7 @@ For non-experimental installations You **MUST** use a [Docker Host](DockerHost.m
 
 > Setups with "all you need" for Mac or Windows developers can be found on the [Docker Toolbox](https://www.docker.com/products/docker-toolbox) page. 
 
-Detailled instructions are to be found at [Install Docker Engine](https://docs.docker.com/engine/installation/)
+Detailed instructions are to be found at [Install Docker Engine](https://docs.docker.com/engine/installation/)
 
 ## Enforce encrypted (SSL) connections to the docker daemon API.
 

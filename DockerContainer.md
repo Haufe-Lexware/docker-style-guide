@@ -41,7 +41,7 @@ docker-compose.yml
 		- "3000"
 		- "4000"
 
-This still does not allow access to the ports from outside the **Docker Host**. Out of security reasons, you **MUST** only listen/open ports on the **Docker Host** that are necessary for the intendet service functionality.
+This still does not allow access to the ports from outside the **Docker Host**. Out of security reasons, you **MUST** only listen/open ports on the **Docker Host** that are necessary for the intended service functionality.
 
 Even when the samples (above) are exposing the correct ports, it is only allowed to open port `4000` on the host, if port 3000 is not required (from the outside).
 
@@ -59,7 +59,7 @@ Docker Compose
 		ports:
 		- "4000:4000"
 
-## Persistant Container data
+## Persistent Container data
 
 If a container is writing to files at runtime, the file contents are present only inside THAT container and ONLY WHILE THE CONTAINER IS NOT DESTROYED (`docker rm ...`).
 

@@ -67,7 +67,7 @@ To get a really good basic knowledge, add these tasks when you work the tutorial
 
 * Understand the concept behind Docker Compose and how it should be used in Haufe Group
 * Create several composed applications by working the docker tutorial
-* Know how to use many DC CLI commmands
+* Know how to use many DC CLI commands
 * Compose your own application from docker-compose.yml
 * Compose an application using variables - values in an .env file
 * Compose different service environments by using the extended override configuration

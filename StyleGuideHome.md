@@ -12,7 +12,7 @@ Docker is a technology, that provides:
 - a runtime to decouple the Linux installation inside and outside of a Docker Container (with the exception of the kernel being shared): **Docker Engine**
 - a solution to combine, configure and control multiple containers, networks and hosts: **Docker Compose**
 - a tool to prepare and manage single or clustered systems running the Docker Engine: **Docker Machine**
-- an almost explosively growing system of tools and pre-packaged appplications ... by Docker Inc., other Companies and "The Community": Rancher, Consul, Panamax, ...
+- an almost explosively growing system of tools and pre-packaged applications ... by Docker Inc., other Companies and "The Community": Rancher, Consul, Panamax, ...
 
 The overall architecture is explained in the original Docker documentation in [Understand the architecture](https://docs.docker.com/engine/understanding-docker/)
 
@@ -22,11 +22,11 @@ The [Official Docker Documentation](https://docs.docker.com/) gives a good overv
 
 ## The style guide
 
-This set of documents called the "**Haufe Docker Style Guide**" represent **mandantory requirements**, recommended best practices and informational resources for using **Docker** in **official (public or internal) Haufe products, services or solutions**.
+This set of documents called the "**Haufe Docker Style Guide**" represent **mandatory requirements**, recommended best practices and informational resources for using **Docker** in **official (public or internal) Haufe products, services or solutions**.
 
 ### When to use the style guide?
 
-The "**Haufe Docker Style Guide**" **MUST** be used when you **create**, **modifiy** or **extend** Docker based solutions.
+The "**Haufe Docker Style Guide**" **MUST** be used when you **create**, **modify** or **extend** Docker based solutions.
 
 **Existing** Docker installations and/or components **might** have to adapt out of specific security or business reasons.
 
