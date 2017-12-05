@@ -18,7 +18,7 @@ Browse for software that interests you.
 
 By seeing what's already on docker hub, you can get a feeling for how wide-spread docker has become and how much easier it is with docker to compose portable applications that take up very few resources.
 
-**Achtung:** There is a new docker registry called the [Docker Store](https://store.docker.com/), which looks like it is slowly replacing the Docker Hub. You may also want to add this as on of your Docker bookmarks.
+**Attention:** There is a new docker registry called the [Docker Store](https://store.docker.com/), which looks like it is slowly replacing the Docker Hub. You may also want to add this as on of your Docker bookmarks.
 
 ### Create a Docker ID
 

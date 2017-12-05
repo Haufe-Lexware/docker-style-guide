@@ -4,7 +4,7 @@ The Docker installation that you use locally is completely up to you. Docker com
 
 Official Docker documentation has excellent and comprehensive instructions on how to install docker [at this location](https://docs.docker.com/engine/getstarted/step_one/) . Here the Docker Docs step you through doing a basic install of docker for your flavor of operating system and how to test Docker by running the "hello world" Docker image. Specific links are:
 
-* [Install Docker for Windows](https://docs.docker.com/engine/installation/windows/)
+* [Install Docker for Windows](https://docs.docker.com/docker-for-windows/install/)
 * [Install Docker for Mac](https://docs.docker.com/engine/installation/mac/)
 * [Install Docker for Linux](https://docs.docker.com/engine/installation/)
 
@@ -20,13 +20,13 @@ Once you get docker installed, you are going to start working with:
 
 Later you will be working with Docker environments and Docker services
 
-**Achtung:** If you are running on Windows, it helps to download a git client and then to install so you can run Linux commands in Powershell or DOS prompt. If your CI-pipeline includes Git this makes sense anyway. Also you need the Linux shell to be able to run more powerful commands that you can't run in a Windows shell - [like removing all containers or all images](https://techoverflow.net/blog/2013/10/22/docker-remove-all-images-and-containers/). Docker is making this easier with commands like prune but you still get more power with Linux.
+**Attention:** If you are running on Windows, it helps to download a git client and then to install so you can run Linux commands in Powershell or DOS prompt. If your CI-pipeline includes Git this makes sense anyway. Also you need the Linux shell to be able to run more powerful commands that you can't run in a Windows shell - [like removing all containers or all images](https://techoverflow.net/blog/2013/10/22/docker-remove-all-images-and-containers/). Docker is making this easier with commands like prune but you still get more power with Linux.
 
 ## Using Docker inside the Haufe Network
 
 If you plan to use Docker from the offices in Freiburg, You have to ensure that the Haufe Proxy and the Haufe Firewall do not block your Docker Engine from communication with the internet. Since you are going to go out and get images from Docker Hub and other repositories. There are a couple of workarounds here.
 
-If you must set a proxy server please use: proxy.haufemg.com`:8083/`
+If you must set a proxy server please use: `proxy.haufemg.com:8083/`
 
 You can also arrange other solutions with our ICT department. To do so, please contact them.
 
