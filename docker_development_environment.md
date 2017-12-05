@@ -12,7 +12,7 @@ Now that you are acquainted with Haufe Group Docker tooling, let's look at your 
 
 Reusing Docker packages - images - enables you to develop applications without lots of setup overhead, and being able to string multiple Docker images together to create a full-blown application environment with just one configuration file is definitely an advantage for you as a developer.
 
-Theoretically, these images don't even have to be of the same technology stack to interperate with each other and, realistically, Docker images can run in any environment where you can install docker. If you have read up to now, you shouldn't have to be asking yourself,"What the hell can Docker do for my development?". Now that you can pull and extend images, and compose these images into coordinated services to create applications, you can incorporate Docker into your normal dev workflow by:
+Theoretically, these images don't even have to be of the same technology stack to interoperate with each other and, realistically, Docker images can run in any environment where you can install docker. If you have read up to now, you shouldn't have to be asking yourself,"What the hell can Docker do for my development?". Now that you can pull and extend images, and compose these images into coordinated services to create applications, you can incorporate Docker into your normal dev workflow by:
 
 * Packing your software into new Docker images that "contain" a single reusable process - Dockerfile\(s\)
 * Reuse these images and images from others to extend to create composed services - docker-compose.yml
@@ -25,7 +25,7 @@ IDEs are also starting to support developing with Docker from within the IDE env
 
 ### Visual Studio / .NET et al.
 
-We have many Microsoft-technology-based products. For these products, developing in a native Microsoft environment is probably a good idea. In additon to provisioning Docker Hosts on Azure with Docker Machine, to support development with Docker, Microsoft has created [Visual Studio Tools for Docker](https://marketplace.visualstudio.com/items?itemName=MicrosoftCloudExplorer.VisualStudioToolsforDocker-Preview). The level of support and how docker is supported \(**toolchain up to Docker Compose**\) for "VS Tools for Docker" is still evolving.
+We have many Microsoft-technology-based products. For these products, developing in a native Microsoft environment is probably a good idea. In addition to provisioning Docker Hosts on Azure with Docker Machine, to support development with Docker, Microsoft has created [Visual Studio Tools for Docker](https://marketplace.visualstudio.com/items?itemName=MicrosoftCloudExplorer.VisualStudioToolsforDocker-Preview). The level of support and how docker is supported \(**toolchain up to Docker Compose**\) for "VS Tools for Docker" is still evolving.
 
 Microsoft enables developers to add native docker support in Visual Studio **for .NET Core projects**. Much of Microsoft's Visual Studio Docker Support Documentation can be found at [Visual Studio Tools](https://marketplace.visualstudio.com/items?itemName=MicrosoftCloudExplorer.VisualStudioToolsforDocker-Preview). Support here is  still pretty rudimentary, and so it is kind of awkward how Docker Compose files are placed in the project, but it's coming along... Docker and Microsoft are teaming up to and sometime soon Docker may support Windows containers. To see what Microsoft and Docker are up to take a look [here](https://www.simple-talk.com/cloud/platform-as-a-service/windows-containers-and-docker/) and here.
 
@@ -49,7 +49,7 @@ Microsoft Azure premiere service for Docker is its [Azure Container Service](htt
 
 ### Amazon Web Services
 
-AWS has their [EC2 Container Service](https://aws.amazon.com/ecs/?nc2=h_m1) as part of their EC2 service for launching and managing containers - EC2CS integrates with other services like the load balancing service. Amazon also has [Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/), which focuses on deplying applications and auto-scaling these applications as neede to handle load.
+AWS has their [EC2 Container Service](https://aws.amazon.com/ecs/?nc2=h_m1) as part of their EC2 service for launching and managing containers - EC2CS integrates with other services like the load balancing service. Amazon also has [Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/), which focuses on deploying applications and auto-scaling these applications as needed to handle load.
 
 ### Digital Ocean
 
@@ -59,11 +59,11 @@ It is important to note that you can provision Docker hosts on all of these clou
 
 ## Container Orchestration and Management Software
 
-This software is designed to deploy and manage container applications in production. There are many offerings at the moment but here we link to some of this software that may be put to use here at Huafe Group. Interesting about this software are the functions they automate - deploying and managing containerized applications. 
+This software is designed to deploy and manage container applications in production. There are many offerings at the moment but here we link to some of this software that may be put to use here at Haufe Group. Interesting about this software are the functions they automate - deploying and managing containerized applications. 
 
 ### Kubernetes
 
-Accrding to Kubernetes \(K8s\):
+According to Kubernetes \(K8s\):
 
 > Kubernetes is an open-source platform for automating deployment, scaling, and operations of application containers across clusters of hosts, providing container-centric infrastructure.  
 > With Kubernetes, you are able to quickly and efficiently respond to customer demand:

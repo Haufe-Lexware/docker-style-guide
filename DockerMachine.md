@@ -1,6 +1,6 @@
 # Docker Machine / Docker Swarm
 
-According to the [**Docker Machine** overwiew](https://docs.docker.com/machine/overview/), you can use Docker Machine to:
+According to the [**Docker Machine** overview](https://docs.docker.com/machine/overview/), you can use Docker Machine to:
 
 * Install and run Docker on Mac or Windows
 * Provision and manage multiple remote Docker hosts
