@@ -10,7 +10,7 @@ Like Dockerfile, Docker Compose file serves as configuration and documentation. 
 
 ## Compose File Instruction Reference
 
-**Attention:** The compose file defines services, and services are normally implemented with / within 1 docker container. For the this section the word "service" refers to both: a Docker service is exposed by a Docker container. Additionally, you may want to test 
+**Achtung:** The compose file defines services, and services are normally implemented with / within 1 docker container. For the this section the word "service" refers to both: a Docker service is exposed by a Docker container. Additionally, you may want to test 
 
 Some of the Docker Compose instructions that help to configure multi-container applications are listed below. For documentation that list all Docker Compose instructions, [go to Docker Compose file reference](https://docs.docker.com/compose/compose-file/). The top level Compose file sections - `services:` and
 
@@ -67,7 +67,7 @@ To get a really good basic knowledge, add these tasks when you work the tutorial
 
 * Understand the concept behind Docker Compose and how it should be used in Haufe Group
 * Create several composed applications by working the docker tutorial
-* Know how to use many DC CLI commmands
+* Know how to use many DC CLI commands
 * Compose your own application from docker-compose.yml
 * Compose an application using variables - values in an .env file
 * Compose different service environments by using the extended override configuration

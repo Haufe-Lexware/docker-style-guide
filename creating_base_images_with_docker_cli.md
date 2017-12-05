@@ -16,7 +16,7 @@ The CLI is the command line interface part of Docker Engine.
 If you have docker installed, you can create a base image by opening a console and typing in:  
 `docker pull ubuntu` if you don't have an Ubuntu image on your system, Docker automatically searches the the Docker Hub for the latest available image.
 
-**Attention:** Since you are just getting started this is ok. If you are working on a project where the application is only supported by ubuntu version 14.04 then you would pull that ubuntu image by specifying either the version or the release name in the tag - `docker image pull ubuntu:trusty`
+**Achtung:** Since you are just getting started this is ok. If you are working on a project where the application is only supported by ubuntu version 14.04 then you would pull that ubuntu image by specifying either the version or the release name in the tag - `docker image pull ubuntu:trusty`
 
 The tag, that comes after the ":", contains the metainformation about the image. If there is no tag, Docker assumes that you want the latest image and pulls this.
 
@@ -26,7 +26,7 @@ You should get a table of images. One of the columns in the table is "tag". If y
 
 ### CLI commands
 
-**Attention**: As of release 1.13 Docker has added what appears to be "resource domains" to the CLI commands. The command domains serve the purpose of adding a new layer of "management" resources to the CLI \(and assumedly, also the Docker API\) so when you type  - `docker container <subcommand>`- you know you are going to be managing containers and so on. The new resources add some complexity but are also a logical breakdown of docker resources. If You are running Docker 1.13.xx or later, please also get acquainted with these commands as well, you will need them in the future to form working requests to the Docker Daemon. If you have the newest Docker version open up a console and type in - `docker`- to get a look at these new commands. **Editor's Note: Remove around 9.2017 this will be "just normal" by then. **
+**ACHTUNG**: As of release 1.13 Docker has added what appears to be "resource domains" to the CLI commands. The command domains serve the purpose of adding a new layer of "management" resources to the CLI \(and assumedly, also the Docker API\) so when you type  - `docker container <subcommand>`- you know you are going to be managing containers and so on. The new resources add some complexity but are also a logical breakdown of docker resources. If You are running Docker 1.13.xx or later, please also get acquainted with these commands as well, you will need them in the future to form working requests to the Docker Daemon. If you have the newest Docker version open up a console and type in - `docker`- to get a look at these new commands. **Editor's Note: Remove around 9.2017 this will be "just normal" by then. **
 
 Docker CLI resources are listed below. Follow the links in the table to take at Docker docs for resources and their subcommands. As always you can look at the man-page type documentation by typing docker &lt;resource&gt; on the command line of your console.
 
@@ -78,7 +78,7 @@ Getting some practice with the CLI is good and here are some tutorials that step
 
 That should be enough to get started.
 
-**Attention:** These tutorials were made for the Docker Toolset, which is an older version of Docker for Windows. Still, you should be able to work through the tutorial. Just ignore the part about Boot2Docker. Also, for "Part 5", in the real Docker world, you do not want to work directly inside the container, you will want to configure these commands as instructions in your Dockerfile. More on that in the next section.
+**Achtung:** These tutorials were made for the Docker Toolset, which is an older version of Docker for Windows. Still, you should be able to work through the tutorial. Just ignore the part about Boot2Docker. Also, for "Part 5", in the real Docker world, you do not want to work directly inside the container, you will want to configure these commands as instructions in your Dockerfile. More on that in the next section.
 
 ## Docker CLI cheat sheet
 

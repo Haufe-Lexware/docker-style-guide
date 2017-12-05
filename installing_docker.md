@@ -20,7 +20,7 @@ Once you get docker installed, you are going to start working with:
 
 Later you will be working with Docker environments and Docker services
 
-**Attention:** If you are running on Windows, it helps to download a git client and then to install so you can run Linux commands in Powershell or DOS prompt. If your CI-pipeline includes Git this makes sense anyway. Also you need the Linux shell to be able to run more powerful commands that you can't run in a Windows shell - [like removing all containers or all images](https://techoverflow.net/blog/2013/10/22/docker-remove-all-images-and-containers/). Docker is making this easier with commands like prune but you still get more power with Linux.
+**Achtung:** If you are running on Windows, it helps to download a git client and then to install so you can run Linux commands in Powershell or DOS prompt. If your CI-pipeline includes Git this makes sense anyway. Also you need the Linux shell to be able to run more powerful commands that you can't run in a Windows shell - [like removing all containers or all images](https://techoverflow.net/blog/2013/10/22/docker-remove-all-images-and-containers/). Docker is making this easier with commands like prune but you still get more power with Linux.
 
 ## Using Docker inside the Haufe Network
 

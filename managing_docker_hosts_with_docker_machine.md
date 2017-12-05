@@ -24,7 +24,7 @@ The Haufe Style Guide has [Docker-Machine practices](https://github.com/Haufe-Le
 
 Again, Docker has fantastic documentation on all of its tooling and the [Docker-Machine documentation](https://docs.docker.com/machine/get-started/) is no exception: So it's a good idea to work through this "getting started" tutorial. Since you are just getting started, you can stay local and skip the "provisioning a host" in the cloud part if you like.
 
-**Attention:** Be sure to name your Docker Host Machines extremely well: While there is no official naming convention a transparent naming system with **Application, Customer** and other relevant information is important so you know what's running on your host machines.
+**Achtung:** Be sure to name your Docker Host Machines extremely well: While there is no official naming convention a transparent naming system with **Application, Customer** and other relevant information is important so you know what's running on your host machines.
 
 [This tutorial](https://rominirani.com/docker-toolbox-setup-windows-4d65c3f691eb#.694oqa466) can get you up to speed with some of the basic Docker Machine commands, including how to create a host and how to use `docker-machine env <hostname>`and`docker-machine ssh <hostname>`to select and to work with a specific host from console. Again, this tutorial was designed for Docker Toolbox, so if Machine is already installed, you want to skip to the part with the commands. Also remember, if you are working on Hyper V hosts and Docker Machine stops working, you can continue to work with your hosts by SSHing in with an SSH client or by connecting to each host individually
 
@@ -42,7 +42,7 @@ Some things to be aware of when you are working with Docker Machine and HyperV h
 
 Still extremely annoying is that, at create-time, docker-machine still cannot tunnel out and download the latest version of Docker Engine. So, I have to download the ISO by hand and add it to the cache folder in my Docker home directory. But, you can also run `docker-machine upgrade <yourhostname>` to upgrade to the latest version of Docker Engine!? Another pain point about Docker for Windows and hosts created with the Hyper V driver, is that often the hosts are no longer manageable from Docker Machine, showing a status of timeout. To work around you have to SSH into individual machines with an SSH client like putty, using the c[redentials for the docker user](http://stackoverflow.com/questions/30330442/how-to-ssh-into-docker-machine-virtualbox-instance) or using an SSH certificate. Or you must create new hosts. 
 
-**Attention**: Please make sure to set up your networking before you run `docker-machine create`, otherwise you must create new certificates for your docker host with `regenerate-certs` before your Docker hosts can talk to each other. Please also remember that, if you are working from a console like powershell, you must have administrator rights to create new hosts!
+**Achtung**: Please make sure to set up your networking before you run `docker-machine create`, otherwise you must create new certificates for your docker host with `regenerate-certs` before your Docker hosts can talk to each other. Please also remember that, if you are working from a console like powershell, you must have administrator rights to create new hosts!
 
 Once this environment is configured, you can create boot2docker image Docker Hosts on you machine that network with each other over the Docker Network and with the internet.
 
