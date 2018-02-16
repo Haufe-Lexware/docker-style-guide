@@ -10,7 +10,7 @@ Like Dockerfile, Docker Compose file serves as configuration and documentation. 
 
 ## Compose File Instruction Reference
 
-**Achtung:** The compose file defines services, and services are normally implemented with / within 1 docker container. For the this section the word "service" refers to both: a Docker service is exposed by a Docker container. Additionally, you may want to test 
+**Achtung:** The compose file defines services, and services are normally implemented with / within 1 docker container. For the this section the word "service" refers to both: a Docker service is exposed by a Docker container. Additionally, you may want to test. _ToDo check this statement to see if it is still correct - If not then remove_
 
 Some of the Docker Compose instructions that help to configure multi-container applications are listed below. For documentation that list all Docker Compose instructions, [go to Docker Compose file reference](https://docs.docker.com/compose/compose-file/). The top level Compose file sections - `services:` and
 
@@ -27,7 +27,7 @@ Some of the Docker Compose instructions that help to configure multi-container a
 | networks | Assigns a network to a service. By default all services run on the same network. |
 | ports | Exposes ports for a Docker service and performs port mapping between Docker Host and the service. |
 | restart\_policy | Configures service restart when a service exits. |
-| volumes | Mounts paths or named volumes to a service. For v3 compose files volumes replaces volumes\_from for mounting data containers. |
+| volume | Mounts paths or named volumes to a service. For v3 compose files volumes replaces volumes\_from for mounting data containers. _ToDo: check and see if this is the right way to configure storage volumes._ |
 
 ## Extending your composed application
 
