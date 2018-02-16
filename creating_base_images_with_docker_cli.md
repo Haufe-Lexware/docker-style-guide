@@ -26,7 +26,7 @@ You should get a table of images. One of the columns in the table is "tag". If y
 
 ### CLI commands
 
-**ACHTUNG**: As of release 1.13 Docker has added what appears to be "resource domains" to the CLI commands. The command domains serve the purpose of adding a new layer of "management" resources to the CLI \(and assumedly, also the Docker API\) so when you type  - `docker container <subcommand>`- you know you are going to be managing containers and so on. The new resources add some complexity but are also a logical breakdown of docker resources. If You are running Docker 1.13.xx or later, please also get acquainted with these commands as well, you will need them in the future to form working requests to the Docker Daemon. If you have the newest Docker version open up a console and type in - `docker`- to get a look at these new commands. **Editor's Note: Remove around 9.2017 this will be "just normal" by then. **
+**ACHTUNG**: As of release 1.13 Docker has added what appears to be "resource domains" to the CLI commands. The command domains serve the purpose of adding a new layer of "management" resources to the CLI \(and assumedly, also the Docker API\) so when you type  - `docker container <subcommand>`- you know you are going to be managing containers and so on. The new resources add some complexity but are also a logical breakdown of docker resources. If You are running Docker 1.13.xx or later, please also get acquainted with these commands as well, you will need them in the future to form working requests to the Docker Daemon. If you have the newest Docker version open up a console and type in - `docker`- to get a look at these new commands. 
 
 Docker CLI resources are listed below. Follow the links in the table to take at Docker docs for resources and their subcommands. As always you can look at the man-page type documentation by typing docker &lt;resource&gt; on the command line of your console.
 
@@ -59,7 +59,7 @@ You should get to know the following commands. The best documentation is the [Do
 | rmi | Remove images |
 | run | Run a container from image |
 | search | Search a registry for a particular image |
-| commit | Create an image from a container.  |
+| commit | Create an image from a container. |
 
 There are many more commands - like "[docker network](https://docs.docker.com/engine/userguide/networking/)" - that may be useful to you as you develop with docker.
 

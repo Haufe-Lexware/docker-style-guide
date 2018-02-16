@@ -2,6 +2,8 @@
 
 When you begin with docker you should have a good idea what you want to do. This is where Docker's composability can help, and chances are, that there is already an image at the Docker Hub or in the Haufe Group Docker Registry, that already meets your needs. So let’s say you want to create a Web application. Then you probably need some kind of web server, you can pull down a docker image for Apache web server, Glassfish and just about any other kind of open source web server you can imagine. Docker enables you to push images to the other registries as well and even create your own private registry.
 
+_ToDo: A note about security for using public images. _
+
 ### Docker Hub
 
 There are several ways to look for images but the best way to find what’s out there is to go to [https://hub.docker.com/](https://hub.docker.com/) and search for what you need to build your application. You will also want to create a docker hub account – here you can store your personal images. Try this:
@@ -40,3 +42,6 @@ Now that you are done with this section you should be able to:
 * Have your own Docker Hub account
 * Search through the Haufe Group Docker registry
 * Know how to find what you're are looking for in Docker regsitries \(Docker Hub and Haufe Group Docker Registry\) to ease setting up your application environment.
+
+
+
